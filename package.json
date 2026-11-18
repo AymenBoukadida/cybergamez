@@ -5,9 +5,10 @@
     "dev": "next dev",
     "build": "next build",
     "preview": "npx serve out",
+    "sync": "node scripts/sync-live.mjs",
     "images": "node scripts/optimize-images.mjs --force",
     "predev": "node scripts/optimize-images.mjs",
-    "prebuild": "node scripts/optimize-images.mjs",
+    "prebuild": "node scripts/optimize-images.mjs && node scripts/sync-live.mjs --allow-stale",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."

@@ -6,17 +6,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { trendingGames } from "@/app/data/games";
+import type { StoreGame } from "@/app/data/live";
 import { GameCard } from "./GameCard";
 import { SectionHeading } from "./SectionHeading";
 
-export function TrendingRail() {
+export function TrendingRail({ games }: { games: StoreGame[] }) {
+  if (games.length === 0) return null;
+
   return (
     <section aria-labelledby="trending" className="shell mt-24">
       <SectionHeading
         id="trending"
-        title="Trending now"
-        subtitle="The games everyone is playing this week."
+        title="Trending on Steam"
+        subtitle="The games everyone is buying and playing this week."
         action={
           <div className="flex gap-2">
             <button
@@ -53,7 +55,7 @@ export function TrendingRail() {
         a11y={{ enabled: true }}
         keyboard={{ enabled: true }}
       >
-        {trendingGames.map((game) => (
+        {games.map((game) => (
           <SwiperSlide key={game.slug} className="h-auto">
             <GameCard game={game} />
           </SwiperSlide>

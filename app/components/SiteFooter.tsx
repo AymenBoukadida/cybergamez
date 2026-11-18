@@ -1,5 +1,6 @@
 import { Gamepad2 } from "lucide-react";
 import Link from "next/link";
+import { formatDate, live } from "@/app/data/live";
 import { NAV_ITEMS } from "@/app/lib/nav";
 
 export function SiteFooter() {
@@ -22,7 +23,8 @@ export function SiteFooter() {
             </span>
           </Link>
           <p className="text-sm text-muted">
-            A demo storefront for games you keep coming back to. Play. Download. Repeat.
+            Live Steam releases, Epic free-game giveaways and the headlines worth reading. Plus a
+            playable Subway Surfers demo.
           </p>
         </div>
 
@@ -39,30 +41,23 @@ export function SiteFooter() {
           ))}
           <Link
             href="/download/"
+            prefetch={false}
             className="focus-ring rounded text-muted transition-colors hover:text-text"
           >
-            Download
+            Subway Surfers demo
           </Link>
         </nav>
 
         <div className="space-y-2 text-sm text-muted md:text-right">
-          <p>
-            Original design by{" "}
-            <a
-              href="https://github.com/HamzaZaidiX"
-              target="_blank"
-              rel="noreferrer"
-              className="focus-ring rounded text-text underline underline-offset-4 transition-colors hover:text-brand"
-            >
-              Hamza Zaidi
-            </a>
-          </p>
-          <p>
+          <p className="text-xs font-semibold uppercase tracking-[0.12em]">Live data</p>
+          <p>{live.source}</p>
+          <p>Updated {formatDate(live.syncedAt)}</p>
+          <p className="border-t border-line pt-2 text-xs">
             © {year} CyberGamez. All rights reserved.
           </p>
           <a
             href="#main"
-            className="focus-ring inline-block rounded text-text underline-offset-4 transition-colors hover:text-brand hover:underline"
+            className="focus-ring inline-block rounded text-xs text-text underline-offset-4 transition-colors hover:text-brand hover:underline"
           >
             Back to top
           </a>

@@ -1,16 +1,23 @@
 import { render, screen } from "@testing-library/react";
-import { allGames, trendingGames } from "@/app/data/games";
+import { live } from "@/app/data/live";
 import { GameCard } from "./GameCard";
 
-it("links the whole card to the detail page and names the game", () => {
-  render(<GameCard game={trendingGames[0]} />);
-  const link = screen.getByRole("link", { name: /Cyberpunk 2077/i });
-  expect(link).toHaveAttribute("href", "/download/");
-  expect(screen.getByText("Action")).toBeInTheDocument();
+const game = live.games[0];
+
+it("links each card to its own live game page", () => {
+  render(<GameCard game={game} />);
+  const link = screen.getByRole("link", { name: new RegExp(game.title, "i") });
+  expect(link).toHaveAttribute("href", `/games/${game.slug}/`);
+  expect(screen.getAllByText(game.priceLabel).length).toBeGreaterThan(0);
 });
 
-it("keeps the longest title intact in the DOM", () => {
-  const longest = allGames.find((g) => g.slug === "marvel-contest-of-champions")!;
+it("shows the store the game comes from", () => {
+  render(<GameCard game={game} />);
+  expect(screen.getByText(game.store === "steam" ? "Steam" : "Epic Games")).toBeInTheDocument();
+});
+
+it("keeps the longest live title intact in the DOM", () => {
+  const longest = [...live.games].sort((a, b) => b.title.length - a.title.length)[0];
   render(<GameCard game={longest} />);
-  expect(screen.getByText("Marvel: Contest of Champions")).toBeInTheDocument();
+  expect(screen.getByText(longest.title)).toBeInTheDocument();
 });

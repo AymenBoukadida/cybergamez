@@ -4,6 +4,10 @@ Promotional art used in a non-commercial demo; all rights belong to the publishe
 Retrieved 2026-11-18. Files converted from JPEG to PNG where the original project
 used a PNG filename; no image was upscaled.
 
+Live game art added on 2026-11-18 is **not** stored here. It is hotlinked from the
+official Steam and Epic Games Store CDNs by `scripts/sync-live.mjs` and credited to
+its publisher; see the live-data section of the README.
+
 | File | Game | Source URL | Note |
 | --- | --- | --- | --- |
 | `hero-cyberpunk.png` | Cyberpunk 2077 | https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/f678ed77c2fe7060ac9c64e32e1472e3ec3ab7dc/ss_f678ed77c2fe7060ac9c64e32e1472e3ec3ab7dc.1920x1080.jpg?t=1794474878 | Steam store screenshot |

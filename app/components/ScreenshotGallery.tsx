@@ -2,7 +2,7 @@
 
 import * as Dialog from "@radix-ui/react-dialog";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { asset } from "@/app/lib/base-path";
 import { Button } from "./Button";
 import { ResponsiveImage } from "./ResponsiveImage";
@@ -13,6 +13,7 @@ export function ScreenshotGallery({
   shots: { name: string; alt: string }[];
 }) {
   const [index, setIndex] = useState<number | null>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
   const total = shots.length;
   const current = index === null ? null : shots[index];
 
@@ -35,7 +36,10 @@ export function ScreenshotGallery({
             <button
               type="button"
               aria-label={`View screenshot ${shotIndex + 1}: ${shot.alt}`}
-              onClick={() => setIndex(shotIndex)}
+              onClick={(event) => {
+                triggerRef.current = event.currentTarget;
+                setIndex(shotIndex);
+              }}
               className="focus-ring group relative block aspect-[3/4] w-full overflow-hidden rounded-xl border border-line bg-surface-2"
             >
               <ResponsiveImage
@@ -62,6 +66,10 @@ export function ScreenshotGallery({
         <Dialog.Portal>
           <Dialog.Overlay className="lightbox-overlay fixed inset-0 z-50 bg-ink/85 backdrop-blur-sm" />
           <Dialog.Content
+            onCloseAutoFocus={(event) => {
+              event.preventDefault();
+              triggerRef.current?.focus();
+            }}
             onKeyDown={(event) => {
               if (event.key === "ArrowRight") {
                 event.preventDefault();

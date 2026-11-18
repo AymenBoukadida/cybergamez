@@ -12,12 +12,12 @@ import { asset } from "./lib/base-path";
 import "./globals.css";
 
 const description =
-  "A demo game storefront with trending and new releases, screenshots, a captioned trailer and a direct Android APK download for Subway Surfers.";
+  "Live Steam releases, Epic free-game giveaways and gaming headlines, plus a playable Subway Surfers demo with a captioned trailer and Android APK.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: {
-    default: "CyberGamez — Discover, play and download free games",
+    default: "CyberGamez — Live game releases, free games and news",
     template: "%s | CyberGamez",
   },
   description,

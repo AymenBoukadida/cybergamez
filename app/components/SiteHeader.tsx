@@ -4,7 +4,7 @@ import { clsx } from "clsx";
 import { ArrowRight, Gamepad2, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NAV_ITEMS } from "@/app/lib/nav";
 import { buttonClasses } from "./Button";
 import { MobileDrawer } from "./MobileDrawer";
@@ -13,6 +13,7 @@ export function SiteHeader() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -46,7 +47,7 @@ export function SiteHeader() {
 
         <nav aria-label="Primary" className="hidden items-center gap-1 min-[900px]:flex">
           {NAV_ITEMS.map((item) => {
-            const active = pathname === item.href;
+            const active = !item.href.includes("#") && pathname === item.href;
             return (
               <Link
                 key={item.href}
@@ -65,13 +66,14 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-3">
           <div className="hidden min-[900px]:block">
-            <Link href="/download/" className={buttonClasses({ size: "sm" })}>
-              Get Subway Surfers
+            <Link href="/download/" prefetch={false} className={buttonClasses({ size: "sm" })}>
+              Play the demo
               <ArrowRight className="size-4" aria-hidden="true" />
             </Link>
           </div>
 
           <button
+            ref={menuButtonRef}
             type="button"
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
@@ -88,7 +90,7 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <MobileDrawer open={open} onOpenChange={setOpen} />
+      <MobileDrawer open={open} onOpenChange={setOpen} triggerRef={menuButtonRef} />
     </header>
   );
 }

@@ -10,12 +10,5 @@ export default defineConfig([
       "@next/next/no-img-element": "off",
     },
   },
-  globalIgnores([
-    ".next/**",
-    "out/**",
-    "public/img/opt/**",
-    "next-env.d.ts",
-    "script.js",
-    "swiper-bundle.min.js",
-  ]),
+  globalIgnores([".next/**", "out/**", "public/img/opt/**", "next-env.d.ts"]),
 ]);

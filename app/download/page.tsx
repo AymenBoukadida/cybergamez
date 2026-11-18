@@ -16,14 +16,14 @@ const description =
 export const metadata: Metadata = {
   title: "Subway Surfers — Download",
   description,
-  alternates: { canonical: "/download/" },
+  alternates: { canonical: asset("/download/") },
   openGraph: {
     type: "website",
     siteName: "CyberGamez",
     locale: "en_US",
     title: "Subway Surfers — Download | CyberGamez",
     description,
-    url: "/download/",
+    url: asset("/download/"),
     images: [
       {
         url: asset("/img/opt/og-subway.jpg"),

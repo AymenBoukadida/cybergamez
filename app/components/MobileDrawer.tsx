@@ -4,15 +4,18 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { clsx } from "clsx";
 import { ArrowRight, X } from "lucide-react";
 import Link from "next/link";
+import type { RefObject } from "react";
 import { buttonClasses } from "./Button";
 import { NAV_ITEMS } from "@/app/lib/nav";
 
 export function MobileDrawer({
   open,
   onOpenChange,
+  triggerRef,
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
+  triggerRef?: RefObject<HTMLButtonElement | null>;
 }) {
   const year = new Date().getFullYear();
 
@@ -22,6 +25,10 @@ export function MobileDrawer({
         <Dialog.Overlay className="drawer-overlay fixed inset-0 z-50 bg-ink/75 backdrop-blur-sm" />
         <Dialog.Content
           id="mobile-menu"
+          onCloseAutoFocus={(event) => {
+            event.preventDefault();
+            triggerRef?.current?.focus();
+          }}
           className="drawer-content fixed inset-y-0 right-0 z-50 flex h-dvh w-[320px] max-w-[85vw] flex-col border-l border-line bg-surface p-6 shadow-2xl"
         >
           <Dialog.Title className="sr-only">Menu</Dialog.Title>
@@ -54,15 +61,15 @@ export function MobileDrawer({
 
           <Link
             href="/download/"
+            prefetch={false}
             onClick={() => onOpenChange(false)}
             className={clsx(buttonClasses(), "mt-8 w-full")}
           >
-            Get Subway Surfers
+            Open the demo
             <ArrowRight className="size-4" aria-hidden="true" />
           </Link>
 
           <div className="mt-auto space-y-1 border-t border-line pt-6 text-xs text-muted">
-            <p>Original design by Hamza Zaidi</p>
             <p>© {year} CyberGamez</p>
           </div>
         </Dialog.Content>

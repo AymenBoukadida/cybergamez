@@ -15,4 +15,5 @@ it("opens the drawer from the menu button and closes with Escape", async () => {
   await user.keyboard("{Escape}");
   expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
   expect(trigger).toHaveAttribute("aria-expanded", "false");
+  expect(trigger).toHaveFocus();
 });

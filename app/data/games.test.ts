@@ -1,23 +1,21 @@
-import { allGames, newGames, subwaySurfers, trendingGames } from "./games";
+import { subwaySurfers } from "./games";
+import { live } from "./live";
 
-it("has eight trending and eight new games", () => {
-  expect(trendingGames).toHaveLength(8);
-  expect(newGames).toHaveLength(8);
-  expect(allGames).toHaveLength(16);
-});
-
-it("uses unique slugs and complete art metadata", () => {
-  expect(new Set(allGames.map((g) => g.slug)).size).toBe(16);
-  for (const game of allGames) {
-    expect(game.art.name).toMatch(/^[a-z0-9-]+$/);
-    expect(game.art.alt).toContain(game.title);
-    expect(game.rating).toBeGreaterThanOrEqual(4);
-    expect(game.rating).toBeLessThanOrEqual(5);
-  }
-});
-
-it("fixes the Halo title and keeps Subway Surfers downloadable", () => {
-  expect(allGames.some((g) => g.title === "Halo Infinite")).toBe(true);
+it("keeps the Subway Surfers demo downloadable", () => {
   expect(subwaySurfers.file.href).toBe("/download-files/subway-surfers-demo.apk");
   expect(subwaySurfers.file.size).toBe("768 KB");
+  expect(subwaySurfers.transcript.length).toBeGreaterThan(0);
+});
+
+it("uses unique slugs across every live game", () => {
+  expect(new Set(live.games.map((game) => game.slug)).size).toBe(live.games.length);
+});
+
+it("gives every live game a title, artwork and store link", () => {
+  for (const game of live.games) {
+    expect(game.title.length).toBeGreaterThan(0);
+    expect(game.cardImage).toMatch(/^https:\/\//);
+    expect(game.heroImage).toMatch(/^https:\/\//);
+    expect(game.storeUrl).toMatch(/^https:\/\//);
+  }
 });

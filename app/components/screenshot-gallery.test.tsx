@@ -12,4 +12,5 @@ it("opens a screenshot, moves with arrows and closes with Escape", async () => {
   expect(screen.getByText("2 / 3")).toBeInTheDocument();
   await user.keyboard("{Escape}");
   expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+  expect(screen.getAllByRole("button", { name: /view screenshot 1/i })[0]).toHaveFocus();
 });
