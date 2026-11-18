@@ -1,12 +1,11 @@
 "use client";
 
 import { clsx } from "clsx";
-import { ArrowRight, Gamepad2, Menu, X } from "lucide-react";
+import { Gamepad2, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { NAV_ITEMS } from "@/app/lib/nav";
-import { buttonClasses } from "./Button";
 import { MobileDrawer } from "./MobileDrawer";
 
 export function SiteHeader() {
@@ -65,13 +64,6 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <div className="hidden min-[900px]:block">
-            <Link href="/download/" prefetch={false} className={buttonClasses({ size: "sm" })}>
-              Play the demo
-              <ArrowRight className="size-4" aria-hidden="true" />
-            </Link>
-          </div>
-
           <button
             ref={menuButtonRef}
             type="button"

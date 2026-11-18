@@ -23,8 +23,7 @@ export function SiteFooter() {
             </span>
           </Link>
           <p className="text-sm text-muted">
-            Live Steam releases, Epic free-game giveaways and the headlines worth reading. Plus a
-            playable Subway Surfers demo.
+            Live Steam releases, Epic free-game giveaways and the headlines worth reading.
           </p>
         </div>
 
@@ -39,13 +38,6 @@ export function SiteFooter() {
               {item.label}
             </Link>
           ))}
-          <Link
-            href="/download/"
-            prefetch={false}
-            className="focus-ring rounded text-muted transition-colors hover:text-text"
-          >
-            Subway Surfers demo
-          </Link>
         </nav>
 
         <div className="space-y-2 text-sm text-muted md:text-right">

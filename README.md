@@ -1,8 +1,7 @@
 # CyberGamez
 
 A live gaming storefront and news site: Steam and Epic releases, weekly free games
-and deals, fresh headlines, and a playable Subway Surfers demo — all pre-rendered
-as a static Next.js site.
+and deals, and fresh headlines — all pre-rendered as a static Next.js site.
 
 [![CI](https://github.com/AymenBoukadida/cybergamez/actions/workflows/ci.yml/badge.svg)](https://github.com/AymenBoukadida/cybergamez/actions/workflows/ci.yml)
 [![Sync live game data](https://github.com/AymenBoukadida/cybergamez/actions/workflows/sync-live.yml/badge.svg?branch=main)](https://github.com/AymenBoukadida/cybergamez/actions/workflows/sync-live.yml)
@@ -20,10 +19,8 @@ as a static Next.js site.
 - **News** — studio updates and patch notes from Steam's news API.
 - **Game pages** — one pre-rendered page per game with artwork, genres, developers,
   price, screenshots and a link to the official store listing.
-- **Subway Surfers demo** — Android APK, captioned trailer with a visible transcript,
-  and a keyboard-accessible screenshot gallery.
 
-This is a portfolio/demo project. It is not affiliated with any game publisher.
+This is a portfolio project. It is not affiliated with any game publisher.
 
 ## Stack
 
@@ -31,8 +28,8 @@ This is a portfolio/demo project. It is not affiliated with any game publisher.
   plain HTML, CSS and JS in `out/`.
 - **React 19** and **TypeScript**.
 - **Tailwind CSS v4** with design tokens in `app/globals.css`.
-- **Swiper 14** for the trending rail, **Radix Dialog** for the mobile drawer and
-  screenshot lightbox, and **lucide-react** for icons.
+- **Swiper 14** for the trending rail, **Radix Dialog** for the mobile drawer, and
+  **lucide-react** for icons.
 - **Vitest** and **Testing Library** for component tests.
 - **sharp** for the responsive image pipeline (run automatically before dev/build).
 - Build-time sync scripts that snapshot the public Steam and Epic Games Store
@@ -44,7 +41,6 @@ This is a portfolio/demo project. It is not affiliated with any game publisher.
 | ----------------- | ------------------------------------------------------------------------ |
 | `/`               | Featured game, weekly drops, trending, new releases, deals, Steam news   |
 | `/games/[slug]/`  | One pre-rendered page per game in the snapshot, with store link and shots |
-| `/download/`      | Subway Surfers demo: APK, captioned trailer + transcript, gallery         |
 | `/sitemap.xml`    | All pages, generated at build time                                       |
 | `/robots.txt`     | Crawler rules and sitemap location                                       |
 
@@ -151,13 +147,12 @@ it in `scripts/images.mjs`.
 ```text
 .
 ├── app/
-│   ├── components/       # hero, weekly drops, cards, trailer, gallery, header
+│   ├── components/       # hero, weekly drops, cards, header
 │   ├── data/             # typed accessors + live.generated.json
 │   ├── games/[slug]/     # one static page per game
-│   ├── download/         # Subway Surfers demo page
 │   └── lib/              # base-path and formatting helpers
 ├── assets/img/           # source art for the image pipeline
-├── public/               # APK, trailer, captions, generated derivatives
+├── public/               # favicon and generated image derivatives
 ├── scripts/              # sync, validation and image optimization
 ├── test/                 # Vitest setup
 └── .github/workflows/    # CI and scheduled data sync
@@ -196,19 +191,12 @@ Copy the contents of `out/` to the matching directory on the host. All internal
 links and asset URLs are prefixed through `app/lib/base-path.ts`. Leave the
 variable unset for a root deployment.
 
-## Demo limitations
+## Limitations
 
-- Only the **Android APK** (`public/download-files/subway-surfers-demo.apk`) is a
-  real file. It is a small demo build, not the full game.
-- The **iOS** and **Windows** rows in the download panel are disabled and labelled
-  "Not in this demo".
 - Live game pages do not host downloads. They show the current price and send you
   to Steam or Epic to buy or claim the game.
 - Store data is refreshed by a build, not streamed in real time. The footer shows
   the snapshot date, and the hero and game pages show when prices were checked.
-- The trailer is bundled with the original project. Captions carry music cues and
-  on-screen text because the trailer has no spoken dialogue; a visible transcript
-  is provided for the same content (WCAG 1.2.2).
 
 ## Credits
 

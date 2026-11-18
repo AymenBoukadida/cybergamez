@@ -12,7 +12,7 @@ import { asset } from "./lib/base-path";
 import "./globals.css";
 
 const description =
-  "Live Steam releases, Epic free-game giveaways and gaming headlines, plus a playable Subway Surfers demo with a captioned trailer and Android APK.";
+  "Live Steam releases, Epic free-game giveaways and gaming headlines, refreshed on every build.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),

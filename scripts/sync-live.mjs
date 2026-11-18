@@ -8,7 +8,7 @@ import { validateSnapshot } from "./snapshot-validation.mjs";
 
 const OUT_FILE = path.join("app", "data", "live.generated.json");
 const allowStale = process.argv.includes("--allow-stale");
-const USER_AGENT = "CyberGamezDemo/1.0 (+https://github.com/AymenBoukadida/Web)";
+const USER_AGENT = "CyberGamez/1.0 (+https://github.com/AymenBoukadida/cybergamez)";
 const PACIFIC_TIME_ZONE = "America/Los_Angeles";
 const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const now = new Date();

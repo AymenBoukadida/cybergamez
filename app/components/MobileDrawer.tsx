@@ -1,11 +1,9 @@
 "use client";
 
 import * as Dialog from "@radix-ui/react-dialog";
-import { clsx } from "clsx";
-import { ArrowRight, X } from "lucide-react";
+import { X } from "lucide-react";
 import Link from "next/link";
 import type { RefObject } from "react";
-import { buttonClasses } from "./Button";
 import { NAV_ITEMS } from "@/app/lib/nav";
 
 export function MobileDrawer({
@@ -58,16 +56,6 @@ export function MobileDrawer({
               </Link>
             ))}
           </nav>
-
-          <Link
-            href="/download/"
-            prefetch={false}
-            onClick={() => onOpenChange(false)}
-            className={clsx(buttonClasses(), "mt-8 w-full")}
-          >
-            Open the demo
-            <ArrowRight className="size-4" aria-hidden="true" />
-          </Link>
 
           <div className="mt-auto space-y-1 border-t border-line pt-6 text-xs text-muted">
             <p>© {year} CyberGamez</p>

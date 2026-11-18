@@ -17,12 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 1,
     },
-    {
-      url: `${root}/download/`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
     ...live.games.map((game) => ({
       url: `${root}/games/${game.slug}/`,
       lastModified,

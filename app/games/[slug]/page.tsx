@@ -268,9 +268,6 @@ export default async function GamePage({ params }: PageProps) {
                 Epic free games
                 <ArrowRight className="size-3.5" aria-hidden="true" />
               </Link>
-              <Link href="/download/" prefetch={false} className={buttonClasses({ variant: "ghost", size: "sm" })}>
-                Subway Surfers demo
-              </Link>
             </div>
           </div>
         </aside>

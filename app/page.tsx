@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { DealsStrip } from "./components/DealsStrip";
-import { DemoCallout } from "./components/DemoCallout";
 import { Hero } from "./components/Hero";
 import { NewReleasesGrid } from "./components/NewReleasesGrid";
 import { NewsFeed } from "./components/NewsFeed";
@@ -21,7 +20,7 @@ import { asset } from "./lib/base-path";
 
 const title = "CyberGamez — Live game releases, free games and news";
 const description =
-  "Trending Steam releases, weekly Epic free games, Steam weeklong deals and fresh gaming headlines, refreshed on every build. Plus a playable Subway Surfers demo with a captioned trailer.";
+  "Trending Steam releases, weekly Epic free games, Steam weeklong deals and fresh gaming headlines, refreshed on every build.";
 
 export const metadata: Metadata = {
   description,
@@ -63,7 +62,6 @@ export default function HomePage() {
       <NewReleasesGrid games={newReleaseGames} />
       <DealsStrip games={dealGames} />
       <NewsFeed items={live.news} />
-      <DemoCallout />
     </main>
   );
 }
