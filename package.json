@@ -1,6 +1,11 @@
 {
   "name": "cybergamez",
   "private": true,
+  "description": "Live Steam and Epic game storefront: weekly drops, free games, deals and gaming news.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AymenBoukadida/cybergamez.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

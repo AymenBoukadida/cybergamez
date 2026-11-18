@@ -1,0 +1,65 @@
+name: Sync live game data
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-live-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Refresh, verify and publish the snapshot
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh the Steam and Epic snapshot
+        run: npm run sync
+
+      - name: Verify the refreshed snapshot
+        run: npm run verify:data -- --max-age-hours=1
+
+      - name: Test
+        run: npm test
+
+      - name: Build the static export
+        run: npm run build:ci
+
+      - name: Commit and push the refreshed snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/data/live.generated.json
+          if git diff --cached --quiet; then
+            echo "Snapshot is already current."
+            exit 0
+          fi
+          git commit -m "chore(data): refresh live store snapshot"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Could not push the refreshed snapshot after 3 attempts."
+          exit 1

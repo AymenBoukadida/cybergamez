@@ -1,11 +1,27 @@
 # CyberGamez
 
-A live gaming storefront and news site, rebuilt as a static Next.js site, plus a
-playable Subway Surfers demo. The home page carries a featured Steam title, weekly
-drops (Epic free games and Steam weeklong deals with live countdowns), trending and
-new Steam releases, current deals, and recent gaming headlines. Every game has its
-own detail page with artwork, store metadata, screenshots and a link to the official
-store.
+A live gaming storefront and news site: Steam and Epic releases, weekly free games
+and deals, fresh headlines, and a playable Subway Surfers demo — all pre-rendered
+as a static Next.js site.
+
+[![CI](https://github.com/AymenBoukadida/cybergamez/actions/workflows/ci.yml/badge.svg)](https://github.com/AymenBoukadida/cybergamez/actions/workflows/ci.yml)
+[![Sync live game data](https://github.com/AymenBoukadida/cybergamez/actions/workflows/sync-live.yml/badge.svg?branch=main)](https://github.com/AymenBoukadida/cybergamez/actions/workflows/sync-live.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+![CyberGamez home page](docs/screenshot.webp)
+
+## What is in it
+
+- **Weekly drops** — Epic's current and upcoming free games next to Steam's
+  weeklong deals, each with a live countdown and a link to its own game page.
+- **Trending and new releases** — pulled from Steam's top sellers and new-release
+  feeds on every data refresh.
+- **Deals** — current Steam specials, biggest discounts first.
+- **News** — studio updates and patch notes from Steam's news API.
+- **Game pages** — one pre-rendered page per game with artwork, genres, developers,
+  price, screenshots and a link to the official store listing.
+- **Subway Surfers demo** — Android APK, captioned trailer with a visible transcript,
+  and a keyboard-accessible screenshot gallery.
 
 This is a portfolio/demo project. It is not affiliated with any game publisher.
 
@@ -19,7 +35,7 @@ This is a portfolio/demo project. It is not affiliated with any game publisher.
   screenshot lightbox, and **lucide-react** for icons.
 - **Vitest** and **Testing Library** for component tests.
 - **sharp** for the responsive image pipeline (run automatically before dev/build).
-- A build-time sync script that snapshots the public Steam and Epic Games Store
+- Build-time sync scripts that snapshot the public Steam and Epic Games Store
   endpoints into `app/data/live.generated.json`.
 
 ## Routes
@@ -75,7 +91,7 @@ Two GitHub Actions workflows keep the site current:
 
 | Workflow | Trigger | What it does |
 | --- | --- | --- |
-| `.github/workflows/ci.yml` | Every push that touches the site or workflows, every pull request, manual dispatch | Installs dependencies, validates the committed snapshot, runs lint, typecheck, tests and the static build. |
+| `.github/workflows/ci.yml` | Every push, every pull request, manual dispatch | Installs dependencies, validates the committed snapshot, runs lint, typecheck, tests and the static build. |
 | `.github/workflows/sync-live.yml` | Every six hours (`17 */6 * * *`) and manual dispatch | Fetches Steam and Epic, validates the new snapshot, runs the tests, builds the export, then commits `app/data/live.generated.json` to `main`. |
 
 A sync run only publishes data that passed validation and a full production build.
@@ -93,35 +109,11 @@ up the new data. No API keys or deploy hooks are needed.
 To refresh without CI, run `npm run sync`, then `npm run verify:data`, and commit
 the changed snapshot.
 
-## Scripts
-
-Run these from `Responsive-Gaming-Website/`:
-
-| Command             | What it does                                                        |
-| ------------------- | ------------------------------------------------------------------- |
-| `npm run dev`       | Start the dev server on `http://localhost:3000`                     |
-| `npm run build`     | Sync live data and build the static export into `out/`               |
-| `npm run build:ci`  | Build from the committed snapshot without a network sync            |
-| `npm run verify:data` | Validate the committed snapshot and report its age                |
-| `npm run preview`   | Serve the built `out/` folder with `npx serve`                      |
-| `npm run sync`      | Refresh `app/data/live.generated.json` from Steam and Epic           |
-| `npm run images`    | Regenerate optimized images from `assets/img/` (forced)             |
-| `npm test`          | Run the Vitest suite once                                           |
-| `npm run typecheck` | Run `tsc --noEmit`                                                  |
-| `npm run lint`      | Run ESLint                                                          |
-
-`node scripts/optimize-images.mjs` runs automatically before `dev` and `build`, so
-`public/img/opt/` is generated on demand. Those derivatives are git-ignored; the
-source art lives in `assets/img/`. The script fails rather than upscaling a source
-image, so every source must be at least as wide as the largest width requested for
-it in `scripts/images.mjs`.
-
 ## Local development
 
 Requirements: Node.js 20.9 or newer and npm.
 
 ```bash
-cd Responsive-Gaming-Website
 npm ci
 npm run dev
 ```
@@ -133,21 +125,59 @@ npm run build
 npm run preview
 ```
 
+## Scripts
+
+| Command               | What it does                                                |
+| --------------------- | ----------------------------------------------------------- |
+| `npm run dev`         | Start the dev server on `http://localhost:3000`             |
+| `npm run build`       | Sync live data and build the static export into `out/`      |
+| `npm run build:ci`    | Build from the committed snapshot without a network sync    |
+| `npm run verify:data` | Validate the committed snapshot and report its age          |
+| `npm run preview`     | Serve the built `out/` folder with `npx serve`              |
+| `npm run sync`        | Refresh `app/data/live.generated.json` from Steam and Epic  |
+| `npm run images`      | Regenerate optimized images from `assets/img/` (forced)     |
+| `npm test`            | Run the Vitest suite once                                   |
+| `npm run typecheck`   | Run `tsc --noEmit`                                          |
+| `npm run lint`        | Run ESLint                                                  |
+
+`node scripts/optimize-images.mjs` runs automatically before `dev` and `build`, so
+`public/img/opt/` is generated on demand. Those derivatives are git-ignored; the
+source art lives in `assets/img/`. The script fails rather than upscaling a source
+image, so every source must be at least as wide as the largest width requested for
+it in `scripts/images.mjs`.
+
+## Project structure
+
+```text
+.
+├── app/
+│   ├── components/       # hero, weekly drops, cards, trailer, gallery, header
+│   ├── data/             # typed accessors + live.generated.json
+│   ├── games/[slug]/     # one static page per game
+│   ├── download/         # Subway Surfers demo page
+│   └── lib/              # base-path and formatting helpers
+├── assets/img/           # source art for the image pipeline
+├── public/               # APK, trailer, captions, generated derivatives
+├── scripts/              # sync, validation and image optimization
+├── test/                 # Vitest setup
+└── .github/workflows/    # CI and scheduled data sync
+```
+
 ## Deployment (Vercel)
 
-1. Import the repository in Vercel.
-2. Set **Root Directory** to `Responsive-Gaming-Website`.
-3. Keep the detected framework preset (Next.js). The build command is
+1. Import this repository in Vercel. The app is at the repo root, so leave **Root
+   Directory** empty (or `.`).
+2. Keep the detected framework preset (Next.js). The build command is
    `npm run build`; the output is the static `out/` folder.
-4. Set `NEXT_PUBLIC_SITE_URL` to the production origin, for example
+3. Set `NEXT_PUBLIC_SITE_URL` to the production origin, for example
    `https://cybergamez.example.com`. It feeds `metadataBase`, canonical URLs, the
    Open Graph tags and the sitemap. If unset, it falls back to
    `http://localhost:3000`.
-5. Connect the Git integration to the `main` branch. Every push to `main` creates a
+4. Connect the Git integration to the `main` branch. Every push to `main` creates a
    production deployment, including the snapshot commits from the sync workflow.
-6. In GitHub, open **Settings → Actions → General → Workflow permissions** and allow
+5. In GitHub, open **Settings → Actions → General → Workflow permissions** and allow
    **Read and write permissions**, so the sync workflow can push its snapshot commit.
-7. Run **Sync live game data** once from the Actions tab with `workflow_dispatch` to
+6. Run **Sync live game data** once from the Actions tab with `workflow_dispatch` to
    confirm the pipeline can write to `main` and that Vercel deploys the result.
 
 No environment variables are required for the site to render; only absolute URLs
@@ -189,6 +219,8 @@ variable unset for a root deployment.
 - Fonts: [Inter](https://rsms.me/inter/) and
   [Chakra Petch](https://fonts.google.com/specimen/Chakra+Petch), bundled through
   Fontsource.
+- Split from [AymenBoukadida/Web](https://github.com/AymenBoukadida/Web) with its
+  commit history preserved.
 
 ## License
 
