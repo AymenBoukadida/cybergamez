@@ -35,6 +35,12 @@ h4 {
   text-wrap: balance;
 }
 
+main[id],
+h1[id],
+h2[id] {
+  scroll-margin-top: 96px;
+}
+
 p {
   text-wrap: pretty;
 }
@@ -109,6 +115,30 @@ p {
 
 .drawer-overlay[data-state="open"] {
   animation: overlay-in 180ms ease-out;
+}
+
+.nav-button.swiper-button-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.trending-pagination .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  margin: 0;
+  background-color: var(--color-muted);
+  opacity: 0.5;
+  transition:
+    width 180ms ease-out,
+    background-color 180ms ease-out,
+    opacity 180ms ease-out;
+}
+
+.trending-pagination .swiper-pagination-bullet-active {
+  width: 18px;
+  border-radius: 999px;
+  background-color: var(--color-brand);
+  opacity: 1;
 }
 
 @media (prefers-reduced-motion: reduce) {
