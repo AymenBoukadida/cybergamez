@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-18T14:18:06.903Z",
+  "syncedAt": "2026-11-18T14:26:45.130Z",
   "source": "Steam Store + Epic Games Store",
   "featured": "bodycam",
   "trending": [
@@ -40,11 +40,11 @@
       "deals": [
         "goat-simulator-3",
         "how-many-dudes",
-        "the-binding-of-isaac-rebirth",
         "space-engineers-2",
+        "the-binding-of-isaac-rebirth",
         "conquest-of-elysium-5",
-        "eslabong",
         "last-train-home",
+        "eslabong",
         "call-to-arms-gates-of-hell-ostfront"
       ],
       "endsAt": "2026-11-23T18:00:00.000Z"
@@ -615,34 +615,6 @@
       "free": null
     },
     {
-      "slug": "the-binding-of-isaac-rebirth",
-      "store": "steam",
-      "steamAppId": 250900,
-      "title": "The Binding of Isaac: Rebirth",
-      "description": "The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.",
-      "genres": [
-        "Action"
-      ],
-      "releaseDate": "Nov 4, 2014",
-      "developers": [
-        "Nicalis, Inc.",
-        "Edmund McMillen"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/250900/",
-      "priceLabel": "$11.99",
-      "originalPriceLabel": "$14.99",
-      "discountPercent": 20,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/ss_25a4a446a433218d41a7e87e35b60c297e68e7a4.1920x1080.jpg?t=1731977365",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/ss_25a4a446a433218d41a7e87e35b60c297e68e7a4.1920x1080.jpg?t=1731977365",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/ss_19ef624e8d97136ba6f928d389b85f7b8130c37a.1920x1080.jpg?t=1731977365",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/ss_9fa4199fa93cb8b1edd8780fa6ce9e80d2bfb503.1920x1080.jpg?t=1731977365"
-      ],
-      "free": null
-    },
-    {
       "slug": "space-engineers-2",
       "store": "steam",
       "steamAppId": 1133870,
@@ -668,6 +640,34 @@
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133870/57c77f1498e1e884a905fa62b42834e58a9501a7/ss_57c77f1498e1e884a905fa62b42834e58a9501a7.1920x1080.jpg?t=1794818028",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133870/3d9285566f2a150219a86efb232c3629aa1abb2e/ss_3d9285566f2a150219a86efb232c3629aa1abb2e.1920x1080.jpg?t=1794818028",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133870/05fec403055a31620092326933d800a6964aa114/ss_05fec403055a31620092326933d800a6964aa114.1920x1080.jpg?t=1794818028"
+      ],
+      "free": null
+    },
+    {
+      "slug": "the-binding-of-isaac-rebirth",
+      "store": "steam",
+      "steamAppId": 250900,
+      "title": "The Binding of Isaac: Rebirth",
+      "description": "The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.",
+      "genres": [
+        "Action"
+      ],
+      "releaseDate": "Nov 4, 2014",
+      "developers": [
+        "Nicalis, Inc.",
+        "Edmund McMillen"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/250900/",
+      "priceLabel": "$11.99",
+      "originalPriceLabel": "$14.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/ss_25a4a446a433218d41a7e87e35b60c297e68e7a4.1920x1080.jpg?t=1731977365",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/ss_25a4a446a433218d41a7e87e35b60c297e68e7a4.1920x1080.jpg?t=1731977365",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/ss_19ef624e8d97136ba6f928d389b85f7b8130c37a.1920x1080.jpg?t=1731977365",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/ss_9fa4199fa93cb8b1edd8780fa6ce9e80d2bfb503.1920x1080.jpg?t=1731977365"
       ],
       "free": null
     },
@@ -700,6 +700,33 @@
       "free": null
     },
     {
+      "slug": "last-train-home",
+      "store": "steam",
+      "steamAppId": 1469610,
+      "title": "Last Train Home",
+      "description": "The Great War is over - the fight continues. Command a legion of soldiers, desperately trying to make their way home amidst the chaos of civil war. Lead them through the unforgiving wilderness onboard an armored train. Manage your crew and resources and try to survive.",
+      "genres": [
+        "Strategy"
+      ],
+      "releaseDate": "Nov 28, 2023",
+      "developers": [
+        "Ashborne Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/1469610/",
+      "priceLabel": "$13.19",
+      "originalPriceLabel": "$39.99",
+      "discountPercent": 67,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/header.jpg?t=1745406550",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/ss_fc2ddaae686c772e87a9d36db6b7b754bf1b0fdf.1920x1080.jpg?t=1745406550",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/header.jpg?t=1745406550",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/ss_fc2ddaae686c772e87a9d36db6b7b754bf1b0fdf.1920x1080.jpg?t=1745406550",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/ss_0b55590bbad98b42038cec3494ff8cff6b9cf87a.1920x1080.jpg?t=1745406550",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/ss_77ee9cc992d327225a11defb62670957559c397f.1920x1080.jpg?t=1745406550"
+      ],
+      "free": null
+    },
+    {
       "slug": "eslabong",
       "store": "steam",
       "steamAppId": 4560660,
@@ -725,33 +752,6 @@
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/50bd5583a17c1ebbcfa35149000a425da2caa303/ss_50bd5583a17c1ebbcfa35149000a425da2caa303.1920x1080.jpg?t=1794950857",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/083dc22a4ac65db2cc1a2174015287072b5f3022/ss_083dc22a4ac65db2cc1a2174015287072b5f3022.1920x1080.jpg?t=1794950857",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/1eec47f969fe5a7956340fbc647d102e855979b1/ss_1eec47f969fe5a7956340fbc647d102e855979b1.1920x1080.jpg?t=1794950857"
-      ],
-      "free": null
-    },
-    {
-      "slug": "last-train-home",
-      "store": "steam",
-      "steamAppId": 1469610,
-      "title": "Last Train Home",
-      "description": "The Great War is over - the fight continues. Command a legion of soldiers, desperately trying to make their way home amidst the chaos of civil war. Lead them through the unforgiving wilderness onboard an armored train. Manage your crew and resources and try to survive.",
-      "genres": [
-        "Strategy"
-      ],
-      "releaseDate": "Nov 28, 2023",
-      "developers": [
-        "Ashborne Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/1469610/",
-      "priceLabel": "$13.19",
-      "originalPriceLabel": "$39.99",
-      "discountPercent": 67,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/header.jpg?t=1745406550",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/ss_fc2ddaae686c772e87a9d36db6b7b754bf1b0fdf.1920x1080.jpg?t=1745406550",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/header.jpg?t=1745406550",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/ss_fc2ddaae686c772e87a9d36db6b7b754bf1b0fdf.1920x1080.jpg?t=1745406550",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/ss_0b55590bbad98b42038cec3494ff8cff6b9cf87a.1920x1080.jpg?t=1745406550",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/ss_77ee9cc992d327225a11defb62670957559c397f.1920x1080.jpg?t=1745406550"
       ],
       "free": null
     },
@@ -902,35 +902,6 @@
       "free": null
     },
     {
-      "slug": "loot-loop",
-      "store": "steam",
-      "steamAppId": 3972320,
-      "title": "Loot Loop",
-      "description": "Build a party of heroes and send them into dungeons in this short incremental RPG. Fight monsters, collect loot, and unlock upgrades. Fast runs, deep skill tree, zero stress.",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Apr 13, 2026",
-      "developers": [
-        "BitBrew"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/3972320/",
-      "priceLabel": "$3.24",
-      "originalPriceLabel": "$4.99",
-      "discountPercent": 35,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/958eeeee0ffc1e7541ec44572c38af36e786222a/header.jpg?t=1794839559",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/e3789004b71d8af16b45e68fe5fac1de6367df8f/ss_e3789004b71d8af16b45e68fe5fac1de6367df8f.1920x1080.jpg?t=1794839559",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/958eeeee0ffc1e7541ec44572c38af36e786222a/header.jpg?t=1794839559",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/e3789004b71d8af16b45e68fe5fac1de6367df8f/ss_e3789004b71d8af16b45e68fe5fac1de6367df8f.1920x1080.jpg?t=1794839559",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/3a9780da8e912226439a1ed3ee41d690995ae3d4/ss_3a9780da8e912226439a1ed3ee41d690995ae3d4.1920x1080.jpg?t=1794839559",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/393d8ecd02708b31d1c9d4e7797d35994fda6fd0/ss_393d8ecd02708b31d1c9d4e7797d35994fda6fd0.1920x1080.jpg?t=1794839559"
-      ],
-      "free": null
-    },
-    {
       "slug": "black-souls-ii",
       "store": "steam",
       "steamAppId": 3855540,
@@ -987,6 +958,64 @@
       "free": null
     },
     {
+      "slug": "ludus-magnatus-gladiator-manager-simulator",
+      "store": "steam",
+      "steamAppId": 4088670,
+      "title": "Ludus Magnatus: Gladiator Manager Simulator",
+      "description": "Become a Lanista and build the ultimate Ludus in a living Roman management sim. Recruit, train and equip gladiators, set tactics and watch brutal 3D arena battles where defeat can be fatal. Climb 7 divisions among 112 Ludi, alone or with friends managing rival clubs in a shared multiplayer campaign.",
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "releaseDate": "Jul 21, 2026",
+      "developers": [
+        "Contec Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/4088670/",
+      "priceLabel": "$18.74",
+      "originalPriceLabel": "$24.99",
+      "discountPercent": 25,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/1fe2bd33dc97eadf10adeb4d26afc7c27877b557/header.jpg?t=1794781622",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/6789101ffc1383f1197897796f5773b4897aa6b5/ss_6789101ffc1383f1197897796f5773b4897aa6b5.1920x1080.jpg?t=1794781622",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/1fe2bd33dc97eadf10adeb4d26afc7c27877b557/header.jpg?t=1794781622",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/6789101ffc1383f1197897796f5773b4897aa6b5/ss_6789101ffc1383f1197897796f5773b4897aa6b5.1920x1080.jpg?t=1794781622",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/06a57f2f1ad6694f795ae98ccb0e0f645ffd3517/ss_06a57f2f1ad6694f795ae98ccb0e0f645ffd3517.1920x1080.jpg?t=1794781622",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/8aff770deeeb827570430692aa001f5fd524438c/ss_8aff770deeeb827570430692aa001f5fd524438c.1920x1080.jpg?t=1794781622"
+      ],
+      "free": null
+    },
+    {
+      "slug": "loot-loop",
+      "store": "steam",
+      "steamAppId": 3972320,
+      "title": "Loot Loop",
+      "description": "Build a party of heroes and send them into dungeons in this short incremental RPG. Fight monsters, collect loot, and unlock upgrades. Fast runs, deep skill tree, zero stress.",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "releaseDate": "Apr 13, 2026",
+      "developers": [
+        "BitBrew"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/3972320/",
+      "priceLabel": "$3.24",
+      "originalPriceLabel": "$4.99",
+      "discountPercent": 35,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/958eeeee0ffc1e7541ec44572c38af36e786222a/header.jpg?t=1794839559",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/e3789004b71d8af16b45e68fe5fac1de6367df8f/ss_e3789004b71d8af16b45e68fe5fac1de6367df8f.1920x1080.jpg?t=1794839559",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/958eeeee0ffc1e7541ec44572c38af36e786222a/header.jpg?t=1794839559",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/e3789004b71d8af16b45e68fe5fac1de6367df8f/ss_e3789004b71d8af16b45e68fe5fac1de6367df8f.1920x1080.jpg?t=1794839559",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/3a9780da8e912226439a1ed3ee41d690995ae3d4/ss_3a9780da8e912226439a1ed3ee41d690995ae3d4.1920x1080.jpg?t=1794839559",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/393d8ecd02708b31d1c9d4e7797d35994fda6fd0/ss_393d8ecd02708b31d1c9d4e7797d35994fda6fd0.1920x1080.jpg?t=1794839559"
+      ],
+      "free": null
+    },
+    {
       "slug": "songs-of-glimmerwick",
       "store": "steam",
       "steamAppId": 1706510,
@@ -1039,35 +1068,6 @@
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/f2b1399187b3ec78bd8dc9b78edec3cb90c26939/ss_f2b1399187b3ec78bd8dc9b78edec3cb90c26939.1920x1080.jpg?t=1791517185",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/2d8a32792eceee351081184a278449e02a953ffc/ss_2d8a32792eceee351081184a278449e02a953ffc.1920x1080.jpg?t=1791517185",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/8fb868036c2b50717cefec1133cc22a4ba1ef9d5/ss_8fb868036c2b50717cefec1133cc22a4ba1ef9d5.1920x1080.jpg?t=1791517185"
-      ],
-      "free": null
-    },
-    {
-      "slug": "ludus-magnatus-gladiator-manager-simulator",
-      "store": "steam",
-      "steamAppId": 4088670,
-      "title": "Ludus Magnatus: Gladiator Manager Simulator",
-      "description": "Become a Lanista and build the ultimate Ludus in a living Roman management sim. Recruit, train and equip gladiators, set tactics and watch brutal 3D arena battles where defeat can be fatal. Climb 7 divisions among 112 Ludi, alone or with friends managing rival clubs in a shared multiplayer campaign.",
-      "genres": [
-        "Action",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Jul 21, 2026",
-      "developers": [
-        "Contec Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/4088670/",
-      "priceLabel": "$18.74",
-      "originalPriceLabel": "$24.99",
-      "discountPercent": 25,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/1fe2bd33dc97eadf10adeb4d26afc7c27877b557/header.jpg?t=1794781622",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/6789101ffc1383f1197897796f5773b4897aa6b5/ss_6789101ffc1383f1197897796f5773b4897aa6b5.1920x1080.jpg?t=1794781622",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/1fe2bd33dc97eadf10adeb4d26afc7c27877b557/header.jpg?t=1794781622",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/6789101ffc1383f1197897796f5773b4897aa6b5/ss_6789101ffc1383f1197897796f5773b4897aa6b5.1920x1080.jpg?t=1794781622",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/06a57f2f1ad6694f795ae98ccb0e0f645ffd3517/ss_06a57f2f1ad6694f795ae98ccb0e0f645ffd3517.1920x1080.jpg?t=1794781622",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/8aff770deeeb827570430692aa001f5fd524438c/ss_8aff770deeeb827570430692aa001f5fd524438c.1920x1080.jpg?t=1794781622"
       ],
       "free": null
     },
