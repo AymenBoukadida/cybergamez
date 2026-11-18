@@ -1,12 +1,10 @@
 {
-  "syncedAt": "2026-11-18T14:43:19.560Z",
+  "syncedAt": "2026-11-18T14:46:55.673Z",
   "source": "Steam Store + Epic Games Store",
   "featured": "bodycam",
   "trending": [
     "bodycam",
-    "melvor-idle-2-a-runescape-adventure",
-    "call-of-duty-modern-warfare-4",
-    "zombies-arent-real"
+    "melvor-idle-2-a-runescape-adventure"
   ],
   "newReleases": [
     "save-the-nuke",
@@ -45,9 +43,9 @@
         "space-engineers-2",
         "the-binding-of-isaac-rebirth",
         "conquest-of-elysium-5",
+        "call-to-arms-gates-of-hell-ostfront",
         "last-train-home",
-        "eslabong",
-        "call-to-arms-gates-of-hell-ostfront"
+        "eslabong"
       ],
       "endsAt": "2026-11-23T18:00:00.000Z"
     }
@@ -88,15 +86,6 @@
       "summary": "PATCH NOTES V0.9.1Multiplayer & Anti-CheatFixed an issue where players could get stuck during Easy Anti-Cheat registration when joining a session.Improved join times when several players connect at the same time: each…",
       "gameSlug": "bodycam",
       "gameTitle": "Bodycam"
-    },
-    {
-      "title": "MW4's latest event makes it easier to earn rewards if you play with your friends",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1849458702689395",
-      "publishedAt": "2026-11-16T11:32:46.000Z",
-      "source": "PCGamesN",
-      "summary": "The latest event in Modern Warfare 4, Joint Fire, rewards you with extra XP and cosmetics if you play with your friends, but only once a week. Read the full story on PCGamesN: MW4's latest event makes it easier to earn…",
-      "gameSlug": "call-of-duty-modern-warfare-4",
-      "gameTitle": "Call of Duty®: Modern Warfare® 4"
     },
     {
       "title": "Steam Early Access Launch - What you need to know!",
@@ -173,67 +162,6 @@
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218350/8f1a15d4151ad09f0ea85d2792afbb6e3f25bc29/ss_8f1a15d4151ad09f0ea85d2792afbb6e3f25bc29.1920x1080.jpg?t=1794955439",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218350/021a82f96407a54a5c8ae3bba078e8c87d661f47/ss_021a82f96407a54a5c8ae3bba078e8c87d661f47.1920x1080.jpg?t=1794955439",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218350/13c1d03d48b8ff88f1f3d92c6683c98ebe22aa8d/ss_13c1d03d48b8ff88f1f3d92c6683c98ebe22aa8d.1920x1080.jpg?t=1794955439"
-      ],
-      "free": null
-    },
-    {
-      "slug": "call-of-duty-modern-warfare-4",
-      "store": "steam",
-      "steamAppId": 4435490,
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "description": "War erupts on the Korean Peninsula as North Korea launches an invasion that threatens to destabilize the world in Call of Duty®: Modern Warfare® 4.",
-      "genres": [
-        "Action"
-      ],
-      "releaseDate": "Oct 22, 2026",
-      "developers": [
-        "Infinity Ward",
-        "Beenox",
-        "Digital Legends",
-        "Activision Shanghai",
-        "Raven Software",
-        "Treyarch",
-        "Sledgehammer Games",
-        "High Moon Studios"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/4435490/",
-      "priceLabel": "$69.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg?t=1794873974",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/ee5f6b6aebe4dc9e86b49c4e309d361b132df308/ss_ee5f6b6aebe4dc9e86b49c4e309d361b132df308.1920x1080.jpg?t=1794873974",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg?t=1794873974",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/ee5f6b6aebe4dc9e86b49c4e309d361b132df308/ss_ee5f6b6aebe4dc9e86b49c4e309d361b132df308.1920x1080.jpg?t=1794873974",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6b8f4040a1e923f036e04d9eb21ecb0f866be57e/ss_6b8f4040a1e923f036e04d9eb21ecb0f866be57e.1920x1080.jpg?t=1794873974",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/10d6a60711209aa8019cedab4667532af49f5d2a/ss_10d6a60711209aa8019cedab4667532af49f5d2a.1920x1080.jpg?t=1794873974"
-      ],
-      "free": null
-    },
-    {
-      "slug": "zombies-arent-real",
-      "store": "steam",
-      "steamAppId": 5185890,
-      "title": "Zombies Aren't Real",
-      "description": "Zombies Aren't Real is a horde-defense, strategy game where you deploy military forces in an attempt to quell a quick-spreading zombie infection and save as many civilians as you can!",
-      "genres": [
-        "Strategy",
-        "Early Access"
-      ],
-      "releaseDate": "Nov 13, 2026",
-      "developers": [
-        "Jogamedev"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5185890/",
-      "priceLabel": "$8.99",
-      "originalPriceLabel": "$9.99",
-      "discountPercent": 10,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/cd54755b9d15a2cad33471464fb630d6a5363ff0/header.jpg?t=1794839706",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/35437ea95021b631804a33c54bb04ed9d0d01cfb/ss_35437ea95021b631804a33c54bb04ed9d0d01cfb.1920x1080.jpg?t=1794839706",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/cd54755b9d15a2cad33471464fb630d6a5363ff0/header.jpg?t=1794839706",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/35437ea95021b631804a33c54bb04ed9d0d01cfb/ss_35437ea95021b631804a33c54bb04ed9d0d01cfb.1920x1080.jpg?t=1794839706",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/023e5c94d5d8279562b60d27f9b5dc198cbf75d1/ss_023e5c94d5d8279562b60d27f9b5dc198cbf75d1.1920x1080.jpg?t=1794839706",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/41eb4733fd848b81fdbcccc760d11e754613be86/ss_41eb4733fd848b81fdbcccc760d11e754613be86.1920x1080.jpg?t=1794839706"
       ],
       "free": null
     },
@@ -546,6 +474,34 @@
       "free": null
     },
     {
+      "slug": "zombies-arent-real",
+      "store": "steam",
+      "steamAppId": 5185890,
+      "title": "Zombies Aren't Real",
+      "description": "Zombies Aren't Real is a horde-defense, strategy game where you deploy military forces in an attempt to quell a quick-spreading zombie infection and save as many civilians as you can!",
+      "genres": [
+        "Strategy",
+        "Early Access"
+      ],
+      "releaseDate": "Nov 13, 2026",
+      "developers": [
+        "Jogamedev"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5185890/",
+      "priceLabel": "$8.99",
+      "originalPriceLabel": "$9.99",
+      "discountPercent": 10,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/cd54755b9d15a2cad33471464fb630d6a5363ff0/header.jpg?t=1794839706",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/35437ea95021b631804a33c54bb04ed9d0d01cfb/ss_35437ea95021b631804a33c54bb04ed9d0d01cfb.1920x1080.jpg?t=1794839706",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/cd54755b9d15a2cad33471464fb630d6a5363ff0/header.jpg?t=1794839706",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/35437ea95021b631804a33c54bb04ed9d0d01cfb/ss_35437ea95021b631804a33c54bb04ed9d0d01cfb.1920x1080.jpg?t=1794839706",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/023e5c94d5d8279562b60d27f9b5dc198cbf75d1/ss_023e5c94d5d8279562b60d27f9b5dc198cbf75d1.1920x1080.jpg?t=1794839706",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/41eb4733fd848b81fdbcccc760d11e754613be86/ss_41eb4733fd848b81fdbcccc760d11e754613be86.1920x1080.jpg?t=1794839706"
+      ],
+      "free": null
+    },
+    {
       "slug": "kingdom-come-deliverance-ii",
       "store": "steam",
       "steamAppId": 1771300,
@@ -746,6 +702,36 @@
       "free": null
     },
     {
+      "slug": "call-to-arms-gates-of-hell-ostfront",
+      "store": "steam",
+      "steamAppId": 400750,
+      "title": "Call to Arms - Gates of Hell: Ostfront",
+      "description": "Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
+      "genres": [
+        "Action",
+        "Simulation",
+        "Strategy"
+      ],
+      "releaseDate": "Jun 11, 2021",
+      "developers": [
+        "Barbedwire Studios",
+        "Digitalmindsoft"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/400750/",
+      "priceLabel": "$8.74",
+      "originalPriceLabel": "$34.99",
+      "discountPercent": 75,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/dbbd1ee41869ac2bae52511ab9d171e1aba441e4/header.jpg?t=1793359453",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/ss_7c3968c3bfe94abd51adb4e76f26f235600d024c.1920x1080.jpg?t=1793359453",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/dbbd1ee41869ac2bae52511ab9d171e1aba441e4/header.jpg?t=1793359453",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/ss_7c3968c3bfe94abd51adb4e76f26f235600d024c.1920x1080.jpg?t=1793359453",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/ss_a92b9dd80ee352574800b41b1265a7b69d6aebca.1920x1080.jpg?t=1793359453",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/ss_bc70aa2af1792b66e6eed90e5b7373c119e62297.1920x1080.jpg?t=1793359453"
+      ],
+      "free": null
+    },
+    {
       "slug": "last-train-home",
       "store": "steam",
       "steamAppId": 1469610,
@@ -802,36 +788,6 @@
       "free": null
     },
     {
-      "slug": "call-to-arms-gates-of-hell-ostfront",
-      "store": "steam",
-      "steamAppId": 400750,
-      "title": "Call to Arms - Gates of Hell: Ostfront",
-      "description": "Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
-      "genres": [
-        "Action",
-        "Simulation",
-        "Strategy"
-      ],
-      "releaseDate": "Jun 11, 2021",
-      "developers": [
-        "Barbedwire Studios",
-        "Digitalmindsoft"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/400750/",
-      "priceLabel": "$8.74",
-      "originalPriceLabel": "$34.99",
-      "discountPercent": 75,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/dbbd1ee41869ac2bae52511ab9d171e1aba441e4/header.jpg?t=1793359453",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/ss_7c3968c3bfe94abd51adb4e76f26f235600d024c.1920x1080.jpg?t=1793359453",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/dbbd1ee41869ac2bae52511ab9d171e1aba441e4/header.jpg?t=1793359453",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/ss_7c3968c3bfe94abd51adb4e76f26f235600d024c.1920x1080.jpg?t=1793359453",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/ss_a92b9dd80ee352574800b41b1265a7b69d6aebca.1920x1080.jpg?t=1793359453",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/ss_bc70aa2af1792b66e6eed90e5b7373c119e62297.1920x1080.jpg?t=1793359453"
-      ],
-      "free": null
-    },
-    {
       "slug": "space-engineers",
       "store": "steam",
       "steamAppId": 244850,
@@ -857,6 +813,63 @@
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/ss_11909f13f34798e70b16bdb312104c3d8b90f083.1920x1080.jpg?t=1794852618",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/ss_4b2c605e28b3f17af3574c65b68446709e229181.1920x1080.jpg?t=1794852618",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/ss_53e004657cb272e449938bf1119da5866ecca628.1920x1080.jpg?t=1794852618"
+      ],
+      "free": null
+    },
+    {
+      "slug": "glory-to-the-heroestm",
+      "store": "steam",
+      "steamAppId": 2239670,
+      "title": "Glory To The Heroes™",
+      "description": "Glory to the Heroes set in the Russian-Ukrainian war is an immersive PvPvE mil-sim providing perspective on the modern warfare with combined-arms combat and extensive elements of survival and immersion, where the action is happening in the accurately recreated real-world locations of actual battles",
+      "genres": [
+        "Action",
+        "Indie",
+        "Massively Multiplayer"
+      ],
+      "releaseDate": "Oct 9, 2026",
+      "developers": [
+        "Deaf Tone Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/2239670/",
+      "priceLabel": "$23.99",
+      "originalPriceLabel": "$29.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/757c8d8edb6c1e3b554738e3e781c55f6c31c9d2/header.jpg?t=1791562944",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/c270001c7707e26db61f4a314500119008f17020/ss_c270001c7707e26db61f4a314500119008f17020.1920x1080.jpg?t=1791562944",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/757c8d8edb6c1e3b554738e3e781c55f6c31c9d2/header.jpg?t=1791562944",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/c270001c7707e26db61f4a314500119008f17020/ss_c270001c7707e26db61f4a314500119008f17020.1920x1080.jpg?t=1791562944",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/6b6049ddbe9f356c6757dd5b784bd305f7677dfe/ss_6b6049ddbe9f356c6757dd5b784bd305f7677dfe.1920x1080.jpg?t=1791562944",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/1fd67e885db5c1fb39c602b4a2cebe8e4b6f66ad/ss_1fd67e885db5c1fb39c602b4a2cebe8e4b6f66ad.1920x1080.jpg?t=1791562944"
+      ],
+      "free": null
+    },
+    {
+      "slug": "songs-of-glimmerwick",
+      "store": "steam",
+      "steamAppId": 1706510,
+      "title": "Songs of Glimmerwick",
+      "description": "Become immersed in a musical woodland fantasy world where casting a spell is as easy as playing a song. Attend classes, grow the university garden, make friends with classmates and townsfolk, and explore the island’s many oddities and mysteries in this story-driven witch academy RPG.",
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "releaseDate": "Sep 30, 2026",
+      "developers": [
+        "Eastshade Studios"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/1706510/",
+      "priceLabel": "$19.99",
+      "originalPriceLabel": "$24.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/2e6d0bc2ac7bac10bf9f90ca91d69a48ad76c255/header.jpg?t=1794853038",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.1920x1080.jpg?t=1794853038",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/2e6d0bc2ac7bac10bf9f90ca91d69a48ad76c255/header.jpg?t=1794853038",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.1920x1080.jpg?t=1794853038",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_694e8977429e866f98b221e02d313ac8c3e7ae78.1920x1080.jpg?t=1794853038",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.1920x1080.jpg?t=1794853038"
       ],
       "free": null
     },
@@ -919,31 +932,31 @@
       "free": null
     },
     {
-      "slug": "glory-to-the-heroestm",
+      "slug": "the-guild-1-remake-europa-1410",
       "store": "steam",
-      "steamAppId": 2239670,
-      "title": "Glory To The Heroes™",
-      "description": "Glory to the Heroes set in the Russian-Ukrainian war is an immersive PvPvE mil-sim providing perspective on the modern warfare with combined-arms combat and extensive elements of survival and immersion, where the action is happening in the accurately recreated real-world locations of actual battles",
+      "steamAppId": 2977260,
+      "title": "The Guild 1 Remake: Europa 1410",
+      "description": "Choose from professions like Smith, Preacher or Alchemist to gain riches in this medieval economic simulation. Climb the social ladder, dominate politics, and lead your dynasty to power over multiple generations to ensure your legacy.",
       "genres": [
-        "Action",
-        "Indie",
-        "Massively Multiplayer"
+        "Simulation",
+        "Strategy",
+        "Early Access"
       ],
-      "releaseDate": "Oct 9, 2026",
+      "releaseDate": "Sep 17, 2026",
       "developers": [
-        "Deaf Tone Games"
+        "Ashborne Games"
       ],
-      "storeUrl": "https://store.steampowered.com/app/2239670/",
-      "priceLabel": "$23.99",
+      "storeUrl": "https://store.steampowered.com/app/2977260/",
+      "priceLabel": "$22.49",
       "originalPriceLabel": "$29.99",
-      "discountPercent": 20,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/757c8d8edb6c1e3b554738e3e781c55f6c31c9d2/header.jpg?t=1791562944",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/c270001c7707e26db61f4a314500119008f17020/ss_c270001c7707e26db61f4a314500119008f17020.1920x1080.jpg?t=1791562944",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/757c8d8edb6c1e3b554738e3e781c55f6c31c9d2/header.jpg?t=1791562944",
+      "discountPercent": 25,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/333becf2d9b5b3312c4ef200c2312fca33b24c1a/header.jpg?t=1789971895",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/25c536d4ae6d7e419c3f732b66d2817b919f0937/ss_25c536d4ae6d7e419c3f732b66d2817b919f0937.1920x1080.jpg?t=1789971895",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/333becf2d9b5b3312c4ef200c2312fca33b24c1a/header.jpg?t=1789971895",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/c270001c7707e26db61f4a314500119008f17020/ss_c270001c7707e26db61f4a314500119008f17020.1920x1080.jpg?t=1791562944",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/6b6049ddbe9f356c6757dd5b784bd305f7677dfe/ss_6b6049ddbe9f356c6757dd5b784bd305f7677dfe.1920x1080.jpg?t=1791562944",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/1fd67e885db5c1fb39c602b4a2cebe8e4b6f66ad/ss_1fd67e885db5c1fb39c602b4a2cebe8e4b6f66ad.1920x1080.jpg?t=1791562944"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/25c536d4ae6d7e419c3f732b66d2817b919f0937/ss_25c536d4ae6d7e419c3f732b66d2817b919f0937.1920x1080.jpg?t=1789971895",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/3b7e1954aa2e8204672d3cf9e81a93722d1722dd/ss_3b7e1954aa2e8204672d3cf9e81a93722d1722dd.1920x1080.jpg?t=1789971895",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/b8e4c001ddad487aad7213a8ed6d97ba6f1f2e3a/ss_b8e4c001ddad487aad7213a8ed6d97ba6f1f2e3a.1920x1080.jpg?t=1789971895"
       ],
       "free": null
     },
@@ -1004,35 +1017,6 @@
       "free": null
     },
     {
-      "slug": "ludus-magnatus-gladiator-manager-simulator",
-      "store": "steam",
-      "steamAppId": 4088670,
-      "title": "Ludus Magnatus: Gladiator Manager Simulator",
-      "description": "Become a Lanista and build the ultimate Ludus in a living Roman management sim. Recruit, train and equip gladiators, set tactics and watch brutal 3D arena battles where defeat can be fatal. Climb 7 divisions among 112 Ludi, alone or with friends managing rival clubs in a shared multiplayer campaign.",
-      "genres": [
-        "Action",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Jul 21, 2026",
-      "developers": [
-        "Contec Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/4088670/",
-      "priceLabel": "$18.74",
-      "originalPriceLabel": "$24.99",
-      "discountPercent": 25,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/1fe2bd33dc97eadf10adeb4d26afc7c27877b557/header.jpg?t=1794781622",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/6789101ffc1383f1197897796f5773b4897aa6b5/ss_6789101ffc1383f1197897796f5773b4897aa6b5.1920x1080.jpg?t=1794781622",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/1fe2bd33dc97eadf10adeb4d26afc7c27877b557/header.jpg?t=1794781622",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/6789101ffc1383f1197897796f5773b4897aa6b5/ss_6789101ffc1383f1197897796f5773b4897aa6b5.1920x1080.jpg?t=1794781622",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/06a57f2f1ad6694f795ae98ccb0e0f645ffd3517/ss_06a57f2f1ad6694f795ae98ccb0e0f645ffd3517.1920x1080.jpg?t=1794781622",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/8aff770deeeb827570430692aa001f5fd524438c/ss_8aff770deeeb827570430692aa001f5fd524438c.1920x1080.jpg?t=1794781622"
-      ],
-      "free": null
-    },
-    {
       "slug": "loot-loop",
       "store": "steam",
       "steamAppId": 3972320,
@@ -1062,58 +1046,31 @@
       "free": null
     },
     {
-      "slug": "songs-of-glimmerwick",
+      "slug": "ludus-magnatus-gladiator-manager-simulator",
       "store": "steam",
-      "steamAppId": 1706510,
-      "title": "Songs of Glimmerwick",
-      "description": "Become immersed in a musical woodland fantasy world where casting a spell is as easy as playing a song. Attend classes, grow the university garden, make friends with classmates and townsfolk, and explore the island’s many oddities and mysteries in this story-driven witch academy RPG.",
+      "steamAppId": 4088670,
+      "title": "Ludus Magnatus: Gladiator Manager Simulator",
+      "description": "Become a Lanista and build the ultimate Ludus in a living Roman management sim. Recruit, train and equip gladiators, set tactics and watch brutal 3D arena battles where defeat can be fatal. Climb 7 divisions among 112 Ludi, alone or with friends managing rival clubs in a shared multiplayer campaign.",
       "genres": [
-        "Adventure",
-        "RPG"
+        "Action",
+        "Indie",
+        "Simulation"
       ],
-      "releaseDate": "Sep 30, 2026",
+      "releaseDate": "Jul 21, 2026",
       "developers": [
-        "Eastshade Studios"
+        "Contec Games"
       ],
-      "storeUrl": "https://store.steampowered.com/app/1706510/",
-      "priceLabel": "$19.99",
+      "storeUrl": "https://store.steampowered.com/app/4088670/",
+      "priceLabel": "$18.74",
       "originalPriceLabel": "$24.99",
-      "discountPercent": 20,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/2e6d0bc2ac7bac10bf9f90ca91d69a48ad76c255/header.jpg?t=1794853038",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.1920x1080.jpg?t=1794853038",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/2e6d0bc2ac7bac10bf9f90ca91d69a48ad76c255/header.jpg?t=1794853038",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.1920x1080.jpg?t=1794853038",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_694e8977429e866f98b221e02d313ac8c3e7ae78.1920x1080.jpg?t=1794853038",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.1920x1080.jpg?t=1794853038"
-      ],
-      "free": null
-    },
-    {
-      "slug": "dimhaven-the-lost-source",
-      "store": "steam",
-      "steamAppId": 2458980,
-      "title": "Dimhaven - The Lost Source",
-      "description": "Are you ready for an adventure? Challenges, exploration and puzzles in a narrative driven experience, pick up your camera and test your wits in this first-person mystery by the team behind Quern!",
-      "genres": [
-        "Adventure",
-        "Indie"
-      ],
-      "releaseDate": "Jun 23, 2026",
-      "developers": [
-        "Zadbox Entertainment"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/2458980/",
-      "priceLabel": "$19.49",
-      "originalPriceLabel": "$25.99",
       "discountPercent": 25,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/06d5c493e7d088a11372622a0689869126966c19/header.jpg?t=1791517185",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/f2b1399187b3ec78bd8dc9b78edec3cb90c26939/ss_f2b1399187b3ec78bd8dc9b78edec3cb90c26939.1920x1080.jpg?t=1791517185",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/06d5c493e7d088a11372622a0689869126966c19/header.jpg?t=1791517185",
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/1fe2bd33dc97eadf10adeb4d26afc7c27877b557/header.jpg?t=1794781622",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/6789101ffc1383f1197897796f5773b4897aa6b5/ss_6789101ffc1383f1197897796f5773b4897aa6b5.1920x1080.jpg?t=1794781622",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/1fe2bd33dc97eadf10adeb4d26afc7c27877b557/header.jpg?t=1794781622",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/f2b1399187b3ec78bd8dc9b78edec3cb90c26939/ss_f2b1399187b3ec78bd8dc9b78edec3cb90c26939.1920x1080.jpg?t=1791517185",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/2d8a32792eceee351081184a278449e02a953ffc/ss_2d8a32792eceee351081184a278449e02a953ffc.1920x1080.jpg?t=1791517185",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/8fb868036c2b50717cefec1133cc22a4ba1ef9d5/ss_8fb868036c2b50717cefec1133cc22a4ba1ef9d5.1920x1080.jpg?t=1791517185"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/6789101ffc1383f1197897796f5773b4897aa6b5/ss_6789101ffc1383f1197897796f5773b4897aa6b5.1920x1080.jpg?t=1794781622",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/06a57f2f1ad6694f795ae98ccb0e0f645ffd3517/ss_06a57f2f1ad6694f795ae98ccb0e0f645ffd3517.1920x1080.jpg?t=1794781622",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088670/8aff770deeeb827570430692aa001f5fd524438c/ss_8aff770deeeb827570430692aa001f5fd524438c.1920x1080.jpg?t=1794781622"
       ],
       "free": null
     },
@@ -1145,31 +1102,30 @@
       "free": null
     },
     {
-      "slug": "the-guild-1-remake-europa-1410",
+      "slug": "dimhaven-the-lost-source",
       "store": "steam",
-      "steamAppId": 2977260,
-      "title": "The Guild 1 Remake: Europa 1410",
-      "description": "Choose from professions like Smith, Preacher or Alchemist to gain riches in this medieval economic simulation. Climb the social ladder, dominate politics, and lead your dynasty to power over multiple generations to ensure your legacy.",
+      "steamAppId": 2458980,
+      "title": "Dimhaven - The Lost Source",
+      "description": "Are you ready for an adventure? Challenges, exploration and puzzles in a narrative driven experience, pick up your camera and test your wits in this first-person mystery by the team behind Quern!",
       "genres": [
-        "Simulation",
-        "Strategy",
-        "Early Access"
+        "Adventure",
+        "Indie"
       ],
-      "releaseDate": "Sep 17, 2026",
+      "releaseDate": "Jun 23, 2026",
       "developers": [
-        "Ashborne Games"
+        "Zadbox Entertainment"
       ],
-      "storeUrl": "https://store.steampowered.com/app/2977260/",
-      "priceLabel": "$22.49",
-      "originalPriceLabel": "$29.99",
+      "storeUrl": "https://store.steampowered.com/app/2458980/",
+      "priceLabel": "$19.49",
+      "originalPriceLabel": "$25.99",
       "discountPercent": 25,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/333becf2d9b5b3312c4ef200c2312fca33b24c1a/header.jpg?t=1789971895",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/25c536d4ae6d7e419c3f732b66d2817b919f0937/ss_25c536d4ae6d7e419c3f732b66d2817b919f0937.1920x1080.jpg?t=1789971895",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/333becf2d9b5b3312c4ef200c2312fca33b24c1a/header.jpg?t=1789971895",
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/06d5c493e7d088a11372622a0689869126966c19/header.jpg?t=1791517185",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/f2b1399187b3ec78bd8dc9b78edec3cb90c26939/ss_f2b1399187b3ec78bd8dc9b78edec3cb90c26939.1920x1080.jpg?t=1791517185",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/06d5c493e7d088a11372622a0689869126966c19/header.jpg?t=1791517185",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/25c536d4ae6d7e419c3f732b66d2817b919f0937/ss_25c536d4ae6d7e419c3f732b66d2817b919f0937.1920x1080.jpg?t=1789971895",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/3b7e1954aa2e8204672d3cf9e81a93722d1722dd/ss_3b7e1954aa2e8204672d3cf9e81a93722d1722dd.1920x1080.jpg?t=1789971895",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/b8e4c001ddad487aad7213a8ed6d97ba6f1f2e3a/ss_b8e4c001ddad487aad7213a8ed6d97ba6f1f2e3a.1920x1080.jpg?t=1789971895"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/f2b1399187b3ec78bd8dc9b78edec3cb90c26939/ss_f2b1399187b3ec78bd8dc9b78edec3cb90c26939.1920x1080.jpg?t=1791517185",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/2d8a32792eceee351081184a278449e02a953ffc/ss_2d8a32792eceee351081184a278449e02a953ffc.1920x1080.jpg?t=1791517185",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/8fb868036c2b50717cefec1133cc22a4ba1ef9d5/ss_8fb868036c2b50717cefec1133cc22a4ba1ef9d5.1920x1080.jpg?t=1791517185"
       ],
       "free": null
     },
