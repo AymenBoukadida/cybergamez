@@ -8,9 +8,36 @@ import { Rating } from "@/app/components/Rating";
 import { ResponsiveImage } from "@/app/components/ResponsiveImage";
 import { ScreenshotGallery } from "@/app/components/ScreenshotGallery";
 import { Trailer } from "@/app/components/Trailer";
+import { asset } from "@/app/lib/base-path";
+
+const description =
+  "Download the Subway Surfers demo APK for Android, watch the captioned trailer and read the transcript. iOS and Windows builds are not included.";
 
 export const metadata: Metadata = {
-  title: "Subway Surfers",
+  title: "Subway Surfers — Download",
+  description,
+  alternates: { canonical: "/download/" },
+  openGraph: {
+    type: "website",
+    siteName: "CyberGamez",
+    locale: "en_US",
+    title: "Subway Surfers — Download | CyberGamez",
+    description,
+    url: "/download/",
+    images: [
+      {
+        url: asset("/img/opt/og-subway.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Subway Surfers key art",
+      },
+    ],
+  },
+  twitter: {
+    title: "Subway Surfers — Download | CyberGamez",
+    description,
+    images: [asset("/img/opt/og-subway.jpg")],
+  },
 };
 
 export default function DownloadPage() {

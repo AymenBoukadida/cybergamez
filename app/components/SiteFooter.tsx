@@ -52,7 +52,7 @@ export function SiteFooter() {
               href="https://github.com/HamzaZaidiX"
               target="_blank"
               rel="noreferrer"
-              className="focus-ring rounded text-text underline-offset-4 transition-colors hover:text-brand hover:underline"
+              className="focus-ring rounded text-text underline underline-offset-4 transition-colors hover:text-brand"
             >
               Hamza Zaidi
             </a>

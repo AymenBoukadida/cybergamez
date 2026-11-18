@@ -123,20 +123,33 @@ p {
 }
 
 .trending-pagination .swiper-pagination-bullet {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  background: transparent;
+  opacity: 1;
+}
+
+.trending-pagination .swiper-pagination-bullet::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
   width: 6px;
   height: 6px;
-  margin: 0;
+  border-radius: 999px;
   background-color: var(--color-muted);
   opacity: 0.5;
+  translate: -50% -50%;
   transition:
     width 180ms ease-out,
     background-color 180ms ease-out,
     opacity 180ms ease-out;
 }
 
-.trending-pagination .swiper-pagination-bullet-active {
+.trending-pagination .swiper-pagination-bullet-active::after {
   width: 18px;
-  border-radius: 999px;
   background-color: var(--color-brand);
   opacity: 1;
 }
