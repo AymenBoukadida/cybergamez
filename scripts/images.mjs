@@ -24,6 +24,11 @@ export const entries = [
   { name: "subway-screens-2", src: "assets/img/subway-screens-2.jpg", widths: [640, 960] },
   { name: "subway-screens-3", src: "assets/img/subway-screens-3.jpg", widths: [640, 960] },
   {
+    name: "subway-trailer-poster",
+    src: "assets/img/subway-trailer-poster.jpg",
+    widths: [640, 960],
+  },
+  {
     name: "og-home",
     src: "assets/img/hero-cyberpunk.png",
     width: 1200,

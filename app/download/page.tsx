@@ -6,6 +6,7 @@ import { DownloadPanel } from "@/app/components/DownloadPanel";
 import { FeatureList } from "@/app/components/FeatureList";
 import { Rating } from "@/app/components/Rating";
 import { ResponsiveImage } from "@/app/components/ResponsiveImage";
+import { Trailer } from "@/app/components/Trailer";
 
 export const metadata: Metadata = {
   title: "Subway Surfers",
@@ -59,6 +60,8 @@ export default function DownloadPage() {
         </aside>
 
         <div className="min-w-0 space-y-12 lg:order-1">
+          <Trailer />
+
           <section aria-labelledby="about">
             <h2 id="about" className="text-[clamp(1.5rem,3vw,2rem)] font-semibold leading-tight">
               About the game

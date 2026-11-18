@@ -42,5 +42,26 @@ export const subwaySurfers: SubwaySurfers = {
     { name: "subway-screens-2", alt: "Subway Surfers gameplay screenshot 2" },
     { name: "subway-screens-3", alt: "Subway Surfers gameplay screenshot 3" },
   ],
-  transcript: [],
+  transcript: [
+    {
+      start: "00:00",
+      end: "00:04",
+      text: "[Upbeat music]\nKILOO GAMES & SYBO",
+    },
+    {
+      start: "00:04",
+      end: "00:59",
+      text: "[Upbeat music continues]",
+    },
+    {
+      start: "00:59",
+      end: "01:03",
+      text: "[Music]\nSUBWAY SURFERS\nJoin the chase May 24th!\nPlay Subway Surfers on iPhone, iPod & iPad",
+    },
+    {
+      start: "01:03",
+      end: "01:05",
+      text: "[Music]\nAvailable on the App Store",
+    },
+  ],
 };
