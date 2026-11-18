@@ -6,6 +6,7 @@ import { DownloadPanel } from "@/app/components/DownloadPanel";
 import { FeatureList } from "@/app/components/FeatureList";
 import { Rating } from "@/app/components/Rating";
 import { ResponsiveImage } from "@/app/components/ResponsiveImage";
+import { ScreenshotGallery } from "@/app/components/ScreenshotGallery";
 import { Trailer } from "@/app/components/Trailer";
 
 export const metadata: Metadata = {
@@ -71,6 +72,8 @@ export default function DownloadPage() {
               <FeatureList items={game.features} />
             </div>
           </section>
+
+          <ScreenshotGallery shots={game.screenshots} />
         </div>
       </div>
     </main>
