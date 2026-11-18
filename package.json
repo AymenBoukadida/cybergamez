@@ -5,6 +5,9 @@
     "dev": "next dev",
     "build": "next build",
     "preview": "npx serve out",
+    "images": "node scripts/optimize-images.mjs --force",
+    "predev": "node scripts/optimize-images.mjs",
+    "prebuild": "node scripts/optimize-images.mjs",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
