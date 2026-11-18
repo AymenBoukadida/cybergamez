@@ -145,7 +145,9 @@ export function WeeklyDropsSection({
   steamDeals: StoreGame[];
   steamEndsAt: string | null;
 }) {
-  const epicGames = [...current, ...upcoming].slice(0, 2);
+  // Epic can list more than one upcoming week, so render every current and
+  // upcoming freebie instead of assuming a single pair.
+  const epicGames = [...current, ...upcoming];
   const weeklyDeals = steamDeals.slice(0, 6);
   if (epicGames.length === 0 && weeklyDeals.length === 0) return null;
 
