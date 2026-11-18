@@ -13,35 +13,32 @@ function describe(ms: number): string {
   return `${minutes}m`;
 }
 
-export function FreeCountdown({
-  from,
-  until,
-  status,
+export function Countdown({
+  target,
+  kind = "left",
   fallback,
 }: {
-  from: string;
-  until: string;
-  status: "current" | "upcoming";
+  target: string;
+  kind?: "left" | "starts";
   fallback: string;
 }) {
   const [label, setLabel] = useState<string | null>(null);
 
   useEffect(() => {
-    const target = status === "current" ? until : from;
     const update = () => {
       const remaining = Date.parse(target) - Date.now();
       if (Number.isNaN(remaining)) return;
       if (remaining <= 0) {
-        setLabel(status === "current" ? "Offer ended" : "Available now");
+        setLabel(kind === "left" ? "Ended" : "Available now");
         return;
       }
-      setLabel(status === "current" ? `${describe(remaining)} left` : `Starts in ${describe(remaining)}`);
+      setLabel(kind === "left" ? `${describe(remaining)} left` : `Starts in ${describe(remaining)}`);
     };
 
     update();
     const timer = window.setInterval(update, 60_000);
     return () => window.clearInterval(timer);
-  }, [from, status, until]);
+  }, [kind, target]);
 
   return (
     <span className="font-semibold text-text" suppressHydrationWarning>

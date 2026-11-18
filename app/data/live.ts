@@ -38,6 +38,11 @@ export type NewsItem = {
   gameTitle: string | null;
 };
 
+export type WeeklySteam = {
+  deals: string[];
+  endsAt: string;
+};
+
 export type LiveSnapshot = {
   syncedAt: string;
   source: string;
@@ -46,6 +51,9 @@ export type LiveSnapshot = {
   newReleases: string[];
   deals: string[];
   freebies: { current: string[]; upcoming: string[] };
+  weekly: {
+    steam: WeeklySteam;
+  };
   news: NewsItem[];
   games: StoreGame[];
 };
@@ -70,6 +78,8 @@ export const newReleaseGames = gamesFromSlugs(data.newReleases);
 export const dealGames = gamesFromSlugs(data.deals);
 export const currentFreebies = gamesFromSlugs(data.freebies.current);
 export const upcomingFreebies = gamesFromSlugs(data.freebies.upcoming);
+export const weeklySteamGames = gamesFromSlugs(data.weekly?.steam?.deals ?? []);
+export const weeklySteamEndsAt = data.weekly?.steam?.endsAt ?? null;
 
 export const syncedAt = new Date(data.syncedAt);
 

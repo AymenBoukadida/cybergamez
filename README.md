@@ -1,10 +1,11 @@
 # CyberGamez
 
 A live gaming storefront and news site, rebuilt as a static Next.js site, plus a
-playable Subway Surfers demo. The home page carries a featured Steam title, Epic
-free-game giveaways with live countdowns, trending and new Steam releases, current
-deals, and recent gaming headlines. Every game has its own detail page with artwork,
-store metadata, screenshots and a link to the official store.
+playable Subway Surfers demo. The home page carries a featured Steam title, weekly
+drops (Epic free games and Steam weeklong deals with live countdowns), trending and
+new Steam releases, current deals, and recent gaming headlines. Every game has its
+own detail page with artwork, store metadata, screenshots and a link to the official
+store.
 
 This is a portfolio/demo project. It is not affiliated with any game publisher.
 
@@ -25,7 +26,7 @@ This is a portfolio/demo project. It is not affiliated with any game publisher.
 
 | Route             | Contents                                                                 |
 | ----------------- | ------------------------------------------------------------------------ |
-| `/`               | Featured game, Epic freebies, trending, new releases, deals, Steam news   |
+| `/`               | Featured game, weekly drops, trending, new releases, deals, Steam news   |
 | `/games/[slug]/`  | One pre-rendered page per game in the snapshot, with store link and shots |
 | `/download/`      | Subway Surfers demo: APK, captioned trailer + transcript, gallery         |
 | `/sitemap.xml`    | All pages, generated at build time                                       |
@@ -39,6 +40,8 @@ There is no server runtime: every route is generated at build time.
 
 - `store.steampowered.com/api/featuredcategories` for top sellers, new releases and
   current specials;
+- `store.steampowered.com/search/results` with `filter=weeklongdeals` for the weekly
+  Steam deals and their Monday reset window;
 - `store.steampowered.com/api/appdetails` for descriptions, genres, developers,
   prices and screenshots of each app;
 - `api.steampowered.com/ISteamNews/GetNewsForApp/v2` for studio updates and patch
@@ -63,7 +66,8 @@ Store artwork is hotlinked from the official Steam and Epic CDNs. Prices and
 availability are point-in-time values from the last sync; the game page's store
 button always opens the official listing. Free-game countdowns are calculated in
 the browser from the ISO dates in the snapshot, so they stay correct between
-rebuilds.
+rebuilds. The weekly Steam countdown targets the next Monday 10:00 Pacific reset
+computed by the sync script.
 
 ## Automation
 
@@ -76,11 +80,11 @@ Two GitHub Actions workflows keep the site current:
 
 A sync run only publishes data that passed validation and a full production build.
 `scripts/snapshot-validation.mjs` checks that the snapshot has enough games, that
-every section slug resolves, that freebies have valid offers and that URLs and dates
-are well formed. If a store is unreachable or returns an incomplete snapshot, the
-job fails before committing, so the last good snapshot stays live. The job also has
-a single-run concurrency group and retries the push if `main` moved during the
-build.
+every section slug resolves, that freebies and weekly deals have valid offers and
+that URLs and dates are well formed. If a store is unreachable or returns an
+incomplete snapshot, the job fails before committing, so the last good snapshot
+stays live. The job also has a single-run concurrency group and retries the push if
+`main` moved during the build.
 
 Vercel's Git integration is the deploy step: its production deployment follows
 `main`, so the bot commit made by the sync workflow triggers the rebuild that picks

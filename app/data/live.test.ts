@@ -35,6 +35,14 @@ it("keeps free offers inside a valid date window", () => {
   }
 });
 
+it("resolves the weekly Steam deals and their reset date", () => {
+  expect(live.weekly.steam.deals.length).toBeGreaterThan(0);
+  expect(Date.parse(live.weekly.steam.endsAt)).not.toBeNaN();
+  for (const slug of live.weekly.steam.deals) {
+    expect(getGame(slug), `missing game for ${slug}`).toBeDefined();
+  }
+});
+
 it("formats dates and rejects invalid ones", () => {
   expect(formatDate("2026-11-18T12:00:00.000Z")).toMatch(/2026/);
   expect(formatDate("not-a-date")).toBe("");

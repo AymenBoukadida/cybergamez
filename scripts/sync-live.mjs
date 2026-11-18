@@ -9,6 +9,8 @@ import { validateSnapshot } from "./snapshot-validation.mjs";
 const OUT_FILE = path.join("app", "data", "live.generated.json");
 const allowStale = process.argv.includes("--allow-stale");
 const USER_AGENT = "CyberGamezDemo/1.0 (+https://github.com/AymenBoukadida/Web)";
+const PACIFIC_TIME_ZONE = "America/Los_Angeles";
+const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const now = new Date();
 
 function log(message) {
@@ -96,6 +98,64 @@ async function getSteamDetails(appid) {
   return data?.[String(appid)]?.success ? data[String(appid)].data : null;
 }
 
+async function getWeeklongAppIds(limit = 24) {
+  const data = await getJson(
+    `https://store.steampowered.com/search/results/?query&start=0&count=${limit}&sort_by=Discount&filter=weeklongdeals&cc=us&l=en&infinite=1`,
+  );
+  const html = data?.results_html ?? "";
+  const ids = [];
+  for (const match of html.matchAll(/data-ds-appid="([\d,]+)"/g)) {
+    for (const value of match[1].split(",")) {
+      const appid = Number(value);
+      if (Number.isInteger(appid) && appid > 0) ids.push(appid);
+    }
+  }
+  return [...new Set(ids)].slice(0, limit);
+}
+
+function pacificParts(date) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: PACIFIC_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    weekday: "short",
+    hour12: false,
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return {
+    year: Number(values.year),
+    month: Number(values.month),
+    day: Number(values.day),
+    hour: Number(values.hour) % 24,
+    minute: Number(values.minute),
+    second: Number(values.second),
+    weekday: values.weekday,
+  };
+}
+
+function nextWeeklongEnd(date) {
+  const current = pacificParts(date);
+  let daysAhead = (1 - WEEKDAYS.indexOf(current.weekday) + 7) % 7;
+  const passedReset = current.hour >= 10;
+  if (daysAhead === 0 && passedReset) daysAhead = 7;
+
+  const wallClock = Date.UTC(current.year, current.month - 1, current.day + daysAhead, 10, 0, 0);
+  const rendered = pacificParts(new Date(wallClock));
+  const renderedAsUtc = Date.UTC(
+    rendered.year,
+    rendered.month - 1,
+    rendered.day,
+    rendered.hour,
+    rendered.minute,
+    rendered.second,
+  );
+  return new Date(wallClock - (renderedAsUtc - wallClock));
+}
+
 function steamGame(appid, item, details, usedSlugs) {
   if (!details || details.type !== "game") return null;
 
@@ -131,13 +191,17 @@ function steamGame(appid, item, details, usedSlugs) {
     discountPercent: price?.discount_percent ?? item.discount_percent ?? 0,
     cardImage:
       item.header_image ??
+      details.header_image ??
       `https://cdn.cloudflare.steamstatic.com/steam/apps/${appid}/header.jpg`,
     heroImage:
       details.screenshots?.[0]?.path_full ??
       item.header_image ??
+      details.header_image ??
       `https://cdn.cloudflare.steamstatic.com/steam/apps/${appid}/header.jpg`,
     headerImage:
-      item.header_image ?? `https://cdn.cloudflare.steamstatic.com/steam/apps/${appid}/header.jpg`,
+      item.header_image ??
+      details.header_image ??
+      `https://cdn.cloudflare.steamstatic.com/steam/apps/${appid}/header.jpg`,
     screenshots: (details.screenshots ?? []).slice(0, 3).map((shot) => shot.path_full),
     free: null,
   };
@@ -208,10 +272,20 @@ async function main() {
     "https://store.steampowered.com/api/featuredcategories?cc=us&l=en",
   );
 
+  let weeklyItems = [];
+  try {
+    const weeklyAppIds = await getWeeklongAppIds(24);
+    weeklyItems = weeklyAppIds.map((id) => ({ id }));
+    log(`Found ${weeklyItems.length} Steam weeklong deals`);
+  } catch (error) {
+    log(`Weekly Steam deals unavailable: ${error.message}`);
+  }
+
   const sections = {
     trending: (featured.top_sellers?.items ?? []).slice(0, 10),
     newReleases: (featured.new_releases?.items ?? []).slice(0, 10),
     deals: (featured.specials?.items ?? []).filter((item) => item.discount_percent > 0).slice(0, 6),
+    weekly: weeklyItems,
   };
 
   const ids = [
@@ -255,6 +329,7 @@ async function main() {
   const trending = byAppId(sections.trending);
   const newReleases = byAppId(sections.newReleases);
   const deals = byAppId(sections.deals);
+  const weeklyDeals = byAppId(sections.weekly).slice(0, 8);
   const featuredSlug = trending[0] ?? newReleases[0] ?? deals[0] ?? null;
 
   const news = [];
@@ -331,6 +406,12 @@ async function main() {
     newReleases,
     deals,
     freebies,
+    weekly: {
+      steam: {
+        deals: weeklyDeals,
+        endsAt: nextWeeklongEnd(now).toISOString(),
+      },
+    },
     news: uniqueNews,
     games,
   };
@@ -344,7 +425,8 @@ async function main() {
   await writeFile(OUT_FILE, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
   log(
     `Wrote ${OUT_FILE}: ${games.length} games, ${uniqueNews.length} news, ` +
-      `${freebies.current.length} current + ${freebies.upcoming.length} upcoming freebies`,
+      `${freebies.current.length} current + ${freebies.upcoming.length} upcoming freebies, ` +
+      `${weeklyDeals.length} weeklong deals`,
   );
 }
 

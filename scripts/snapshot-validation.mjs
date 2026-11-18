@@ -77,6 +77,25 @@ export function validateSnapshot(snapshot, { maxAgeHours = null, now = Date.now(
     }
   }
 
+  const weeklySteam = snapshot.weekly?.steam;
+  if (!weeklySteam || typeof weeklySteam !== "object") {
+    errors.push("weekly.steam is missing");
+  } else {
+    if (!Array.isArray(weeklySteam.deals)) {
+      errors.push("weekly.steam.deals is not an array");
+    } else {
+      for (const slug of weeklySteam.deals) {
+        if (!slugs.has(slug)) errors.push(`weekly.steam.deals references missing game "${slug}"`);
+      }
+    }
+    const endsAt = Date.parse(weeklySteam.endsAt);
+    if (Number.isNaN(endsAt)) {
+      errors.push("weekly.steam.endsAt is not a date");
+    } else if (endsAt < now - 5 * 60_000) {
+      errors.push("weekly.steam.endsAt is in the past");
+    }
+  }
+
   if (!Array.isArray(snapshot.news)) {
     errors.push("news is not an array");
   } else {
