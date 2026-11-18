@@ -8,6 +8,14 @@ export type FreeOffer = {
   until: string;
 };
 
+export type CheapestDeal = {
+  store: string;
+  priceLabel: string;
+  retailLabel?: string;
+  savingsPercent: number;
+  url: string;
+};
+
 export type StoreGame = {
   slug: string;
   store: Store;
@@ -26,6 +34,8 @@ export type StoreGame = {
   headerImage: string;
   screenshots: string[];
   free: FreeOffer | null;
+  priceCompared?: boolean;
+  cheapest?: CheapestDeal;
 };
 
 export type NewsItem = {

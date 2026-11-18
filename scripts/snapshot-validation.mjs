@@ -43,6 +43,18 @@ export function validateSnapshot(snapshot, { maxAgeHours = null, now = Date.now(
     if (!isUrl(game?.headerImage)) errors.push(`${label}.headerImage is not an absolute URL`);
     if (!isUrl(game?.heroImage)) errors.push(`${label}.heroImage is not an absolute URL`);
     if (!Array.isArray(game?.screenshots)) errors.push(`${label}.screenshots is not an array`);
+    if (game?.priceCompared !== undefined && typeof game.priceCompared !== "boolean") {
+      errors.push(`${label}.priceCompared is not a boolean`);
+    }
+    if (game?.cheapest !== undefined && game?.cheapest !== null) {
+      const cheapest = game.cheapest;
+      if (!isText(cheapest.store)) errors.push(`${label}.cheapest.store is missing`);
+      if (!isText(cheapest.priceLabel)) errors.push(`${label}.cheapest.priceLabel is missing`);
+      if (!isUrl(cheapest.url)) errors.push(`${label}.cheapest.url is not an absolute URL`);
+      if (!Number.isFinite(cheapest.savingsPercent)) {
+        errors.push(`${label}.cheapest.savingsPercent is not a number`);
+      }
+    }
   }
 
   if (!isText(snapshot.featured)) {

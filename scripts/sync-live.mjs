@@ -4,17 +4,24 @@
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { chooseCheapestDeal, usdAmount } from "./lib/cheapshark.mjs";
 import { validateSnapshot } from "./snapshot-validation.mjs";
 
 const OUT_FILE = path.join("app", "data", "live.generated.json");
 const allowStale = process.argv.includes("--allow-stale");
 const USER_AGENT = "CyberGamez/1.0 (+https://github.com/AymenBoukadida/cybergamez)";
+const CHEAPSHARK_API = "https://www.cheapshark.com/api/1.0";
+const CHEAPSHARK_DELAY_MS = 1200;
 const PACIFIC_TIME_ZONE = "America/Los_Angeles";
 const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const now = new Date();
 
 function log(message) {
   console.log(`[sync] ${message}`);
+}
+
+function delay(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
 }
 
 async function getJson(url, attempts = 3) {
@@ -32,7 +39,8 @@ async function getJson(url, attempts = 3) {
     } catch (error) {
       lastError = error;
       if (attempt < attempts) {
-        await new Promise((resolve) => setTimeout(resolve, 500 * attempt));
+        const wait = /HTTP 429/.test(error.message) ? 8000 * attempt : 500 * attempt;
+        await delay(wait);
       }
     }
   }
@@ -111,6 +119,63 @@ async function getWeeklongAppIds(limit = 24) {
     }
   }
   return [...new Set(ids)].slice(0, limit);
+}
+
+async function addCheapestPrices(games) {
+  const steamGames = games.filter((game) => game.store === "steam" && game.steamAppId);
+  let storeNames;
+  try {
+    const stores = await getJson(`${CHEAPSHARK_API}/stores`);
+    storeNames = new Map((stores ?? []).map((store) => [String(store.storeID), store.storeName]));
+  } catch (error) {
+    log(`Price comparison skipped: ${error.message}`);
+    return;
+  }
+
+  let compared = 0;
+  let cheaper = 0;
+  let limited = 0;
+
+  for (const game of steamGames) {
+    if (limited >= 3) {
+      log("Price comparison stopped early: CheapShark is rate limiting");
+      break;
+    }
+
+    try {
+      const deals = await getJson(`${CHEAPSHARK_API}/deals?steamAppID=${game.steamAppId}`);
+      const listingPrice = usdAmount(game.priceLabel);
+      if (!Array.isArray(deals) || deals.length === 0 || !Number.isFinite(listingPrice)) continue;
+
+      const cheapest = chooseCheapestDeal(
+        deals.map((deal) => ({
+          storeID: deal.storeID,
+          dealID: deal.dealID,
+          price: deal.salePrice,
+          retailPrice: deal.normalPrice,
+          savings: deal.savings,
+        })),
+        storeNames,
+        { steamAppId: game.steamAppId },
+      );
+      if (!cheapest) continue;
+
+      limited = 0;
+      game.priceCompared = true;
+      compared += 1;
+
+      if (usdAmount(cheapest.priceLabel) < listingPrice) {
+        game.cheapest = cheapest;
+        cheaper += 1;
+      }
+    } catch (error) {
+      if (/HTTP 429/.test(error.message)) limited += 1;
+      log(`No price comparison for ${game.title}: ${error.message}`);
+    }
+    await delay(CHEAPSHARK_DELAY_MS);
+  }
+
+  log(`Compared prices for ${compared}/${steamGames.length} Steam games, ${cheaper} cheaper elsewhere`);
 }
 
 function pacificParts(date) {
@@ -398,9 +463,12 @@ async function main() {
   const games = [...gamesByAppId.values(), ...epicGames];
   if (games.length === 0) throw new Error("No games were produced");
 
+  log("Comparing prices across stores");
+  await addCheapestPrices(games);
+
   const snapshot = {
     syncedAt: now.toISOString(),
-    source: "Steam Store + Epic Games Store",
+    source: "Steam Store + Epic Games Store + CheapShark",
     featured: featuredSlug,
     trending,
     newReleases,

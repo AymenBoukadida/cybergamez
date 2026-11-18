@@ -6,8 +6,17 @@ const STORE_LABEL: Record<Store, string> = {
   epic: "Epic Games",
 };
 
+const STORE_MATCH_PREFIX: Record<Store, string> = {
+  steam: "steam",
+  epic: "epic games",
+};
+
 export function storeLabel(store: Store): string {
   return STORE_LABEL[store];
+}
+
+export function isListingStore(store: Store, candidate: string): boolean {
+  return candidate.trim().toLowerCase().startsWith(STORE_MATCH_PREFIX[store]);
 }
 
 export function StoreBadge({ store, className }: { store: Store; className?: string }) {

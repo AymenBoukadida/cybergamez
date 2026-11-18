@@ -16,6 +16,8 @@ and deals, and fresh headlines — all pre-rendered as a static Next.js site.
 - **Trending and new releases** — pulled from Steam's top sellers and new-release
   feeds on every data refresh.
 - **Deals** — current Steam specials, biggest discounts first.
+- **Cheapest price** — when another tracked store sells a game for less, the card
+  and the game page show that lower price with a link straight to the store.
 - **News** — studio updates and patch notes from Steam's news API.
 - **Game pages** — one pre-rendered page per game with artwork, genres, developers,
   price, screenshots and a link to the official store listing.
@@ -32,8 +34,8 @@ This is a portfolio project. It is not affiliated with any game publisher.
   **lucide-react** for icons.
 - **Vitest** and **Testing Library** for component tests.
 - **sharp** for the responsive image pipeline (run automatically before dev/build).
-- Build-time sync scripts that snapshot the public Steam and Epic Games Store
-  endpoints into `app/data/live.generated.json`.
+- Build-time sync scripts that snapshot the public Steam, Epic Games Store and
+  CheapShark endpoints into `app/data/live.generated.json`.
 
 ## Routes
 
@@ -59,7 +61,10 @@ There is no server runtime: every route is generated at build time.
 - `api.steampowered.com/ISteamNews/GetNewsForApp/v2` for studio updates and patch
   notes;
 - `store-site-backend-static.ak.epicgames.com/freeGamesPromotions` for the current
-  and upcoming Epic free games.
+  and upcoming Epic free games;
+- `www.cheapshark.com/api/1.0/deals` for each Steam game's prices across the
+  stores CheapShark tracks, resolved through the store list at
+  `www.cheapshark.com/api/1.0/stores`.
 
 The script normalizes everything into a single committed snapshot at
 `app/data/live.generated.json`. `app/data/live.ts` exposes typed accessors, section
@@ -76,7 +81,9 @@ visible.
 
 Store artwork is hotlinked from the official Steam and Epic CDNs. Prices and
 availability are point-in-time values from the last sync; the game page's store
-button always opens the official listing. Free-game countdowns are calculated in
+button always opens the official listing. The cheapest-price block compares the
+stores CheapShark tracks in USD and links through CheapShark's deal redirect, or
+straight to Steam when Steam is the cheapest. Free-game countdowns are calculated in
 the browser from the ISO dates in the snapshot, so they stay correct between
 rebuilds. The weekly Steam countdown targets the next Monday 10:00 Pacific reset
 computed by the sync script.
@@ -88,7 +95,7 @@ Two GitHub Actions workflows keep the site current:
 | Workflow | Trigger | What it does |
 | --- | --- | --- |
 | `.github/workflows/ci.yml` | Every push, every pull request, manual dispatch | Installs dependencies, validates the committed snapshot, runs lint, typecheck, tests and the static build. |
-| `.github/workflows/sync-live.yml` | Every six hours (`17 */6 * * *`) and manual dispatch | Fetches Steam and Epic, validates the new snapshot, runs the tests, builds the export, then commits `app/data/live.generated.json` to `main`. |
+| `.github/workflows/sync-live.yml` | Every six hours (`17 */6 * * *`) and manual dispatch | Fetches Steam, Epic and CheapShark prices, validates the new snapshot, runs the tests, builds the export, then commits `app/data/live.generated.json` to `main`. |
 
 A sync run only publishes data that passed validation and a full production build.
 `scripts/snapshot-validation.mjs` checks that the snapshot has enough games, that
@@ -130,7 +137,7 @@ npm run preview
 | `npm run build:ci`    | Build from the committed snapshot without a network sync    |
 | `npm run verify:data` | Validate the committed snapshot and report its age          |
 | `npm run preview`     | Serve the built `out/` folder with `npx serve`              |
-| `npm run sync`        | Refresh `app/data/live.generated.json` from Steam and Epic  |
+| `npm run sync`        | Refresh `app/data/live.generated.json` from Steam, Epic and CheapShark |
 | `npm run images`      | Regenerate optimized images from `assets/img/` (forced)     |
 | `npm test`            | Run the Vitest suite once                                   |
 | `npm run typecheck`   | Run `tsc --noEmit`                                          |
@@ -195,6 +202,10 @@ variable unset for a root deployment.
 
 - Live game pages do not host downloads. They show the current price and send you
   to Steam or Epic to buy or claim the game.
+- The cheapest-price comparison only covers games CheapShark tracks and is quoted
+  in USD. When another store undercuts the listed price, the card and game page
+  link to that deal; otherwise the game page says the listed price is already the
+  lowest tracked.
 - Store data is refreshed by a build, not streamed in real time. The footer shows
   the snapshot date, and the hero and game pages show when prices were checked.
 

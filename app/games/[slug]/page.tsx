@@ -83,6 +83,8 @@ export default async function GamePage({ params }: PageProps) {
   const more = relatedGames(game);
   const freeNow = game.free?.status === "current";
   const freeSoon = game.free?.status === "upcoming";
+  const cheaperDeal = game.cheapest ?? null;
+  const priceCompared = Boolean(game.cheapest || game.priceCompared);
 
   const facts: { label: string; value: string; icon: typeof CalendarDays }[] = [];
   if (game.releaseDate) {
@@ -150,6 +152,51 @@ export default async function GamePage({ params }: PageProps) {
             {freeNow ? "Claim on Epic" : freeSoon ? "Preview on Epic" : `Get it on ${storeLabel(game.store)}`}
             <ArrowUpRight className="size-4" aria-hidden="true" />
           </a>
+
+          {priceCompared ? (
+            <div className="mt-4 rounded-xl border border-line bg-surface-2 p-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-muted">
+                Cheapest right now
+              </p>
+              {cheaperDeal ? (
+                <>
+                  <div className="mt-1 flex items-center justify-between gap-3">
+                    <p className="text-sm">
+                      <span className="font-semibold text-text">{cheaperDeal.priceLabel}</span>
+                      <span className="text-muted"> at {cheaperDeal.store}</span>
+                      {cheaperDeal.retailLabel ? (
+                        <span className="ml-2 text-xs text-muted line-through">
+                          {cheaperDeal.retailLabel}
+                        </span>
+                      ) : null}
+                    </p>
+                    {cheaperDeal.savingsPercent > 0 ? (
+                      <span className="shrink-0 rounded bg-gold/15 px-1.5 py-0.5 text-[0.65rem] font-bold text-gold">
+                        -{cheaperDeal.savingsPercent}%
+                      </span>
+                    ) : null}
+                  </div>
+                  <a
+                    href={cheaperDeal.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`Open the cheapest deal for ${game.title} at ${cheaperDeal.store}`}
+                    className="focus-ring mt-2 inline-flex items-center gap-1 text-xs font-semibold text-brand hover:underline"
+                  >
+                    Open at {cheaperDeal.store}
+                    <ArrowUpRight className="size-3.5" aria-hidden="true" />
+                  </a>
+                </>
+              ) : (
+                <p className="mt-1 text-sm font-semibold text-ok">
+                  Already the lowest tracked price
+                </p>
+              )}
+              <p className="mt-2 text-[0.65rem] text-muted">
+                Compared across tracked stores by CheapShark.
+              </p>
+            </div>
+          ) : null}
 
           <p className="mt-3 text-center text-[0.7rem] text-muted">
             Checked {formatDate(syncedAt.toISOString())} · opens the official store

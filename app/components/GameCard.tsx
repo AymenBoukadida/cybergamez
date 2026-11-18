@@ -1,11 +1,13 @@
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import type { StoreGame } from "@/app/data/live";
-import { StoreBadge, StorePrice } from "./StoreMeta";
+import { StoreBadge, StorePrice, isListingStore } from "./StoreMeta";
 
 export function GameCard({ game, priority = false }: { game: StoreGame; priority?: boolean }) {
   const freeNow = game.free?.status === "current";
   const discounted = game.discountPercent > 0 && !freeNow;
+  const cheaperElsewhere =
+    game.cheapest && !isListingStore(game.store, game.cheapest.store) ? game.cheapest : null;
 
   return (
     <Link
@@ -48,8 +50,15 @@ export function GameCard({ game, priority = false }: { game: StoreGame; priority
             ? game.genres.slice(0, 2).join(" · ")
             : game.developers.slice(0, 2).join(" · ") || "On " + game.store}
         </p>
-        <div className="mt-auto flex items-center justify-between gap-3 pt-3">
-          <StorePrice game={game} />
+        <div className="mt-auto flex items-end justify-between gap-3 pt-3">
+          <div className="min-w-0">
+            <StorePrice game={game} />
+            {cheaperElsewhere ? (
+              <p className="mt-0.5 truncate text-[0.68rem] text-muted">
+                Cheaper at {cheaperElsewhere.store}: {cheaperElsewhere.priceLabel}
+              </p>
+            ) : null}
+          </div>
           <ArrowUpRight
             className="size-4 shrink-0 text-muted transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand motion-reduce:group-hover:translate-x-0 motion-reduce:group-hover:translate-y-0"
             aria-hidden="true"

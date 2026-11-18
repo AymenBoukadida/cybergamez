@@ -8,6 +8,11 @@ Live game art added on 2026-11-18 is **not** stored here. It is hotlinked from t
 official Steam and Epic Games Store CDNs by `scripts/sync-live.mjs` and credited to
 its publisher; see the live-data section of the README.
 
+The cheapest-price comparison is fetched at build time and is **not** stored here
+either. `scripts/sync-live.mjs` queries the public CheapShark API
+(https://www.cheapshark.com/api/1.0/) for per-game store prices and links the
+lowest deal through CheapShark's redirect. Prices are quoted in USD.
+
 | File | Game | Source URL | Note |
 | --- | --- | --- | --- |
 | `hero-cyberpunk.png` | Cyberpunk 2077 | https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/f678ed77c2fe7060ac9c64e32e1472e3ec3ab7dc/ss_f678ed77c2fe7060ac9c64e32e1472e3ec3ab7dc.1920x1080.jpg?t=1794474878 | Steam store screenshot |
