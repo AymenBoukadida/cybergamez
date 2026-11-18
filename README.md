@@ -164,10 +164,10 @@ it in `scripts/images.mjs`.
    Directory** empty (or `.`).
 2. Keep the detected framework preset (Next.js). The build command is
    `npm run build`; the output is the static `out/` folder.
-3. Set `NEXT_PUBLIC_SITE_URL` to the production origin, for example
-   `https://cybergamez.example.com`. It feeds `metadataBase`, canonical URLs, the
-   Open Graph tags and the sitemap. If unset, it falls back to
-   `http://localhost:3000`.
+3. Optionally set `NEXT_PUBLIC_SITE_URL` to the production origin, for example
+   `https://cybergamez.vercel.app`. It feeds `metadataBase`, canonical URLs, the
+   Open Graph tags and the sitemap. When unset, the build uses Vercel's
+   `VERCEL_PROJECT_PRODUCTION_URL`, then falls back to `http://localhost:3000`.
 4. Connect the Git integration to the `main` branch. Every push to `main` creates a
    production deployment, including the snapshot commits from the sync workflow.
 5. In GitHub, open **Settings → Actions → General → Workflow permissions** and allow
@@ -175,8 +175,8 @@ it in `scripts/images.mjs`.
 6. Run **Sync live game data** once from the Actions tab with `workflow_dispatch` to
    confirm the pipeline can write to `main` and that Vercel deploys the result.
 
-No environment variables are required for the site to render; only absolute URLs
-in metadata depend on `NEXT_PUBLIC_SITE_URL`.
+No environment variables are required: absolute URLs use `NEXT_PUBLIC_SITE_URL`
+when set, otherwise Vercel's production URL, otherwise `http://localhost:3000`.
 
 ### Building for a subpath
 

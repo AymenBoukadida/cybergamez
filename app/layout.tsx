@@ -9,13 +9,14 @@ import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 import { ToastProvider } from "./components/Toast";
 import { asset } from "./lib/base-path";
+import { siteUrl } from "./lib/site-url";
 import "./globals.css";
 
 const description =
   "Live Steam releases, Epic free-game giveaways and gaming headlines, refreshed on every build.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "CyberGamez — Live game releases, free games and news",
     template: "%s | CyberGamez",
