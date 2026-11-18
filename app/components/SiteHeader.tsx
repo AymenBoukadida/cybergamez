@@ -64,13 +64,12 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Link
-            href="/download/"
-            className={clsx(buttonClasses({ size: "sm" }), "hidden min-[900px]:inline-flex")}
-          >
-            Get Subway Surfers
-            <ArrowRight className="size-4" aria-hidden="true" />
-          </Link>
+          <div className="hidden min-[900px]:block">
+            <Link href="/download/" className={buttonClasses({ size: "sm" })}>
+              Get Subway Surfers
+              <ArrowRight className="size-4" aria-hidden="true" />
+            </Link>
+          </div>
 
           <button
             type="button"
