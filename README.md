@@ -60,8 +60,6 @@ lucide. Tests run on Vitest.
   [`assets/SOURCES.md`](assets/SOURCES.md).
 - Fonts: [Inter](https://rsms.me/inter/) and
   [Chakra Petch](https://fonts.google.com/specimen/Chakra+Petch) via Fontsource.
-- Split from [AymenBoukadida/Web](https://github.com/AymenBoukadida/Web) with its
-  commit history.
 
 ## License
 
