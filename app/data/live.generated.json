@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-18T13:26:37.010Z",
+  "syncedAt": "2026-11-18T14:07:30.241Z",
   "source": "Steam Store + Epic Games Store",
   "featured": "bodycam",
   "trending": [
@@ -246,13 +246,13 @@
       "storeUrl": "https://store.steampowered.com/app/4078690/",
       "priceLabel": "Free to play",
       "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/0754945ba8fda53877b1009c999bc137971f31e3/header.jpg?t=1795005285",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/c85749e8877bd4e9b333293b0412884093811bf4/ss_c85749e8877bd4e9b333293b0412884093811bf4.1920x1080.jpg?t=1795005285",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/0754945ba8fda53877b1009c999bc137971f31e3/header.jpg?t=1795005285",
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/0754945ba8fda53877b1009c999bc137971f31e3/header.jpg?t=1795009894",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/c85749e8877bd4e9b333293b0412884093811bf4/ss_c85749e8877bd4e9b333293b0412884093811bf4.1920x1080.jpg?t=1795009894",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/0754945ba8fda53877b1009c999bc137971f31e3/header.jpg?t=1795009894",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/c85749e8877bd4e9b333293b0412884093811bf4/ss_c85749e8877bd4e9b333293b0412884093811bf4.1920x1080.jpg?t=1795005285",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/dcda999698cf4bcbb1dd6efdbc2e977e80b44c5d/ss_dcda999698cf4bcbb1dd6efdbc2e977e80b44c5d.1920x1080.jpg?t=1795005285",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/b0ad0c2a17656ebf855848688ca8f9791d391175/ss_b0ad0c2a17656ebf855848688ca8f9791d391175.1920x1080.jpg?t=1795005285"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/c85749e8877bd4e9b333293b0412884093811bf4/ss_c85749e8877bd4e9b333293b0412884093811bf4.1920x1080.jpg?t=1795009894",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/dcda999698cf4bcbb1dd6efdbc2e977e80b44c5d/ss_dcda999698cf4bcbb1dd6efdbc2e977e80b44c5d.1920x1080.jpg?t=1795009894",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078690/b0ad0c2a17656ebf855848688ca8f9791d391175/ss_b0ad0c2a17656ebf855848688ca8f9791d391175.1920x1080.jpg?t=1795009894"
       ],
       "free": null
     },

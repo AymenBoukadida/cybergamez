@@ -4,6 +4,7 @@
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { validateSnapshot } from "./snapshot-validation.mjs";
 
 const OUT_FILE = path.join("app", "data", "live.generated.json");
 const allowStale = process.argv.includes("--allow-stale");
@@ -333,6 +334,11 @@ async function main() {
     news: uniqueNews,
     games,
   };
+
+  const errors = validateSnapshot(snapshot);
+  if (errors.length > 0) {
+    throw new Error(`Snapshot validation failed:\n${errors.map((error) => ` - ${error}`).join("\n")}`);
+  }
 
   await mkdir(path.dirname(OUT_FILE), { recursive: true });
   await writeFile(OUT_FILE, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");

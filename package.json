@@ -4,8 +4,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:ci": "node scripts/optimize-images.mjs && next build",
     "preview": "npx serve out",
     "sync": "node scripts/sync-live.mjs",
+    "verify:data": "node scripts/verify-snapshot.mjs",
     "images": "node scripts/optimize-images.mjs --force",
     "predev": "node scripts/optimize-images.mjs",
     "prebuild": "node scripts/optimize-images.mjs && node scripts/sync-live.mjs --allow-stale",

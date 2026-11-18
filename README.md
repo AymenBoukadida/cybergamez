@@ -65,14 +65,29 @@ button always opens the official listing. Free-game countdowns are calculated in
 the browser from the ISO dates in the snapshot, so they stay correct between
 rebuilds.
 
-### Scheduled refresh
+## Automation
 
-`.github/workflows/sync-live.yml` runs every six hours and on manual dispatch. It
-refreshes the snapshot and commits it back to the repository. If your host deploys
-on push (Vercel, Netlify, GitHub Pages), that commit triggers a fresh build and the
-site picks up the new data. No secrets or API keys are required.
+Two GitHub Actions workflows keep the site current:
 
-To refresh without CI, run `npm run sync` locally and commit the changed snapshot.
+| Workflow | Trigger | What it does |
+| --- | --- | --- |
+| `.github/workflows/ci.yml` | Every push that touches the site or workflows, every pull request, manual dispatch | Installs dependencies, validates the committed snapshot, runs lint, typecheck, tests and the static build. |
+| `.github/workflows/sync-live.yml` | Every six hours (`17 */6 * * *`) and manual dispatch | Fetches Steam and Epic, validates the new snapshot, runs the tests, builds the export, then commits `app/data/live.generated.json` to `main`. |
+
+A sync run only publishes data that passed validation and a full production build.
+`scripts/snapshot-validation.mjs` checks that the snapshot has enough games, that
+every section slug resolves, that freebies have valid offers and that URLs and dates
+are well formed. If a store is unreachable or returns an incomplete snapshot, the
+job fails before committing, so the last good snapshot stays live. The job also has
+a single-run concurrency group and retries the push if `main` moved during the
+build.
+
+Vercel's Git integration is the deploy step: its production deployment follows
+`main`, so the bot commit made by the sync workflow triggers the rebuild that picks
+up the new data. No API keys or deploy hooks are needed.
+
+To refresh without CI, run `npm run sync`, then `npm run verify:data`, and commit
+the changed snapshot.
 
 ## Scripts
 
@@ -82,6 +97,8 @@ Run these from `Responsive-Gaming-Website/`:
 | ------------------- | ------------------------------------------------------------------- |
 | `npm run dev`       | Start the dev server on `http://localhost:3000`                     |
 | `npm run build`     | Sync live data and build the static export into `out/`               |
+| `npm run build:ci`  | Build from the committed snapshot without a network sync            |
+| `npm run verify:data` | Validate the committed snapshot and report its age                |
 | `npm run preview`   | Serve the built `out/` folder with `npx serve`                      |
 | `npm run sync`      | Refresh `app/data/live.generated.json` from Steam and Epic           |
 | `npm run images`    | Regenerate optimized images from `assets/img/` (forced)             |
@@ -122,8 +139,12 @@ npm run preview
    `https://cybergamez.example.com`. It feeds `metadataBase`, canonical URLs, the
    Open Graph tags and the sitemap. If unset, it falls back to
    `http://localhost:3000`.
-5. Optional: enable the scheduled sync workflow so the data refreshes without a
-   manual commit. Vercel redeploys on the workflow's commit.
+5. Connect the Git integration to the `main` branch. Every push to `main` creates a
+   production deployment, including the snapshot commits from the sync workflow.
+6. In GitHub, open **Settings → Actions → General → Workflow permissions** and allow
+   **Read and write permissions**, so the sync workflow can push its snapshot commit.
+7. Run **Sync live game data** once from the Actions tab with `workflow_dispatch` to
+   confirm the pipeline can write to `main` and that Vercel deploys the result.
 
 No environment variables are required for the site to render; only absolute URLs
 in metadata depend on `NEXT_PUBLIC_SITE_URL`.
