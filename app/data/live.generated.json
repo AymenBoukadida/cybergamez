@@ -1,30 +1,30 @@
 {
-  "syncedAt": "2026-11-22T06:46:28.678Z",
+  "syncedAt": "2026-11-22T19:38:58.020Z",
   "source": "Steam Store + Epic Games Store + CheapShark",
-  "featured": "bodycam",
+  "featured": "call-of-duty-modern-warfare-4",
   "trending": [
-    "bodycam",
     "call-of-duty-modern-warfare-4",
-    "ghost-of-tsushima-directors-cut"
+    "bodycam",
+    "grand-theft-auto-v-enhanced"
   ],
   "newReleases": [
-    "four-directions",
-    "stormtide-skies",
-    "neon-grid-defenders",
-    "lost-gateways",
-    "slots-of-chaos-melee-arena",
-    "idle-minertia",
-    "cheese-racers",
-    "wall-punch-escape-the-walls-simulator",
-    "spark-of-tales",
-    "wrong-tank"
+    "midnight-shift-2-last-rental",
+    "nano-reef",
+    "pixireels",
+    "keep-the-ammo-flowing",
+    "bug-huntress-wants-to-battle",
+    "blorbit",
+    "pawn-shop-together",
+    "save-the-sandcastle",
+    "republica-do-caos",
+    "weirdbus"
   ],
   "deals": [
     "ghost-of-tsushima-directors-cut",
     "marvels-spider-man-remastered",
     "crimson-desert-enhanced",
-    "forza-horizon-6",
     "marvels-spider-man-2",
+    "final-fantasy-vii-rebirth",
     "god-of-war"
   ],
   "freebies": {
@@ -46,21 +46,12 @@
         "call-to-arms-gates-of-hell-ostfront",
         "conquest-of-elysium-5",
         "space-engineers",
-        "songs-of-glimmerwick"
+        "glory-to-the-heroestm"
       ],
       "endsAt": "2026-11-23T18:00:00.000Z"
     }
   },
   "news": [
-    {
-      "title": "Самурайский экшен Ghost of Tsushima DIRECTOR'S CUT обновил рекорд скидок в Steam: игру впервые уценили сразу на 50%",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110430942",
-      "publishedAt": "2026-11-20T05:38:53.000Z",
-      "source": "PlayGround.ru - официальная группа",
-      "summary": "В цифровом магазине Steam стартовала новая распродажа Ghost of Tsushima DIRECTOR'S CUT, в рамках которой знаменитый самурайский экшен от студии Sucker Punch Productions впервые получил скидку в размере 50%. Столь…",
-      "gameSlug": "ghost-of-tsushima-directors-cut",
-      "gameTitle": "Ghost of Tsushima DIRECTOR'S CUT"
-    },
     {
       "title": "Проверенная формула дала трещину: Новая Call of Duty не смогла попасть в десятку бестселлеров 2026 года в США",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/Gamemag.ru/1849827110431839",
@@ -80,6 +71,24 @@
       "gameTitle": "Call of Duty®: Modern Warfare® 4"
     },
     {
+      "title": "Бывший разработчик Rockstar рассказал о незаметной детали GTA 5, на которую потратил немало времени",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849458702694429",
+      "publishedAt": "2026-11-17T16:21:39.000Z",
+      "source": "PlayGround.ru - официальная группа",
+      "summary": "Бывший сотрудник Rockstar Games Мэтт Фридман раскрыл небольшую, но довольно необычную деталь GTA 5, которую, по его собственному признанию, вряд ли заметили многие игроки. Речь идет о следах крови на джинсах Тревора…",
+      "gameSlug": "grand-theft-auto-v-enhanced",
+      "gameTitle": "Grand Theft Auto V Enhanced"
+    },
+    {
+      "title": "Миссия невыполнима: как разработчики GTA 5 реализовали мгновенную смену персонажей на старых консолях",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849458702693609",
+      "publishedAt": "2026-11-17T13:00:03.000Z",
+      "source": "PlayGround.ru - официальная группа",
+      "summary": "В преддверии выхода GTA 6, где игроки смогут свободно переключаться между Джейсоном и Люсией, бывший технический дизайнер Rockstar Мэтт Фридман рассказал порталу IGN, каких усилий стоила реализация этой механики в GTA 5…",
+      "gameSlug": "grand-theft-auto-v-enhanced",
+      "gameTitle": "Grand Theft Auto V Enhanced"
+    },
+    {
       "title": "Steam Global Top Sellers for week of 10 Nov — 17 November 2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1849458702693904",
       "publishedAt": "2026-11-17T09:00:00.000Z",
@@ -96,47 +105,9 @@
       "summary": "PATCH NOTES V0.9.1Multiplayer & Anti-CheatFixed an issue where players could get stuck during Easy Anti-Cheat registration when joining a session.Improved join times when several players connect at the same time: each…",
       "gameSlug": "bodycam",
       "gameTitle": "Bodycam"
-    },
-    {
-      "title": "Аниме-адаптацию Ghost of Tsushima: Legends перенесли на 2028 год",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846018067932246",
-      "publishedAt": "2026-10-09T05:56:27.000Z",
-      "source": "PlayGround.ru - официальная группа",
-      "summary": "Компании Aniplex и Crunchyroll официально объявили о переносе премьеры аниме-сериала Ghost of Tsushima: Legends на 2028 год. Изначально релиз шоу был запланирован на 2027 год. О смене релизного окна представители…",
-      "gameSlug": "ghost-of-tsushima-directors-cut",
-      "gameTitle": "Ghost of Tsushima DIRECTOR'S CUT"
     }
   ],
   "games": [
-    {
-      "slug": "bodycam",
-      "store": "steam",
-      "steamAppId": 2406770,
-      "title": "Bodycam",
-      "description": "Bodycam is the first tactical multiplayer FPS with a true body-camera view in Unreal Engine 5. Close-quarters combats feel raw and loud. Every angle, callout, and bullet matters. Play Deathmatch, Team Deathmatch, and Wingman on photoreal maps where teamplay, tactics, and clutch skill are key.",
-      "genres": [
-        "Action",
-        "Indie",
-        "Massively Multiplayer"
-      ],
-      "releaseDate": "Jun 7, 2024",
-      "developers": [
-        "Reissad"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/2406770/",
-      "priceLabel": "$33.32",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/5689aeb849dc9ed3d9b70ad1b830d0c94c143138/ss_5689aeb849dc9ed3d9b70ad1b830d0c94c143138.1920x1080.jpg?t=1794951323",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/5689aeb849dc9ed3d9b70ad1b830d0c94c143138/ss_5689aeb849dc9ed3d9b70ad1b830d0c94c143138.1920x1080.jpg?t=1794951323",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ad5579da682b0f91c23a895b37089a24dda24258/ss_ad5579da682b0f91c23a895b37089a24dda24258.1920x1080.jpg?t=1794951323",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/dcf7dfe29365b0bf8e3e30798f7c8be5ac9a3ea2/ss_dcf7dfe29365b0bf8e3e30798f7c8be5ac9a3ea2.1920x1080.jpg?t=1794951323"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
     {
       "slug": "call-of-duty-modern-warfare-4",
       "store": "steam",
@@ -170,6 +141,357 @@
       ],
       "free": null,
       "priceCompared": true
+    },
+    {
+      "slug": "bodycam",
+      "store": "steam",
+      "steamAppId": 2406770,
+      "title": "Bodycam",
+      "description": "Bodycam is the first tactical multiplayer FPS with a true body-camera view in Unreal Engine 5. Close-quarters combats feel raw and loud. Every angle, callout, and bullet matters. Play Deathmatch, Team Deathmatch, and Wingman on photoreal maps where teamplay, tactics, and clutch skill are key.",
+      "genres": [
+        "Action",
+        "Indie",
+        "Massively Multiplayer"
+      ],
+      "releaseDate": "Jun 7, 2024",
+      "developers": [
+        "Reissad"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/2406770/",
+      "priceLabel": "$33.32",
+      "discountPercent": 0,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/5689aeb849dc9ed3d9b70ad1b830d0c94c143138/ss_5689aeb849dc9ed3d9b70ad1b830d0c94c143138.1920x1080.jpg?t=1794951323",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/5689aeb849dc9ed3d9b70ad1b830d0c94c143138/ss_5689aeb849dc9ed3d9b70ad1b830d0c94c143138.1920x1080.jpg?t=1794951323",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ad5579da682b0f91c23a895b37089a24dda24258/ss_ad5579da682b0f91c23a895b37089a24dda24258.1920x1080.jpg?t=1794951323",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/dcf7dfe29365b0bf8e3e30798f7c8be5ac9a3ea2/ss_dcf7dfe29365b0bf8e3e30798f7c8be5ac9a3ea2.1920x1080.jpg?t=1794951323"
+      ],
+      "free": null,
+      "priceCompared": true
+    },
+    {
+      "slug": "grand-theft-auto-v-enhanced",
+      "store": "steam",
+      "steamAppId": 3240220,
+      "title": "Grand Theft Auto V Enhanced",
+      "description": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Racing"
+      ],
+      "releaseDate": "Mar 4, 2025",
+      "developers": [
+        "Rockstar North"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/3240220/",
+      "priceLabel": "$29.99",
+      "discountPercent": 0,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1781187782",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1781187782",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/8340fd391012e12be7e4c02e65801a2648a6b60e/ss_8340fd391012e12be7e4c02e65801a2648a6b60e.1920x1080.jpg?t=1781187782",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f2e70b5823510daa062293ff0b03821e1dee2d37/ss_f2e70b5823510daa062293ff0b03821e1dee2d37.1920x1080.jpg?t=1781187782"
+      ],
+      "free": null,
+      "priceCompared": true,
+      "cheapest": {
+        "store": "Gamesplanet",
+        "priceLabel": "$13.99",
+        "retailLabel": "$29.99",
+        "savingsPercent": 53,
+        "url": "https://www.cheapshark.com/redirect?dealID=X2AQSNHGF%2FI9lubl4czjjyOLf6v7jwLUXcGKbLkwUA8%3D"
+      }
+    },
+    {
+      "slug": "midnight-shift-2-last-rental",
+      "store": "steam",
+      "steamAppId": 5557520,
+      "title": "Midnight Shift 2: Last Rental",
+      "description": "A 90's horror inspired first-person game about working the midnight shift at a video rental store.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "Shatter Glass games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5557520/",
+      "priceLabel": "$2.99",
+      "discountPercent": 0,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5557520/28a55b3e3d293cff09026d9601f467c2d83e445e/header.jpg?t=1795368625",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5557520/2d0de098e610095cee02c8f7084783ff3d85393f/ss_2d0de098e610095cee02c8f7084783ff3d85393f.1920x1080.jpg?t=1795368625",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5557520/28a55b3e3d293cff09026d9601f467c2d83e445e/header.jpg?t=1795368625",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5557520/2d0de098e610095cee02c8f7084783ff3d85393f/ss_2d0de098e610095cee02c8f7084783ff3d85393f.1920x1080.jpg?t=1795368625",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5557520/96c4ec17e9186362b4400b217b1ff7a8e45cb2b4/ss_96c4ec17e9186362b4400b217b1ff7a8e45cb2b4.1920x1080.jpg?t=1795368625",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5557520/f8e871533a3c33dc1a05da386f996b1010db23d4/ss_f8e871533a3c33dc1a05da386f996b1010db23d4.1920x1080.jpg?t=1795368625"
+      ],
+      "free": null
+    },
+    {
+      "slug": "nano-reef",
+      "store": "steam",
+      "steamAppId": 4761730,
+      "title": "Nano Reef",
+      "description": "Turn every keystroke into a thriving desktop ocean! Earn gold as you work, study, type, or click, then collect marine fish, vibrant corals, and fun decorations. Draw your own fish, visit friends, and trade tank mates as you build a cozy aquarium that's uniquely yours!",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "Pangolin Studio"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/4761730/",
+      "priceLabel": "$3.39",
+      "originalPriceLabel": "$3.99",
+      "discountPercent": 15,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761730/e1c2f3e1fce383ffbcc7a2739a6ddbe61b281de7/header.jpg?t=1795368907",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761730/f0d7905c721a3961db15ab8a5d2c01822bf842e4/ss_f0d7905c721a3961db15ab8a5d2c01822bf842e4.1920x1080.jpg?t=1795375865",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761730/e1c2f3e1fce383ffbcc7a2739a6ddbe61b281de7/header.jpg?t=1795368907",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761730/f0d7905c721a3961db15ab8a5d2c01822bf842e4/ss_f0d7905c721a3961db15ab8a5d2c01822bf842e4.1920x1080.jpg?t=1795375865",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761730/be81897dff0d797f22573adf156c04ca7a59c831/ss_be81897dff0d797f22573adf156c04ca7a59c831.1920x1080.jpg?t=1795375865",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761730/74f9fdc40d5f83614c5b4902fcd01001f8d0860b/ss_74f9fdc40d5f83614c5b4902fcd01001f8d0860b.1920x1080.jpg?t=1795375865"
+      ],
+      "free": null
+    },
+    {
+      "slug": "pixireels",
+      "store": "steam",
+      "steamAppId": 5220580,
+      "title": "Pixireels",
+      "description": "Pixireels is a cozy pixel-art slot roguelike where you stack rule-breaking coins, chain runaway multipliers, watch a tiny score get out of hand through runs, and squeeze thirty rounds per run to unlock who knows what. Then you spend it all on a cat who does not appreciate it. Good luck!",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "MadCrow Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5220580/",
+      "priceLabel": "$3.99",
+      "originalPriceLabel": "$4.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5220580/e4d0aedc81dfb90896d388c016893bddbb1a4ab3/header.jpg?t=1795370921",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5220580/66d112d56151748e9b248c1d74542746c41c41e2/ss_66d112d56151748e9b248c1d74542746c41c41e2.1920x1080.jpg?t=1795370921",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5220580/e4d0aedc81dfb90896d388c016893bddbb1a4ab3/header.jpg?t=1795370921",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5220580/66d112d56151748e9b248c1d74542746c41c41e2/ss_66d112d56151748e9b248c1d74542746c41c41e2.1920x1080.jpg?t=1795370921",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5220580/424e69f5dc69df919d5459a41908655c56c4408d/ss_424e69f5dc69df919d5459a41908655c56c4408d.1920x1080.jpg?t=1795370921",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5220580/02dffe3034d3f27acd72fa8ad280fb475791e8b7/ss_02dffe3034d3f27acd72fa8ad280fb475791e8b7.1920x1080.jpg?t=1795370921"
+      ],
+      "free": null
+    },
+    {
+      "slug": "keep-the-ammo-flowing",
+      "store": "steam",
+      "steamAppId": 5158540,
+      "title": "Keep The Ammo Flowing",
+      "description": "Mine ore, forge ammunition, and build a railway through a moon overrun by swarms. Keep your automated turret supplied, switch between travel and siege, and upgrade your mobile rig in this top-down logistics and defense game.",
+      "genres": [
+        "Strategy"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "YCF Productions"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5158540/",
+      "priceLabel": "$7.49",
+      "originalPriceLabel": "$9.99",
+      "discountPercent": 25,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5158540/59eecf20079f65dce621eec2d75dd2de0f752ee8/header.jpg?t=1795362732",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5158540/37fd75ad82beb64eecdf734161d7f6cb7e01ef7f/ss_37fd75ad82beb64eecdf734161d7f6cb7e01ef7f.1920x1080.jpg?t=1795362732",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5158540/59eecf20079f65dce621eec2d75dd2de0f752ee8/header.jpg?t=1795362732",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5158540/37fd75ad82beb64eecdf734161d7f6cb7e01ef7f/ss_37fd75ad82beb64eecdf734161d7f6cb7e01ef7f.1920x1080.jpg?t=1795362732",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5158540/9e8a5f1e005d902c8fb66e6fee43054f054f3a21/ss_9e8a5f1e005d902c8fb66e6fee43054f054f3a21.1920x1080.jpg?t=1795362732",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5158540/0adfef3dbdbd06a612edc0e9e41a0435785c7fa0/ss_0adfef3dbdbd06a612edc0e9e41a0435785c7fa0.1920x1080.jpg?t=1795362732"
+      ],
+      "free": null
+    },
+    {
+      "slug": "bug-huntress-wants-to-battle",
+      "store": "steam",
+      "steamAppId": 4873240,
+      "title": "Bug Huntress wants to battle!",
+      "description": "&quot;Fight me!!&quot; A Bug Huntress who suddenly challenges you to battle — I've never met anyone this cocky. Hand over that ridiculous water gun of yours; I'm going to soak you from head to toe. Take this! Rapid-fire piston attacks straight to your weak point for massive damage!",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "FoxInc"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/4873240/",
+      "priceLabel": "$8.99",
+      "originalPriceLabel": "$14.99",
+      "discountPercent": 40,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873240/960555bce4a3e9ebbdd7032a6205ae5ae4364c57/header.jpg?t=1795361475",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873240/bc63f8de22a71bd6d6f770559786c50dfd1fb832/ss_bc63f8de22a71bd6d6f770559786c50dfd1fb832.1920x1080.jpg?t=1795361475",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873240/960555bce4a3e9ebbdd7032a6205ae5ae4364c57/header.jpg?t=1795361475",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873240/bc63f8de22a71bd6d6f770559786c50dfd1fb832/ss_bc63f8de22a71bd6d6f770559786c50dfd1fb832.1920x1080.jpg?t=1795361475",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873240/d921487c9f11504694d94624b99ea07b90dca63b/ss_d921487c9f11504694d94624b99ea07b90dca63b.1920x1080.jpg?t=1795361475",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873240/5db6aa4ae98dcd36145102090ecb83fc36c9f8a5/ss_5db6aa4ae98dcd36145102090ecb83fc36c9f8a5.1920x1080.jpg?t=1795361475"
+      ],
+      "free": null
+    },
+    {
+      "slug": "blorbit",
+      "store": "steam",
+      "steamAppId": 5001650,
+      "title": "blorbit",
+      "description": "Blörbit, blob it, orbit, beat it. Now hiring: blobs for smooth 2D twin-stick combat. Couch co-op welcome. Build your own roguelite career against endless opposition. No experience necessary.",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "Elmar Juzar"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5001650/",
+      "priceLabel": "$9.89",
+      "originalPriceLabel": "$14.99",
+      "discountPercent": 34,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001650/9762ef1f9e865b694056a1676079344be4a0f416/header.jpg?t=1795357225",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001650/09e21df06874992d2ef00dc4fe4a55a8aa5bcdd7/ss_09e21df06874992d2ef00dc4fe4a55a8aa5bcdd7.1920x1080.jpg?t=1795357225",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001650/9762ef1f9e865b694056a1676079344be4a0f416/header.jpg?t=1795357225",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001650/09e21df06874992d2ef00dc4fe4a55a8aa5bcdd7/ss_09e21df06874992d2ef00dc4fe4a55a8aa5bcdd7.1920x1080.jpg?t=1795357225",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001650/9cb78b23dc818e1d834b34148e8a8d2c7b2e5fec/ss_9cb78b23dc818e1d834b34148e8a8d2c7b2e5fec.1920x1080.jpg?t=1795357225",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001650/3f9cb83e92a66e0f1915173e164de81670384d43/ss_3f9cb83e92a66e0f1915173e164de81670384d43.1920x1080.jpg?t=1795357225"
+      ],
+      "free": null
+    },
+    {
+      "slug": "pawn-shop-together",
+      "store": "steam",
+      "steamAppId": 5469940,
+      "title": "Pawn Shop Together",
+      "description": "Uncle Sal left you the keys to his pawn shop on Avenue A. Haggle with sellers, spot the fakes, hand out pawn loans and flip the deals of the week. Run the counter solo or with up to 3 friends in online co-op.",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "LazyDevTeam"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5469940/",
+      "priceLabel": "$3.59",
+      "originalPriceLabel": "$3.99",
+      "discountPercent": 10,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5469940/b6263fcef1bd3cf3f1f129a61e05f6e6e1c5182c/header.jpg?t=1795355776",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5469940/e4c657480ece901e6bae060a44b9564186f22047/ss_e4c657480ece901e6bae060a44b9564186f22047.1920x1080.jpg?t=1795355776",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5469940/b6263fcef1bd3cf3f1f129a61e05f6e6e1c5182c/header.jpg?t=1795355776",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5469940/e4c657480ece901e6bae060a44b9564186f22047/ss_e4c657480ece901e6bae060a44b9564186f22047.1920x1080.jpg?t=1795355776",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5469940/a94556f6b8683d4a43e560879ab3be32720d6e44/ss_a94556f6b8683d4a43e560879ab3be32720d6e44.1920x1080.jpg?t=1795355776",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5469940/f6c7589b7746a0cd1a94d360175ae81f022c03c1/ss_f6c7589b7746a0cd1a94d360175ae81f022c03c1.1920x1080.jpg?t=1795355776"
+      ],
+      "free": null
+    },
+    {
+      "slug": "save-the-sandcastle",
+      "store": "steam",
+      "steamAppId": 5511850,
+      "title": "Save the Sandcastle",
+      "description": "Build your own sandcastles and design your own beaches. Dig channels and raise sand walls to hold back the tide across 36 campaign beaches, or see how long your castle can last in Endless.",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "Pinch Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5511850/",
+      "priceLabel": "$1.79",
+      "originalPriceLabel": "$2.99",
+      "discountPercent": 40,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/030846da80402d413f2236044765121989986086/header.jpg?t=1795367233",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/ce0ee877fa0bf290a5bd06184cf15d1a644d92bf/ss_ce0ee877fa0bf290a5bd06184cf15d1a644d92bf.1920x1080.jpg?t=1795367233",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/030846da80402d413f2236044765121989986086/header.jpg?t=1795367233",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/ce0ee877fa0bf290a5bd06184cf15d1a644d92bf/ss_ce0ee877fa0bf290a5bd06184cf15d1a644d92bf.1920x1080.jpg?t=1795367233",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/94f28e1ca511021c2ee9f620a2b6ed72438f5b60/ss_94f28e1ca511021c2ee9f620a2b6ed72438f5b60.1920x1080.jpg?t=1795367233",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/083b9d6b80591375c28f0445d5aa52895258e5e3/ss_083b9d6b80591375c28f0445d5aa52895258e5e3.1920x1080.jpg?t=1795367233"
+      ],
+      "free": null
+    },
+    {
+      "slug": "republica-do-caos",
+      "store": "steam",
+      "steamAppId": 5277480,
+      "title": "República do Caos",
+      "description": "Republic of Chaos is a political satire game where the right, the left, unlikely alliances, and outrageous caricatures fight for control of a republic on the verge of collapse. Pick your side, provoke your rivals, and see just how far the chaos can go.",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "Muguetsu"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5277480/",
+      "priceLabel": "$3.19",
+      "originalPriceLabel": "$3.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5277480/1ebee5312c915d16fd953d8c709c8c9afc959484/header.jpg?t=1795350814",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5277480/9c8db06b95b0cbf040077dd686b208f94e11dd28/ss_9c8db06b95b0cbf040077dd686b208f94e11dd28.1920x1080.jpg?t=1795350814",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5277480/1ebee5312c915d16fd953d8c709c8c9afc959484/header.jpg?t=1795350814",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5277480/9c8db06b95b0cbf040077dd686b208f94e11dd28/ss_9c8db06b95b0cbf040077dd686b208f94e11dd28.1920x1080.jpg?t=1795350814",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5277480/e989a0371bfde163dcdbd95805fa6a167721c1b9/ss_e989a0371bfde163dcdbd95805fa6a167721c1b9.1920x1080.jpg?t=1795350814",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5277480/05bc9ba7c3dee9b83636d901d39065ae1f8f6fe2/ss_05bc9ba7c3dee9b83636d901d39065ae1f8f6fe2.1920x1080.jpg?t=1795350814"
+      ],
+      "free": null
+    },
+    {
+      "slug": "weirdbus",
+      "store": "steam",
+      "steamAppId": 5542640,
+      "title": "WeirdBus",
+      "description": "One bus. Four wheels. A whole lot of bad decisions. Share control of an uncooperative bus, rescue flying passengers and cross cities, canyons, ice and swamps on the way to a megatower roof. Play solo or argue your way to the finish with up to three friends.",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "releaseDate": "Nov 22, 2026",
+      "developers": [
+        "Ofizdat"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5542640/",
+      "priceLabel": "$0.60",
+      "originalPriceLabel": "$1.00",
+      "discountPercent": 40,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542640/900f2748816281cac97787fbfb9afc052303e48b/header.jpg?t=1795346552",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542640/3b12f383b158ebdd2d54a7f4010dd2abf1e5bfc5/ss_3b12f383b158ebdd2d54a7f4010dd2abf1e5bfc5.1920x1080.jpg?t=1795346552",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542640/900f2748816281cac97787fbfb9afc052303e48b/header.jpg?t=1795346552",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542640/3b12f383b158ebdd2d54a7f4010dd2abf1e5bfc5/ss_3b12f383b158ebdd2d54a7f4010dd2abf1e5bfc5.1920x1080.jpg?t=1795346552",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542640/dd873683fdb6410071fc67d8f9a8be4154bf0534/ss_dd873683fdb6410071fc67d8f9a8be4154bf0534.1920x1080.jpg?t=1795346552",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542640/65f52ccb9fe41201a1cd24ecc0b331be7a11c1e2/ss_65f52ccb9fe41201a1cd24ecc0b331be7a11c1e2.1920x1080.jpg?t=1795346552"
+      ],
+      "free": null
     },
     {
       "slug": "ghost-of-tsushima-directors-cut",
@@ -207,285 +529,6 @@
         "savingsPercent": 55,
         "url": "https://www.cheapshark.com/redirect?dealID=4GdxkrhL7gLnWFiz4bQiuzixx1n294fGWp6bGTBv%2BVQ%3D"
       }
-    },
-    {
-      "slug": "four-directions",
-      "store": "steam",
-      "steamAppId": 3776750,
-      "title": "Four Directions",
-      "description": "&quot;Four Directions&quot; is a turn-based strategy game that features a rotatable Rubik's Cube chessboard. It cleverly incorporates mechanical tasks and card skills, allowing players to activate mechanisms on the chessboard map to confront enemies head-on.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "LHStudio"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/3776750/",
-      "priceLabel": "$2.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3776750/1995e54a517539b9d4aad0ed8c0bd10a53fb4eec/header.jpg?t=1795326340",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3776750/b0f3563ab86b9a21f5a04a06a4dd9225f3111b7b/ss_b0f3563ab86b9a21f5a04a06a4dd9225f3111b7b.1920x1080.jpg?t=1795326340",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3776750/1995e54a517539b9d4aad0ed8c0bd10a53fb4eec/header.jpg?t=1795326340",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3776750/b0f3563ab86b9a21f5a04a06a4dd9225f3111b7b/ss_b0f3563ab86b9a21f5a04a06a4dd9225f3111b7b.1920x1080.jpg?t=1795326340",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3776750/93ed7c5744e53917bdd64a7be89a34f30f1ae34e/ss_93ed7c5744e53917bdd64a7be89a34f30f1ae34e.1920x1080.jpg?t=1795326340",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3776750/ec5c2ed27d5d23ad0cf5da4f7abd3f2166f361be/ss_ec5c2ed27d5d23ad0cf5da4f7abd3f2166f361be.1920x1080.jpg?t=1795326340"
-      ],
-      "free": null
-    },
-    {
-      "slug": "stormtide-skies",
-      "store": "steam",
-      "steamAppId": 5379430,
-      "title": "Stormtide Skies",
-      "description": "Take command of a steam-powered airship and battle across the storm-torn skies. Fight solo, challenge AI, compete online, experience a cinematic story, or survive the relentless waves and colossal bosses of Redwake Siege.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "Mysterymike71"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5379430/",
-      "priceLabel": "$9.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379430/208c3f30821c19fca8de2e45ef6b012062238dd4/header.jpg?t=1795323542",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379430/7cc5eb6615f36a7e36b169e27afc4b08e74a0af4/ss_7cc5eb6615f36a7e36b169e27afc4b08e74a0af4.1920x1080.jpg?t=1795323542",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379430/208c3f30821c19fca8de2e45ef6b012062238dd4/header.jpg?t=1795323542",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379430/7cc5eb6615f36a7e36b169e27afc4b08e74a0af4/ss_7cc5eb6615f36a7e36b169e27afc4b08e74a0af4.1920x1080.jpg?t=1795323542",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379430/bf0c7468692d5f83721097eb508c7c17801e38b7/ss_bf0c7468692d5f83721097eb508c7c17801e38b7.1920x1080.jpg?t=1795323542",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379430/087b3a29360a9c345fe3eb257050c6d83ccab9c0/ss_087b3a29360a9c345fe3eb257050c6d83ccab9c0.1920x1080.jpg?t=1795323542"
-      ],
-      "free": null
-    },
-    {
-      "slug": "neon-grid-defenders",
-      "store": "steam",
-      "steamAppId": 2890810,
-      "title": "Neon Grid Defenders",
-      "description": "Neon Grid Defenders is a sci-fi roguelite tower defense game featuring a free and unique upgrade system, decision based path generation and a strong but static difficulty curve. Build your path, place your towers, hook them up with upgrades and melt your enemies!",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Strategy"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "NikIndieDev"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/2890810/",
-      "priceLabel": "$3.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890810/header.jpg?t=1795308541",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890810/ss_13c7503b21dc21fbb5e76f2c3765952fa9d6d704.1920x1080.jpg?t=1795308541",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890810/header.jpg?t=1795308541",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890810/ss_13c7503b21dc21fbb5e76f2c3765952fa9d6d704.1920x1080.jpg?t=1795308541",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890810/ss_7a44f24e7232ac048a42f38d73fda2efb2a07879.1920x1080.jpg?t=1795308541",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890810/ss_641ddd563ee38e7a1338760590951eb49291cf59.1920x1080.jpg?t=1795308541"
-      ],
-      "free": null
-    },
-    {
-      "slug": "lost-gateways",
-      "store": "steam",
-      "steamAppId": 5111020,
-      "title": "Lost Gateways",
-      "description": "The world beyond the gate is rolled fresh for every soul — ring after ring of wilds, delves, and buried gold, each one deadlier than the last. Take a contract, read the map, bring a shovel. Bring friends: everyone gets their own loot, and nobody fights over a chest.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "Chris Edenburn"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5111020/",
-      "priceLabel": "Free to play",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111020/d720dae7125bf21c86095dd17be54f6418e5c7e1/header.jpg?t=1795308056",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111020/dc4bdcf11d2a368432d5fe2a7bdd65e6db833b08/ss_dc4bdcf11d2a368432d5fe2a7bdd65e6db833b08.1920x1080.jpg?t=1795308056",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111020/d720dae7125bf21c86095dd17be54f6418e5c7e1/header.jpg?t=1795308056",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111020/dc4bdcf11d2a368432d5fe2a7bdd65e6db833b08/ss_dc4bdcf11d2a368432d5fe2a7bdd65e6db833b08.1920x1080.jpg?t=1795308056",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111020/dc4bdcf11d2a368432d5fe2a7bdd65e6db833b08/ss_dc4bdcf11d2a368432d5fe2a7bdd65e6db833b08.1920x1080.jpg?t=1795308056",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111020/fd7ba6165e3f3de325fcf8d4f10630c8ad2e0a9a/ss_fd7ba6165e3f3de325fcf8d4f10630c8ad2e0a9a.1920x1080.jpg?t=1795308056"
-      ],
-      "free": null
-    },
-    {
-      "slug": "slots-of-chaos-melee-arena",
-      "store": "steam",
-      "steamAppId": 5506620,
-      "title": "Slots of Chaos: Melee Arena",
-      "description": "Chop up your friends and enemies in an enclosed arena with random chaos modes driven by a slot machine.",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "Signal Boost Publishing"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5506620/",
-      "priceLabel": "$5.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5506620/fe199c16e112f9a73afaa673269991483d8d18e5/header.jpg?t=1795307917",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5506620/7e17bdaaa87e473b318ae452b674146d87d3eb6e/ss_7e17bdaaa87e473b318ae452b674146d87d3eb6e.1920x1080.jpg?t=1795307917",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5506620/fe199c16e112f9a73afaa673269991483d8d18e5/header.jpg?t=1795307917",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5506620/7e17bdaaa87e473b318ae452b674146d87d3eb6e/ss_7e17bdaaa87e473b318ae452b674146d87d3eb6e.1920x1080.jpg?t=1795307917",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5506620/9ba5291efbbbb73b0391bc85be883b0f29b56362/ss_9ba5291efbbbb73b0391bc85be883b0f29b56362.1920x1080.jpg?t=1795307917",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5506620/48a5db7516ce8459ee0000531bc955831bead617/ss_48a5db7516ce8459ee0000531bc955831bead617.1920x1080.jpg?t=1795307917"
-      ],
-      "free": null
-    },
-    {
-      "slug": "idle-minertia",
-      "store": "steam",
-      "steamAppId": 4947000,
-      "title": "Idle Minertia",
-      "description": "Idle Minertia is an idle mining game where you dig through caves automatically. Combine mining tools and Enchants to go ever deeper. Build strategic synergies or steadily collect permanent rewards. Beyond that, 10+ kinds of content await. A relaxing idle experience, every day.",
-      "genres": [
-        "Indie",
-        "Free To Play"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "ya.yu."
-      ],
-      "storeUrl": "https://store.steampowered.com/app/4947000/",
-      "priceLabel": "Free to play",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/1756fc3ecf52c29171a4fc0903b23cd5065a8aab/header.jpg?t=1795306121",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/c0c18deec6f2d03552640ef225e23f96257d5fd7/ss_c0c18deec6f2d03552640ef225e23f96257d5fd7.1920x1080.jpg?t=1795306121",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/1756fc3ecf52c29171a4fc0903b23cd5065a8aab/header.jpg?t=1795306121",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/c0c18deec6f2d03552640ef225e23f96257d5fd7/ss_c0c18deec6f2d03552640ef225e23f96257d5fd7.1920x1080.jpg?t=1795306121",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/ea73b7c55b71a1cb5b098e155778e5e5ebad6189/ss_ea73b7c55b71a1cb5b098e155778e5e5ebad6189.1920x1080.jpg?t=1795306121",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/89307dcaafff8b5eaec64e3e9c9fb69aef060189/ss_89307dcaafff8b5eaec64e3e9c9fb69aef060189.1920x1080.jpg?t=1795306121"
-      ],
-      "free": null
-    },
-    {
-      "slug": "cheese-racers",
-      "store": "steam",
-      "steamAppId": 5386950,
-      "title": "Cheese Racers",
-      "description": "Thread a hovering wheel of cheese through gaps that never stop tightening. A hit costs a slice; dodge clean and it grows back. Chase your best, race everyone on the Daily Seed, and beat friends and ranked rivals on the exact same course. Earn skins, shapes, trails and maps as you play.",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "CheeseSteak"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5386950/",
-      "priceLabel": "$4.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386950/9c86cfb50fa0713748027e4a30fd755fa73ea408/header.jpg?t=1795304440",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386950/84961473cbaf7a0850b8e4bc7ac01073b8043248/ss_84961473cbaf7a0850b8e4bc7ac01073b8043248.1920x1080.jpg?t=1795304440",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386950/9c86cfb50fa0713748027e4a30fd755fa73ea408/header.jpg?t=1795304440",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386950/84961473cbaf7a0850b8e4bc7ac01073b8043248/ss_84961473cbaf7a0850b8e4bc7ac01073b8043248.1920x1080.jpg?t=1795304440",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386950/a83275506fb6ec82bab6813d94fb563261fc9f31/ss_a83275506fb6ec82bab6813d94fb563261fc9f31.1920x1080.jpg?t=1795304440",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386950/4c76ed212d0566dfa965ea310268bb17d9169b28/ss_4c76ed212d0566dfa965ea310268bb17d9169b28.1920x1080.jpg?t=1795304440"
-      ],
-      "free": null
-    },
-    {
-      "slug": "wall-punch-escape-the-walls-simulator",
-      "store": "steam",
-      "steamAppId": 5463810,
-      "title": "Wall Punch: Escape The Walls Simulator",
-      "description": "Break through 50,000 bricks. Time to escape the walls. Punch your way to freedom! Break through walls, punch out the walls and escape prison one punch at a time! Smash through tougher walls, discover new areas, and become the ultimate wall-breaking machine in WALL PUNCH: ESCAPE THE WALLS SIMULATOR",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Casual"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "Thinflow Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5463810/",
-      "priceLabel": "$3.74",
-      "originalPriceLabel": "$4.99",
-      "discountPercent": 25,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463810/cf8f98b9ce6e63374eb35f99c9552c71ea75091e/header.jpg?t=1795302694",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463810/45a341c45c09384f66a1fdd4b687e724897628ab/ss_45a341c45c09384f66a1fdd4b687e724897628ab.1920x1080.jpg?t=1795302694",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463810/cf8f98b9ce6e63374eb35f99c9552c71ea75091e/header.jpg?t=1795302694",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463810/45a341c45c09384f66a1fdd4b687e724897628ab/ss_45a341c45c09384f66a1fdd4b687e724897628ab.1920x1080.jpg?t=1795302694",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463810/f9cb3949ba0578db953692d6fdd8018bc8dd77ab/ss_f9cb3949ba0578db953692d6fdd8018bc8dd77ab.1920x1080.jpg?t=1795302694",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463810/e0ff2d003c5c824f105a7c288221a13e58b0df05/ss_e0ff2d003c5c824f105a7c288221a13e58b0df05.1920x1080.jpg?t=1795302694"
-      ],
-      "free": null
-    },
-    {
-      "slug": "spark-of-tales",
-      "store": "steam",
-      "steamAppId": 5049210,
-      "title": "Spark of Tales",
-      "description": "Ignite the spark of inspiration while writing tales in a cozy environment where readers become part of the creative process. Follow stories as they're being written, interact with other authors, shape worlds through your ideas, earn reputation, unlock unique abilities, and get rewarded for your aid.",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "Spark of Tales"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5049210/",
-      "priceLabel": "$5.39",
-      "originalPriceLabel": "$5.99",
-      "discountPercent": 10,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049210/0b68f71de640dc8d04699925f2b1ca475bf9c4eb/header.jpg?t=1795300656",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049210/cf51e64b75d52f3b07a735a6f67362ce84b98419/ss_cf51e64b75d52f3b07a735a6f67362ce84b98419.1920x1080.jpg?t=1795300656",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049210/0b68f71de640dc8d04699925f2b1ca475bf9c4eb/header.jpg?t=1795300656",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049210/cf51e64b75d52f3b07a735a6f67362ce84b98419/ss_cf51e64b75d52f3b07a735a6f67362ce84b98419.1920x1080.jpg?t=1795300656",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049210/23fcbedbf150ec3d8f71a296518c54ac3777a014/ss_23fcbedbf150ec3d8f71a296518c54ac3777a014.1920x1080.jpg?t=1795300656",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049210/cf59eaeee0cf1a2ffb6cb6c801eeb0a450f26a03/ss_cf59eaeee0cf1a2ffb6cb6c801eeb0a450f26a03.1920x1080.jpg?t=1795300656"
-      ],
-      "free": null
-    },
-    {
-      "slug": "wrong-tank",
-      "store": "steam",
-      "steamAppId": 5305100,
-      "title": "Wrong Tank!",
-      "description": "Three tanks. One arriving fish. Read its request, inspect the habitats, and send it to the right home. Build clean placement chains across 50 handcrafted shifts in this colorful pixel art aquarium puzzle game.",
-      "genres": [
-        "Casual"
-      ],
-      "releaseDate": "Nov 21, 2026",
-      "developers": [
-        "Dravekor"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5305100/",
-      "priceLabel": "$2.69",
-      "originalPriceLabel": "$2.99",
-      "discountPercent": 10,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305100/72e6e89d8d66f8f2338cfaaeed14606e1df3a8b1/header.jpg?t=1795298415",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305100/ab3b7aa5020fc3bc9cb5da5d2aacfa1dccd3092c/ss_ab3b7aa5020fc3bc9cb5da5d2aacfa1dccd3092c.1920x1080.jpg?t=1795298415",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305100/72e6e89d8d66f8f2338cfaaeed14606e1df3a8b1/header.jpg?t=1795298415",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305100/ab3b7aa5020fc3bc9cb5da5d2aacfa1dccd3092c/ss_ab3b7aa5020fc3bc9cb5da5d2aacfa1dccd3092c.1920x1080.jpg?t=1795298415",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305100/e6942f78bbd6e4b2be75a6ddc0d179d2821ef1c7/ss_e6942f78bbd6e4b2be75a6ddc0d179d2821ef1c7.1920x1080.jpg?t=1795298415",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305100/0ad2ada70ab703a152c0e5a596dfb28cb6dadae2/ss_0ad2ada70ab703a152c0e5a596dfb28cb6dadae2.1920x1080.jpg?t=1795298415"
-      ],
-      "free": null
     },
     {
       "slug": "marvels-spider-man-remastered",
@@ -555,36 +598,6 @@
       "priceCompared": true
     },
     {
-      "slug": "forza-horizon-6",
-      "store": "steam",
-      "steamAppId": 2483190,
-      "title": "Forza Horizon 6",
-      "description": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon's biggest open world driving adventure yet.",
-      "genres": [
-        "Racing",
-        "Simulation",
-        "Sports"
-      ],
-      "releaseDate": "May 18, 2026",
-      "developers": [
-        "Playground Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/2483190/",
-      "priceLabel": "$52.49",
-      "originalPriceLabel": "$69.99",
-      "discountPercent": 25,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/c53fe3362cc3267a5d34aca3e796b90963e0e23f/header_alt_assets_6.jpg?t=1795104806",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/706eb79418b2a74192de059693ddcbfaa803108a/ss_706eb79418b2a74192de059693ddcbfaa803108a.1920x1080.jpg?t=1795104806",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/c53fe3362cc3267a5d34aca3e796b90963e0e23f/header_alt_assets_6.jpg?t=1795104806",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/706eb79418b2a74192de059693ddcbfaa803108a/ss_706eb79418b2a74192de059693ddcbfaa803108a.1920x1080.jpg?t=1795104806",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/383ace7815eaa8f8f5128a58fd8ca7df911d3e14/ss_383ace7815eaa8f8f5128a58fd8ca7df911d3e14.1920x1080.jpg?t=1795104806",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d4b81f0cafcfba410371e53bd696fb5cc9b434c0/ss_d4b81f0cafcfba410371e53bd696fb5cc9b434c0.1920x1080.jpg?t=1795104806"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
-    {
       "slug": "marvels-spider-man-2",
       "store": "steam",
       "steamAppId": 2651280,
@@ -620,6 +633,36 @@
         "savingsPercent": 40,
         "url": "https://www.cheapshark.com/redirect?dealID=dhIYPfEPEWv9f1MkK3Uao7hUteZXoLHfD7wugZpCYJg%3D"
       }
+    },
+    {
+      "slug": "final-fantasy-vii-rebirth",
+      "store": "steam",
+      "steamAppId": 2909400,
+      "title": "FINAL FANTASY VII REBIRTH",
+      "description": "The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "releaseDate": "Jan 23, 2025",
+      "developers": [
+        "Square Enix"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/2909400/",
+      "priceLabel": "$7.49",
+      "originalPriceLabel": "$49.99",
+      "discountPercent": 85,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1793774936",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7a83a64967a06edbf0d43821153a0188471d596a.1920x1080.jpg?t=1793774936",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1793774936",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7a83a64967a06edbf0d43821153a0188471d596a.1920x1080.jpg?t=1793774936",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7c389d8ed52b6bd2350a3bc9866ac45c919fb2e9.1920x1080.jpg?t=1793774936",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_5540aef3258019f77559ca77ef29ba893b61010f.1920x1080.jpg?t=1793774936"
+      ],
+      "free": null,
+      "priceCompared": true
     },
     {
       "slug": "god-of-war",
@@ -876,6 +919,36 @@
       "priceCompared": true
     },
     {
+      "slug": "glory-to-the-heroestm",
+      "store": "steam",
+      "steamAppId": 2239670,
+      "title": "Glory To The Heroes™",
+      "description": "Glory to the Heroes set in the Russian-Ukrainian war is an immersive PvPvE mil-sim providing perspective on the modern warfare with combined-arms combat and extensive elements of survival and immersion, where the action is happening in the accurately recreated real-world locations of actual battles",
+      "genres": [
+        "Action",
+        "Indie",
+        "Massively Multiplayer"
+      ],
+      "releaseDate": "Oct 9, 2026",
+      "developers": [
+        "Deaf Tone Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/2239670/",
+      "priceLabel": "$23.99",
+      "originalPriceLabel": "$29.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/757c8d8edb6c1e3b554738e3e781c55f6c31c9d2/header.jpg?t=1791562944",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/c270001c7707e26db61f4a314500119008f17020/ss_c270001c7707e26db61f4a314500119008f17020.1920x1080.jpg?t=1791562944",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/757c8d8edb6c1e3b554738e3e781c55f6c31c9d2/header.jpg?t=1791562944",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/c270001c7707e26db61f4a314500119008f17020/ss_c270001c7707e26db61f4a314500119008f17020.1920x1080.jpg?t=1791562944",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/6b6049ddbe9f356c6757dd5b784bd305f7677dfe/ss_6b6049ddbe9f356c6757dd5b784bd305f7677dfe.1920x1080.jpg?t=1791562944",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239670/1fd67e885db5c1fb39c602b4a2cebe8e4b6f66ad/ss_1fd67e885db5c1fb39c602b4a2cebe8e4b6f66ad.1920x1080.jpg?t=1791562944"
+      ],
+      "free": null,
+      "priceCompared": true
+    },
+    {
       "slug": "songs-of-glimmerwick",
       "store": "steam",
       "steamAppId": 1706510,
@@ -900,94 +973,6 @@
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.1920x1080.jpg?t=1794853038",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_694e8977429e866f98b221e02d313ac8c3e7ae78.1920x1080.jpg?t=1794853038",
         "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.1920x1080.jpg?t=1794853038"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
-    {
-      "slug": "eslabong",
-      "store": "steam",
-      "steamAppId": 4560660,
-      "title": "Eslabong",
-      "description": "Arena combat meets mercenary club management. Recruit from a dynamic market, build your squad, and compete season after season in leagues and cups.",
-      "genres": [
-        "Action",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Aug 24, 2026",
-      "developers": [
-        "shirowita"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/4560660/",
-      "priceLabel": "$11.99",
-      "originalPriceLabel": "$14.99",
-      "discountPercent": 20,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/2f57705341159c9893b7626b1b9c55fa0562d4ed/header.jpg?t=1795215665",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/50bd5583a17c1ebbcfa35149000a425da2caa303/ss_50bd5583a17c1ebbcfa35149000a425da2caa303.1920x1080.jpg?t=1795215665",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/2f57705341159c9893b7626b1b9c55fa0562d4ed/header.jpg?t=1795215665",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/50bd5583a17c1ebbcfa35149000a425da2caa303/ss_50bd5583a17c1ebbcfa35149000a425da2caa303.1920x1080.jpg?t=1795215665",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/083dc22a4ac65db2cc1a2174015287072b5f3022/ss_083dc22a4ac65db2cc1a2174015287072b5f3022.1920x1080.jpg?t=1795215665",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/1eec47f969fe5a7956340fbc647d102e855979b1/ss_1eec47f969fe5a7956340fbc647d102e855979b1.1920x1080.jpg?t=1795215665"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
-    {
-      "slug": "agent-64-spies-never-die",
-      "store": "steam",
-      "steamAppId": 1574480,
-      "title": "Agent 64: Spies Never Die",
-      "description": "A retro spy FPS inspired by the N64 era. Go guns-blazing in action-packed shootouts, steal secret plans, and accomplish objectives while foiling evildoers’ schemes as a secret agent in a solo or co-op campaign. Fight friends in both local split-screen multiplayer and online with up to 8 opponents.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "releaseDate": "Aug 11, 2026",
-      "developers": [
-        "Replicant D6"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/1574480/",
-      "priceLabel": "$17.31",
-      "originalPriceLabel": "$21.64",
-      "discountPercent": 20,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f281ff155778294664365fbcedc884319ed172fd/header.jpg?t=1786538539",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f0b7f07a871ecc449e5b7a4434b417d7032d5382/ss_f0b7f07a871ecc449e5b7a4434b417d7032d5382.1920x1080.jpg?t=1786538539",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f281ff155778294664365fbcedc884319ed172fd/header.jpg?t=1786538539",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f0b7f07a871ecc449e5b7a4434b417d7032d5382/ss_f0b7f07a871ecc449e5b7a4434b417d7032d5382.1920x1080.jpg?t=1786538539",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/7550cc7f24b013725177ec452d04e8177f8a7129/ss_7550cc7f24b013725177ec452d04e8177f8a7129.1920x1080.jpg?t=1786538539",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/199d970faf9d4d8d0f9c795d528a39c22e72cfd4/ss_199d970faf9d4d8d0f9c795d528a39c22e72cfd4.1920x1080.jpg?t=1786538539"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
-    {
-      "slug": "database-detective-minor-crimes-division",
-      "store": "steam",
-      "steamAppId": 3950130,
-      "title": "Database Detective: Minor Crimes Division",
-      "description": "Solve criminal cases through the power of SQL queries! Help out the city of Los Zorangeles by becoming a Database Detective in this new (unpaid) work from home opportunity.",
-      "genres": [
-        "Indie"
-      ],
-      "releaseDate": "Jul 17, 2026",
-      "developers": [
-        "Thomas Hsu"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/3950130/",
-      "priceLabel": "$11.99",
-      "originalPriceLabel": "$14.99",
-      "discountPercent": 20,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/ed5315c85ccaeaa8deb05aa6a91fc08e245d1e05/header.jpg?t=1794186627",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/514c624fa339e77ec626f44e9b4422e79ae6a063/ss_514c624fa339e77ec626f44e9b4422e79ae6a063.1920x1080.jpg?t=1794186627",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/ed5315c85ccaeaa8deb05aa6a91fc08e245d1e05/header.jpg?t=1794186627",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/514c624fa339e77ec626f44e9b4422e79ae6a063/ss_514c624fa339e77ec626f44e9b4422e79ae6a063.1920x1080.jpg?t=1794186627",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/9930f3999d14885bf22ae3656cb8d58d554b4018/ss_9930f3999d14885bf22ae3656cb8d58d554b4018.1920x1080.jpg?t=1794186627",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/fe433aef34a8fda473ac0ed187cbc9bb15dc7782/ss_fe433aef34a8fda473ac0ed187cbc9bb15dc7782.1920x1080.jpg?t=1794186627"
       ],
       "free": null,
       "priceCompared": true
@@ -1028,6 +1013,160 @@
       }
     },
     {
+      "slug": "database-detective-minor-crimes-division",
+      "store": "steam",
+      "steamAppId": 3950130,
+      "title": "Database Detective: Minor Crimes Division",
+      "description": "Solve criminal cases through the power of SQL queries! Help out the city of Los Zorangeles by becoming a Database Detective in this new (unpaid) work from home opportunity.",
+      "genres": [
+        "Indie"
+      ],
+      "releaseDate": "Jul 17, 2026",
+      "developers": [
+        "Thomas Hsu"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/3950130/",
+      "priceLabel": "$11.99",
+      "originalPriceLabel": "$14.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/ed5315c85ccaeaa8deb05aa6a91fc08e245d1e05/header.jpg?t=1794186627",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/514c624fa339e77ec626f44e9b4422e79ae6a063/ss_514c624fa339e77ec626f44e9b4422e79ae6a063.1920x1080.jpg?t=1794186627",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/ed5315c85ccaeaa8deb05aa6a91fc08e245d1e05/header.jpg?t=1794186627",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/514c624fa339e77ec626f44e9b4422e79ae6a063/ss_514c624fa339e77ec626f44e9b4422e79ae6a063.1920x1080.jpg?t=1794186627",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/9930f3999d14885bf22ae3656cb8d58d554b4018/ss_9930f3999d14885bf22ae3656cb8d58d554b4018.1920x1080.jpg?t=1794186627",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950130/fe433aef34a8fda473ac0ed187cbc9bb15dc7782/ss_fe433aef34a8fda473ac0ed187cbc9bb15dc7782.1920x1080.jpg?t=1794186627"
+      ],
+      "free": null,
+      "priceCompared": true
+    },
+    {
+      "slug": "agent-64-spies-never-die",
+      "store": "steam",
+      "steamAppId": 1574480,
+      "title": "Agent 64: Spies Never Die",
+      "description": "A retro spy FPS inspired by the N64 era. Go guns-blazing in action-packed shootouts, steal secret plans, and accomplish objectives while foiling evildoers’ schemes as a secret agent in a solo or co-op campaign. Fight friends in both local split-screen multiplayer and online with up to 8 opponents.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "releaseDate": "Aug 11, 2026",
+      "developers": [
+        "Replicant D6"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/1574480/",
+      "priceLabel": "$17.31",
+      "originalPriceLabel": "$21.64",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f281ff155778294664365fbcedc884319ed172fd/header.jpg?t=1786538539",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f0b7f07a871ecc449e5b7a4434b417d7032d5382/ss_f0b7f07a871ecc449e5b7a4434b417d7032d5382.1920x1080.jpg?t=1786538539",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f281ff155778294664365fbcedc884319ed172fd/header.jpg?t=1786538539",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f0b7f07a871ecc449e5b7a4434b417d7032d5382/ss_f0b7f07a871ecc449e5b7a4434b417d7032d5382.1920x1080.jpg?t=1786538539",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/7550cc7f24b013725177ec452d04e8177f8a7129/ss_7550cc7f24b013725177ec452d04e8177f8a7129.1920x1080.jpg?t=1786538539",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/199d970faf9d4d8d0f9c795d528a39c22e72cfd4/ss_199d970faf9d4d8d0f9c795d528a39c22e72cfd4.1920x1080.jpg?t=1786538539"
+      ],
+      "free": null,
+      "priceCompared": true
+    },
+    {
+      "slug": "eslabong",
+      "store": "steam",
+      "steamAppId": 4560660,
+      "title": "Eslabong",
+      "description": "Arena combat meets mercenary club management. Recruit from a dynamic market, build your squad, and compete season after season in leagues and cups.",
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "releaseDate": "Aug 24, 2026",
+      "developers": [
+        "shirowita"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/4560660/",
+      "priceLabel": "$11.99",
+      "originalPriceLabel": "$14.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/2f57705341159c9893b7626b1b9c55fa0562d4ed/header.jpg?t=1795215665",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/50bd5583a17c1ebbcfa35149000a425da2caa303/ss_50bd5583a17c1ebbcfa35149000a425da2caa303.1920x1080.jpg?t=1795215665",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/2f57705341159c9893b7626b1b9c55fa0562d4ed/header.jpg?t=1795215665",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/50bd5583a17c1ebbcfa35149000a425da2caa303/ss_50bd5583a17c1ebbcfa35149000a425da2caa303.1920x1080.jpg?t=1795215665",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/083dc22a4ac65db2cc1a2174015287072b5f3022/ss_083dc22a4ac65db2cc1a2174015287072b5f3022.1920x1080.jpg?t=1795215665",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/1eec47f969fe5a7956340fbc647d102e855979b1/ss_1eec47f969fe5a7956340fbc647d102e855979b1.1920x1080.jpg?t=1795215665"
+      ],
+      "free": null,
+      "priceCompared": true
+    },
+    {
+      "slug": "dimhaven-the-lost-source",
+      "store": "steam",
+      "steamAppId": 2458980,
+      "title": "Dimhaven - The Lost Source",
+      "description": "Are you ready for an adventure? Challenges, exploration and puzzles in a narrative driven experience, pick up your camera and test your wits in this first-person mystery by the team behind Quern!",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "releaseDate": "Jun 23, 2026",
+      "developers": [
+        "Zadbox Entertainment"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/2458980/",
+      "priceLabel": "$19.49",
+      "originalPriceLabel": "$25.99",
+      "discountPercent": 25,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/06d5c493e7d088a11372622a0689869126966c19/header.jpg?t=1791517185",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/f2b1399187b3ec78bd8dc9b78edec3cb90c26939/ss_f2b1399187b3ec78bd8dc9b78edec3cb90c26939.1920x1080.jpg?t=1791517185",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/06d5c493e7d088a11372622a0689869126966c19/header.jpg?t=1791517185",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/f2b1399187b3ec78bd8dc9b78edec3cb90c26939/ss_f2b1399187b3ec78bd8dc9b78edec3cb90c26939.1920x1080.jpg?t=1791517185",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/2d8a32792eceee351081184a278449e02a953ffc/ss_2d8a32792eceee351081184a278449e02a953ffc.1920x1080.jpg?t=1791517185",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/8fb868036c2b50717cefec1133cc22a4ba1ef9d5/ss_8fb868036c2b50717cefec1133cc22a4ba1ef9d5.1920x1080.jpg?t=1791517185"
+      ],
+      "free": null,
+      "priceCompared": true,
+      "cheapest": {
+        "store": "Fanatical",
+        "priceLabel": "$14.81",
+        "retailLabel": "$25.99",
+        "savingsPercent": 43,
+        "url": "https://www.cheapshark.com/redirect?dealID=jmYTErzlQi4qMNsj8uQtQbfrlG8tWbs7UHtHjf4O3PI%3D"
+      }
+    },
+    {
+      "slug": "the-guild-1-remake-europa-1410",
+      "store": "steam",
+      "steamAppId": 2977260,
+      "title": "The Guild 1 Remake: Europa 1410",
+      "description": "Choose from professions like Smith, Preacher or Alchemist to gain riches in this medieval economic simulation. Climb the social ladder, dominate politics, and lead your dynasty to power over multiple generations to ensure your legacy.",
+      "genres": [
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "releaseDate": "Sep 17, 2026",
+      "developers": [
+        "Ashborne Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/2977260/",
+      "priceLabel": "$22.49",
+      "originalPriceLabel": "$29.99",
+      "discountPercent": 25,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/333becf2d9b5b3312c4ef200c2312fca33b24c1a/header.jpg?t=1789971895",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/25c536d4ae6d7e419c3f732b66d2817b919f0937/ss_25c536d4ae6d7e419c3f732b66d2817b919f0937.1920x1080.jpg?t=1789971895",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/333becf2d9b5b3312c4ef200c2312fca33b24c1a/header.jpg?t=1789971895",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/25c536d4ae6d7e419c3f732b66d2817b919f0937/ss_25c536d4ae6d7e419c3f732b66d2817b919f0937.1920x1080.jpg?t=1789971895",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/3b7e1954aa2e8204672d3cf9e81a93722d1722dd/ss_3b7e1954aa2e8204672d3cf9e81a93722d1722dd.1920x1080.jpg?t=1789971895",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/b8e4c001ddad487aad7213a8ed6d97ba6f1f2e3a/ss_b8e4c001ddad487aad7213a8ed6d97ba6f1f2e3a.1920x1080.jpg?t=1789971895"
+      ],
+      "free": null,
+      "priceCompared": true
+    },
+    {
       "slug": "black-souls",
       "store": "steam",
       "steamAppId": 3755860,
@@ -1058,59 +1197,31 @@
       "priceCompared": true
     },
     {
-      "slug": "black-souls-ii",
+      "slug": "ascend-from-nine-mountains",
       "store": "steam",
-      "steamAppId": 3855540,
-      "title": "BLACK SOULS II",
-      "description": "Despair. Fear, Madness, once again. An original work based on &quot;Alice in Wonderland&quot; and &quot;Through the Looking-Glass.&quot; Dark Fairy Tale Fantasy x Psychological Horror RPG focusing on the themes of &quot;Exploration of a Mad World&quot; and &quot;Life or Death Combat against Demonbeasts&quot;.",
+      "steamAppId": 3992260,
+      "title": "Ascend From Nine Mountains",
+      "description": "Craft mythical treasures. Perfect your stance. Shatter your limits. Ascend from Nine Mountains is a cultivation RPG where deep crafting, tactical combat, and meaningful relationships intertwine. Your choices carve the way from mortal obscurity to legend.",
       "genres": [
         "Adventure",
-        "Indie",
-        "RPG"
+        "RPG",
+        "Early Access"
       ],
-      "releaseDate": "Nov 28, 2025",
+      "releaseDate": "Oct 1, 2025",
       "developers": [
-        "Eeny, meeny, miny, moe?"
+        "Nine Ascension Studios"
       ],
-      "storeUrl": "https://store.steampowered.com/app/3855540/",
-      "priceLabel": "$11.19",
-      "originalPriceLabel": "$13.99",
-      "discountPercent": 20,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3855540/b1a169268bb89754248da4fded96ebda8f2f283a/header.jpg?t=1794881716",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3855540/9b8948529c68090c4773ba224de721a0b9bffb4f/ss_9b8948529c68090c4773ba224de721a0b9bffb4f.1920x1080.jpg?t=1794881716",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3855540/b1a169268bb89754248da4fded96ebda8f2f283a/header.jpg?t=1794881716",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3855540/9b8948529c68090c4773ba224de721a0b9bffb4f/ss_9b8948529c68090c4773ba224de721a0b9bffb4f.1920x1080.jpg?t=1794881716",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3855540/55cd6944235c01058ae025c273d7fb290e04203b/ss_55cd6944235c01058ae025c273d7fb290e04203b.1920x1080.jpg?t=1794881716",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3855540/a593790f30d18cf4adb68a0a25d59c65823ac364/ss_a593790f30d18cf4adb68a0a25d59c65823ac364.1920x1080.jpg?t=1794881716"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
-    {
-      "slug": "escape-academy",
-      "store": "steam",
-      "steamAppId": 1812090,
-      "title": "Escape Academy",
-      "description": "Welcome to Escape Academy. Train to become the ultimate Escapist. Solve Puzzles. Hack Servers. Meet the Faculty. Brew the perfect cup of tea. Escape Rooms in single player or co-op with a friend - local or online!",
-      "genres": [
-        "Adventure"
-      ],
-      "releaseDate": "Jul 13, 2022",
-      "developers": [
-        "Coin Crew Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/1812090/",
-      "priceLabel": "$2.99",
+      "storeUrl": "https://store.steampowered.com/app/3992260/",
+      "priceLabel": "$14.99",
       "originalPriceLabel": "$19.99",
-      "discountPercent": 85,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/header.jpg?t=1794083770",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/ss_2e7d265da1af9da54951bcae28c55930a999ef6a.1920x1080.jpg?t=1794083770",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/header.jpg?t=1794083770",
+      "discountPercent": 25,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3992260/43f71e3a83461ec3c33e5e4d0d305edac7c2c124/header.jpg?t=1795276710",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3992260/60bed7783f4d0c48cf22bb298ea7dfcab12dac07/ss_60bed7783f4d0c48cf22bb298ea7dfcab12dac07.1920x1080.jpg?t=1795276710",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3992260/43f71e3a83461ec3c33e5e4d0d305edac7c2c124/header.jpg?t=1795276710",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/ss_2e7d265da1af9da54951bcae28c55930a999ef6a.1920x1080.jpg?t=1794083770",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/ss_0905d9b13f1b2608018b6ddf75620721234289f3.1920x1080.jpg?t=1794083770",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/ss_3b686558c1b506828f139a6e225a1c9737c26739.1920x1080.jpg?t=1794083770"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3992260/60bed7783f4d0c48cf22bb298ea7dfcab12dac07/ss_60bed7783f4d0c48cf22bb298ea7dfcab12dac07.1920x1080.jpg?t=1795276710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3992260/c20b74d3eec6c6042df4fce29e1e11a7a2df60e1/ss_c20b74d3eec6c6042df4fce29e1e11a7a2df60e1.1920x1080.jpg?t=1795276710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3992260/e9e210f84bb99cf6cdf832dc54a0e9c31d81ed52/ss_e9e210f84bb99cf6cdf832dc54a0e9c31d81ed52.1920x1080.jpg?t=1795276710"
       ],
       "free": null,
       "priceCompared": true
@@ -1146,100 +1257,32 @@
       "priceCompared": true
     },
     {
-      "slug": "yaoling-mythical-journey",
+      "slug": "escape-academy",
       "store": "steam",
-      "steamAppId": 2816950,
-      "title": "Yaoling: Mythical Journey",
-      "description": "Yaoling: Mythical Journey is a creature collecting Eastern fantasy RPG featuring an world filled with rich stories and unique Yaolings. Tasked to uncover a mysterious evil, you embark on a journey with your Yaolings, forming new friendships, engage in intense battles, and face countless challenges!",
+      "steamAppId": 1812090,
+      "title": "Escape Academy",
+      "description": "Welcome to Escape Academy. Train to become the ultimate Escapist. Solve Puzzles. Hack Servers. Meet the Faculty. Brew the perfect cup of tea. Escape Rooms in single player or co-op with a friend - local or online!",
       "genres": [
-        "Adventure",
-        "Casual",
-        "Indie"
+        "Adventure"
       ],
-      "releaseDate": "Jun 19, 2025",
+      "releaseDate": "Jul 13, 2022",
       "developers": [
-        "RAYKA STUDIO"
+        "Coin Crew Games"
       ],
-      "storeUrl": "https://store.steampowered.com/app/2816950/",
-      "priceLabel": "$6.59",
+      "storeUrl": "https://store.steampowered.com/app/1812090/",
+      "priceLabel": "$2.99",
       "originalPriceLabel": "$19.99",
-      "discountPercent": 67,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/header.jpg?t=1792492153",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_77868022065d1a0cf9de47b4570e4c14717ff348.1920x1080.jpg?t=1792492153",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/header.jpg?t=1792492153",
+      "discountPercent": 85,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/header.jpg?t=1794083770",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/ss_2e7d265da1af9da54951bcae28c55930a999ef6a.1920x1080.jpg?t=1794083770",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/header.jpg?t=1794083770",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_77868022065d1a0cf9de47b4570e4c14717ff348.1920x1080.jpg?t=1792492153",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_a1f2b4cd36f18f0dbcee2e3d481bd3e37a20b124.1920x1080.jpg?t=1792492153",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_f27f72936813cf4901e599d0b3c84ede01c45752.1920x1080.jpg?t=1792492153"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/ss_2e7d265da1af9da54951bcae28c55930a999ef6a.1920x1080.jpg?t=1794083770",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/ss_0905d9b13f1b2608018b6ddf75620721234289f3.1920x1080.jpg?t=1794083770",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812090/ss_3b686558c1b506828f139a6e225a1c9737c26739.1920x1080.jpg?t=1794083770"
       ],
       "free": null,
       "priceCompared": true
-    },
-    {
-      "slug": "eastshade",
-      "store": "steam",
-      "steamAppId": 715560,
-      "title": "Eastshade",
-      "description": "You are a traveling painter, exploring the island of Eastshade. Capture the world on canvas using your artist’s easel. Talk to the inhabitants to learn about their lives. Make friends and help those in need. Visit cities, scale summits, unearth mysteries, and discover forgotten places!",
-      "genres": [
-        "Adventure",
-        "Indie"
-      ],
-      "releaseDate": "Feb 13, 2019",
-      "developers": [
-        "Eastshade Studios"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/715560/",
-      "priceLabel": "$6.24",
-      "originalPriceLabel": "$24.99",
-      "discountPercent": 75,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/715560/header.jpg?t=1787039868",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/715560/ss_aa4b7d54e27c38b0d0b06d8c769e2917c106c4c0.1920x1080.jpg?t=1787039868",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/715560/header.jpg?t=1787039868",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/715560/ss_aa4b7d54e27c38b0d0b06d8c769e2917c106c4c0.1920x1080.jpg?t=1787039868",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/715560/ss_770adce8349bfaa3a590a3e6b7dea909b55aa10a.1920x1080.jpg?t=1787039868",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/715560/ss_2baf765b919318d92c37d91fa6511953f39a4a7b.1920x1080.jpg?t=1787039868"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
-    {
-      "slug": "way-of-the-hunter",
-      "store": "steam",
-      "steamAppId": 1288320,
-      "title": "Way of the Hunter",
-      "description": "Become the new owner of a hunting lodge nestled among gorgeous habitats and rich animal populations. Explore vast open world environments and hunt with a premium selection of firearms. Enjoy the perfect hunt on your own or with friends in co-op.",
-      "genres": [
-        "Adventure",
-        "Simulation",
-        "Sports"
-      ],
-      "releaseDate": "Aug 16, 2022",
-      "developers": [
-        "Nine Rocks Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/1288320/",
-      "priceLabel": "$7.49",
-      "originalPriceLabel": "$29.99",
-      "discountPercent": 75,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/header.jpg?t=1774533447",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/ss_54d3193732869cd1e5ab5cf1746cd8dcd1680a68.1920x1080.jpg?t=1774533447",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/header.jpg?t=1774533447",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/ss_54d3193732869cd1e5ab5cf1746cd8dcd1680a68.1920x1080.jpg?t=1774533447",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/ss_9436d461a8a88b61f36a4e197404587249795ebd.1920x1080.jpg?t=1774533447",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/ss_5038cebf71462b875a2ed17d426c16d862d592ac.1920x1080.jpg?t=1774533447"
-      ],
-      "free": null,
-      "priceCompared": true,
-      "cheapest": {
-        "store": "GameBillet",
-        "priceLabel": "$5.45",
-        "retailLabel": "$29.99",
-        "savingsPercent": 82,
-        "url": "https://www.cheapshark.com/redirect?dealID=PM5wkmuZ0pi3OUBXfDvrqGaOZ2F%2BZl3%2BVY5CVUCOzYU%3D"
-      }
     },
     {
       "slug": "epic-firestone-idle-clicker-online-rpg",
