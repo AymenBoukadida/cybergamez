@@ -1,31 +1,30 @@
 {
-  "syncedAt": "2026-11-25T08:33:02.618Z",
+  "syncedAt": "2026-11-25T21:41:00.673Z",
   "source": "Steam Store + Epic Games Store + CheapShark",
-  "featured": "call-of-duty-modern-warfare-4",
+  "featured": "star-wars-galactic-racertm",
   "trending": [
-    "call-of-duty-modern-warfare-4",
-    "007-first-light",
-    "grand-theft-auto-v-enhanced"
+    "star-wars-galactic-racertm",
+    "call-of-duty-modern-warfare-4"
   ],
   "newReleases": [
-    "baseballball",
-    "difference-house-find-all-51",
-    "snackrifice",
-    "inflight-atc",
-    "mellows-garden",
-    "matryoshka",
-    "dough-not-waste",
-    "godparty",
-    "incremental-pachinko-heaven",
-    "catchcatch"
+    "destination-acceleration",
+    "garden-of-the-atom",
+    "goblin-hoarder",
+    "runecast",
+    "nullvector",
+    "dopamine-rogue",
+    "dragon-joust",
+    "sort-their-teeth",
+    "pocket-dynasty",
+    "business-simulator"
   ],
   "deals": [
-    "grand-theft-auto-v-enhanced",
     "red-dead-redemption-2",
+    "grand-theft-auto-v-enhanced",
+    "star-wars-galactic-racertm",
     "007-first-light",
-    "baldurs-gate-3",
-    "detroit-become-human",
-    "no-asteroids"
+    "silent-hill-f",
+    "baldurs-gate-3"
   ],
   "freebies": {
     "current": [
@@ -42,16 +41,34 @@
         "baldurs-gate-3",
         "detroit-become-human",
         "the-elder-scrolls-v-skyrim-special-edition",
-        "bombanana",
+        "ultrakill",
         "the-elder-scrolls-iv-oblivion-remastered",
         "starfield",
-        "fallout-4",
-        "doom-the-dark-ages"
+        "doom-the-dark-ages",
+        "bombanana"
       ],
       "endsAt": "2026-11-30T18:00:00.000Z"
     }
   },
   "news": [
+    {
+      "title": "STAR WARS: Galactic Racer™ Black Friday Sale Starts Now",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852982364",
+      "publishedAt": "2026-11-25T18:00:28.000Z",
+      "source": "Community Announcements",
+      "summary": "Ori and Per aren’t the only merchants offering great deals in the Star Wars™ galaxy. Star Wars: Galactic Racer™ is now 20% off for Black Friday until Wednesday December 9th, so grab your copy before the discount ends!…",
+      "gameSlug": "star-wars-galactic-racertm",
+      "gameTitle": "STAR WARS: Galactic Racer™"
+    },
+    {
+      "title": "STAR WARS: Galactic Racer will get a Speed Legends Update in December with new content",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/GamingOnLinux/1850460852980311",
+      "publishedAt": "2026-11-25T08:37:38.000Z",
+      "source": "GamingOnLinux",
+      "summary": "While we won't get split-screen play until next year, STAR WARS: Galactic Racer is still getting a new content update to keep you going until then. Read the full article here:…",
+      "gameSlug": "star-wars-galactic-racertm",
+      "gameTitle": "STAR WARS: Galactic Racer™"
+    },
     {
       "title": "Драйвер NVIDIA 621.35 снижает производительность Modern Warfare 4 на 19 FPS - тесты выявили новую проблему",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1850460852980274",
@@ -60,15 +77,6 @@
       "summary": "Проблемы с драйверами NVIDIA, вызывающими чрезмерную запись данных на SSD, оказались не единственным поводом для беспокойства владельцев видеокарт GeForce. Новые испытания показали, что версия 621.35 Hotfix также может…",
       "gameSlug": "call-of-duty-modern-warfare-4",
       "gameTitle": "Call of Duty®: Modern Warfare® 4"
-    },
-    {
-      "title": "007 First Light от IO Interactive получила в Steam самую крупную скидку с момента релиза - 50%",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110446415",
-      "publishedAt": "2026-11-24T14:29:35.000Z",
-      "source": "PlayGround.ru - официальная группа",
-      "summary": "Датская студия IO Interactive снизила стоимость шпионского стелс-экшена 007 First Light в Steam до рекордно низкого показателя — до 7 декабря игру можно приобрести со скидкой 50%. Вдвое дешевле также обойдётся набор…",
-      "gameSlug": "007-first-light",
-      "gameTitle": "007 First Light"
     },
     {
       "title": "Steam Global Top Sellers for week of 17 Nov — 24 November 2026",
@@ -80,25 +88,53 @@
       "gameTitle": "Call of Duty®: Modern Warfare® 4"
     },
     {
-      "title": "Take-Two добилась блокировки сотен неофициальных портов GTA V на GitHub - под удар попали версии для iOS и Android",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110445090",
-      "publishedAt": "2026-11-24T06:58:08.000Z",
-      "source": "PlayGround.ru - официальная группа",
-      "summary": "Компания Take-Two Interactive, владеющая Rockstar Games, развернула масштабную кампанию против неофициальных портов Grand Theft Auto V для мобильных устройств и компьютеров. Издатель направил GitHub четыре уведомления о…",
-      "gameSlug": "grand-theft-auto-v-enhanced",
-      "gameTitle": "Grand Theft Auto V Enhanced"
-    },
-    {
-      "title": "Nominate 007 First Light at The Steam Awards!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110443672",
-      "publishedAt": "2026-11-23T20:27:45.000Z",
+      "title": "We are on this Next Fest Edition!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1824644522840518",
+      "publishedAt": "2026-02-13T21:17:24.000Z",
       "source": "Community Announcements",
-      "summary": "The Steam Awards 2026 Nominate 007 First Light at this year’s Steam Awards! 🏆 Game of the Year🏆 Best Soundtrack🏆 Outstanding Story-Rich Game🏆 Outstanding Visual StyleGet 50% Off Standard Edition and Deluxe Edition…",
-      "gameSlug": "007-first-light",
-      "gameTitle": "007 First Light"
+      "summary": "We’re excited to announce that Garden of the Atom is officially live in Steam Next Fest!This is your chance to jump into the demo, experience the game, and help shape its future with your feedback.Play the Demo NowBe…",
+      "gameSlug": "garden-of-the-atom",
+      "gameTitle": "Garden of the Atom"
     }
   ],
   "games": [
+    {
+      "slug": "star-wars-galactic-racertm",
+      "store": "steam",
+      "steamAppId": 4078430,
+      "title": "STAR WARS: Galactic Racer™",
+      "description": "STAR WARS: Galactic Racer™ is a ​runs-based, ​high-stakes reinvention of racing born in the lawless Outer Rim. With the Empire gone and the galaxy rebuilding, The Galactic League is created: an underground, unsanctioned circuit where syndicates bankroll chaos and champions are forged.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Racing"
+      ],
+      "releaseDate": "Oct 6, 2026",
+      "developers": [
+        "Fuse Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/4078430/",
+      "priceLabel": "$47.99",
+      "originalPriceLabel": "$59.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/97215eb609882139ce6a28419116be23fcf5ac86/header.jpg?t=1795526138",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/678c46e3c0b0f82e3af8b0e901b8434057a36966/ss_678c46e3c0b0f82e3af8b0e901b8434057a36966.1920x1080.jpg?t=1795526138",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/97215eb609882139ce6a28419116be23fcf5ac86/header.jpg?t=1795526138",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/678c46e3c0b0f82e3af8b0e901b8434057a36966/ss_678c46e3c0b0f82e3af8b0e901b8434057a36966.1920x1080.jpg?t=1795526138",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/a4730f74ffd9a95e2db6789ba0ebec7b32bac531/ss_a4730f74ffd9a95e2db6789ba0ebec7b32bac531.1920x1080.jpg?t=1795526138",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/b17162ee3e49e49450b532612e8326cc43d1cceb/ss_b17162ee3e49e49450b532612e8326cc43d1cceb.1920x1080.jpg?t=1795526138"
+      ],
+      "free": null,
+      "priceCompared": true,
+      "cheapest": {
+        "store": "Fanatical",
+        "priceLabel": "$42.59",
+        "retailLabel": "$59.99",
+        "savingsPercent": 29,
+        "url": "https://www.cheapshark.com/redirect?dealID=m0BtMtTa6SCXluWWfYmoZbZJXwl1L12j8W9yy0u%2F%2Fbk%3D"
+      }
+    },
     {
       "slug": "call-of-duty-modern-warfare-4",
       "store": "steam",
@@ -135,352 +171,283 @@
       "priceCompared": true
     },
     {
-      "slug": "007-first-light",
+      "slug": "destination-acceleration",
       "store": "steam",
-      "steamAppId": 3768760,
-      "title": "007 First Light",
-      "description": "Earn the Number. 007 First Light is a thrilling espionage action-adventure game from IO Interactive. Follow James Bond as a young, resourceful and sometimes reckless recruit in MI6's training programme, and discover an origin story of the world’s most famous spy.",
+      "steamAppId": 5551040,
+      "title": "Destination & Acceleration",
+      "description": "This is a top-down platformer where your goal is to complete the levels. Destination &amp; Acceleration is a truly hardcore, stylish, and fair game. What a shame you won't even make it past ten levels here.",
+      "genres": [
+        "Indie"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "TripleFilterDev"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5551040/",
+      "priceLabel": "$1.99",
+      "discountPercent": 0,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5551040/54dee82cc024c4e56038c7be256a0b556e38253e/header.jpg?t=1795639793",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5551040/329bc03b25a216e3fa327391eec2717f56f01501/ss_329bc03b25a216e3fa327391eec2717f56f01501.1920x1080.jpg?t=1795639793",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5551040/54dee82cc024c4e56038c7be256a0b556e38253e/header.jpg?t=1795639793",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5551040/329bc03b25a216e3fa327391eec2717f56f01501/ss_329bc03b25a216e3fa327391eec2717f56f01501.1920x1080.jpg?t=1795639793",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5551040/09f26701c2fbdac779c932b3cff9d4f34273cb38/ss_09f26701c2fbdac779c932b3cff9d4f34273cb38.1920x1080.jpg?t=1795639793",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5551040/0b16b33dc7af72b88b33433b8201eb1feebb96d4/ss_0b16b33dc7af72b88b33433b8201eb1feebb96d4.1920x1080.jpg?t=1795639793"
+      ],
+      "free": null
+    },
+    {
+      "slug": "garden-of-the-atom",
+      "store": "steam",
+      "steamAppId": 4297980,
+      "title": "Garden of the Atom",
+      "description": "Garden of the Atom is a combat-focused Metroidvania where you hold nothing back. Start with every movement ability unlocked and play as the 'Prodigy,' an exiled genius infiltrating a futuristic dictatorship to stop a tyrant from harnessing a cataclysmic meteor shower.",
       "genres": [
         "Action",
         "Adventure"
       ],
-      "releaseDate": "May 26, 2026",
+      "releaseDate": "Nov 25, 2026",
       "developers": [
-        "IO Interactive A/S"
+        "Rookbird Games"
       ],
-      "storeUrl": "https://store.steampowered.com/app/3768760/",
-      "priceLabel": "$34.99",
-      "originalPriceLabel": "$69.99",
-      "discountPercent": 50,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795019577",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/ef374e5e4ede8c71f32d455652bc00f2fa7c035e/ss_ef374e5e4ede8c71f32d455652bc00f2fa7c035e.1920x1080.jpg?t=1795019577",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795019577",
+      "storeUrl": "https://store.steampowered.com/app/4297980/",
+      "priceLabel": "$2.99",
+      "discountPercent": 0,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297980/31774a77d56967b502db263cea8ef53405805814/header.jpg?t=1795638926",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297980/8aa9ad0935fae39a9baf2bce9e67e22fb9237a68/ss_8aa9ad0935fae39a9baf2bce9e67e22fb9237a68.1920x1080.jpg?t=1795638926",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297980/31774a77d56967b502db263cea8ef53405805814/header.jpg?t=1795638926",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/ef374e5e4ede8c71f32d455652bc00f2fa7c035e/ss_ef374e5e4ede8c71f32d455652bc00f2fa7c035e.1920x1080.jpg?t=1795019577",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/18787f52adabf0e5248548ed83562e6aac88f94d/ss_18787f52adabf0e5248548ed83562e6aac88f94d.1920x1080.jpg?t=1795019577",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/43c8cf3875cb6643ac7d8244e9fd39381609814a/ss_43c8cf3875cb6643ac7d8244e9fd39381609814a.1920x1080.jpg?t=1795019577"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297980/8aa9ad0935fae39a9baf2bce9e67e22fb9237a68/ss_8aa9ad0935fae39a9baf2bce9e67e22fb9237a68.1920x1080.jpg?t=1795638926",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297980/7aa2124aac4e690aaa87dfe7ba9aaef921bdbb3b/ss_7aa2124aac4e690aaa87dfe7ba9aaef921bdbb3b.1920x1080.jpg?t=1795638926",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297980/dbfe4e6e28ae9d352ac4742624b37061d7f343ea/ss_dbfe4e6e28ae9d352ac4742624b37061d7f343ea.1920x1080.jpg?t=1795638926"
+      ],
+      "free": null
+    },
+    {
+      "slug": "goblin-hoarder",
+      "store": "steam",
+      "steamAppId": 5378450,
+      "title": "Goblin Hoarder",
+      "description": "Big mess. Little goblin. Goblins and humans are at war, and thousands of stolen treasures need sorting! Fill shelves, grow towers, and unlock magical upgrades and gadgets in a cozy, family-friendly sorting adventure that's easy to learn and fun for goblins of all ages!",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "Rocket Munky"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5378450/",
+      "priceLabel": "$5.39",
+      "originalPriceLabel": "$5.99",
+      "discountPercent": 10,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378450/2ff2a2b08cc5a21fa6c107d72dca6606ce8bd1c6/header.jpg?t=1795637116",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378450/77310b586dd75db3829dacced7ec7e884c44d35d/ss_77310b586dd75db3829dacced7ec7e884c44d35d.1920x1080.jpg?t=1795637116",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378450/2ff2a2b08cc5a21fa6c107d72dca6606ce8bd1c6/header.jpg?t=1795637116",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378450/77310b586dd75db3829dacced7ec7e884c44d35d/ss_77310b586dd75db3829dacced7ec7e884c44d35d.1920x1080.jpg?t=1795637116",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378450/cc8108ef3f9623d86b51b4ee71866efbbb85c700/ss_cc8108ef3f9623d86b51b4ee71866efbbb85c700.1920x1080.jpg?t=1795637116",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378450/06d47a905d53f827f0463dc9b84d862f29e0ec03/ss_06d47a905d53f827f0463dc9b84d862f29e0ec03.1920x1080.jpg?t=1795637116"
+      ],
+      "free": null
+    },
+    {
+      "slug": "runecast",
+      "store": "steam",
+      "steamAppId": 5126340,
+      "title": "Runecast",
+      "description": "A pixel-art rune auto battler. Cast runes, summon and merge heroes, temper your troop at the Rune Forge and march through four acts to Surtr, who rises again in blue flame. Then pick your doors and climb the Endless Tower, floor by floor.",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "Dotsmith"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5126340/",
+      "priceLabel": "Free",
+      "discountPercent": 0,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126340/13ef5f548e86838477ad21e4ef49075cf229d987/header.jpg?t=1795637679",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126340/6c10742979d3aa0233e2050dafeb0c845657c8e1/ss_6c10742979d3aa0233e2050dafeb0c845657c8e1.1920x1080.jpg?t=1795637679",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126340/13ef5f548e86838477ad21e4ef49075cf229d987/header.jpg?t=1795637679",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126340/6c10742979d3aa0233e2050dafeb0c845657c8e1/ss_6c10742979d3aa0233e2050dafeb0c845657c8e1.1920x1080.jpg?t=1795637679",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126340/a2bd4310b0dadb8cd20ec201a8b2476366fcd54f/ss_a2bd4310b0dadb8cd20ec201a8b2476366fcd54f.1920x1080.jpg?t=1795637679",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126340/0563ab71244ad9b73a5d4bbd9829254fc3e88736/ss_0563ab71244ad9b73a5d4bbd9829254fc3e88736.1920x1080.jpg?t=1795637679"
+      ],
+      "free": null
+    },
+    {
+      "slug": "nullvector",
+      "store": "steam",
+      "steamAppId": 4847770,
+      "title": "NULLVECTOR",
+      "description": "NULLVECTOR is a fast top-down action roguelike. Choose from 12 playable Vectors with distinct abilities, equip up to four weapons, and stack upgrades to shape your build. Dodge dense bullet patterns and defeat bosses in short, replayable runs.",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "Ceso Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/4847770/",
+      "priceLabel": "$4.49",
+      "originalPriceLabel": "$4.99",
+      "discountPercent": 10,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847770/24b3ee7ae2bcbb8b65aa5ecde7fa8bd444ff1677/header.jpg?t=1795634348",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847770/9e265a9e7e2c3a93f697d9e1adfbcad2de0a24fe/ss_9e265a9e7e2c3a93f697d9e1adfbcad2de0a24fe.1920x1080.jpg?t=1795634348",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847770/24b3ee7ae2bcbb8b65aa5ecde7fa8bd444ff1677/header.jpg?t=1795634348",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847770/9e265a9e7e2c3a93f697d9e1adfbcad2de0a24fe/ss_9e265a9e7e2c3a93f697d9e1adfbcad2de0a24fe.1920x1080.jpg?t=1795634348",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847770/765050d7d49f0e7484246fc681c7662e66231cdb/ss_765050d7d49f0e7484246fc681c7662e66231cdb.1920x1080.jpg?t=1795634348",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847770/360381cb46c44b54f31eed42a6a3d3d121bd1f8b/ss_360381cb46c44b54f31eed42a6a3d3d121bd1f8b.1920x1080.jpg?t=1795634348"
+      ],
+      "free": null
+    },
+    {
+      "slug": "dopamine-rogue",
+      "store": "steam",
+      "steamAppId": 4308630,
+      "title": "Dopamine rogue",
+      "description": "Manage your dopamine, earn money, build decks, and navigate life's challenges in this psychological life-simulation roguelike. Every choice shapes your story as you struggle to survive your own mind. A project developed individually over more than two years.",
+      "genres": [
+        "Indie"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "Ctrl+Art"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/4308630/",
+      "priceLabel": "$6.99",
+      "discountPercent": 0,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308630/4ee07c66bb1b7e988633c186ca68132309798c6f/header.jpg?t=1795633291",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308630/dfc1a29e86da7c3625d7564f3d636eee1d8778ef/ss_dfc1a29e86da7c3625d7564f3d636eee1d8778ef.1920x1080.jpg?t=1795633291",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308630/4ee07c66bb1b7e988633c186ca68132309798c6f/header.jpg?t=1795633291",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308630/dfc1a29e86da7c3625d7564f3d636eee1d8778ef/ss_dfc1a29e86da7c3625d7564f3d636eee1d8778ef.1920x1080.jpg?t=1795633291",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308630/f39a29be00303fcbefa58c1d66f14cee3828645a/ss_f39a29be00303fcbefa58c1d66f14cee3828645a.1920x1080.jpg?t=1795633291",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308630/7799a6e8a16963aab43ecd459742c1219c382dab/ss_7799a6e8a16963aab43ecd459742c1219c382dab.1920x1080.jpg?t=1795633291"
+      ],
+      "free": null
+    },
+    {
+      "slug": "dragon-joust",
+      "store": "steam",
+      "steamAppId": 5541850,
+      "title": "Dragon Joust",
+      "description": "Two riders. Four dragons. One sky to rule. Pick the Orc King or the Sorceress Queen, saddle up a fire, ice, poison, or magic dragon, and joust your rivals out of the clouds. Raid villages, summon storms, call a Titan, or just fly for high scores, solo, online or tournament with 8 players .",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "ChristopherCgaming llc"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5541850/",
+      "priceLabel": "$6.99",
+      "discountPercent": 0,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5541850/434eefdab69c7d458ad682b83add01659f99c5c4/header.jpg?t=1795633044",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5541850/3566b5d1d2d50841c8282966cde9f41ba5c27aaf/ss_3566b5d1d2d50841c8282966cde9f41ba5c27aaf.1920x1080.jpg?t=1795633044",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5541850/434eefdab69c7d458ad682b83add01659f99c5c4/header.jpg?t=1795633044",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5541850/3566b5d1d2d50841c8282966cde9f41ba5c27aaf/ss_3566b5d1d2d50841c8282966cde9f41ba5c27aaf.1920x1080.jpg?t=1795633044",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5541850/ccf9337c61d8395e1c04ec36a75721c2a42f6c36/ss_ccf9337c61d8395e1c04ec36a75721c2a42f6c36.1920x1080.jpg?t=1795633044",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5541850/07932ff349bdaf9799a856a8ad9fea8b932fdf09/ss_07932ff349bdaf9799a856a8ad9fea8b932fdf09.1920x1080.jpg?t=1795633044"
+      ],
+      "free": null
+    },
+    {
+      "slug": "sort-their-teeth",
+      "store": "steam",
+      "steamAppId": 5271070,
+      "title": "Sort Their TEETH",
+      "description": "Sort Their TEETH is a surreal first-person sorting game set inside a living mouth museum. Pick up scattered teeth, match them to bizarre creature exhibits, and gradually clear the chaotic floor. Collect Golden Teeth to unlock unusual upgrades that make sorting even more satisfying.",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "Sole Signal Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5271070/",
+      "priceLabel": "$2.24",
+      "originalPriceLabel": "$2.49",
+      "discountPercent": 10,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271070/d484f0724316230e65b93aafef9ac52a866fb5c5/header.jpg?t=1795632201",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271070/95378cad4065d7ef8ac45f10a41194b282bab9dd/ss_95378cad4065d7ef8ac45f10a41194b282bab9dd.1920x1080.jpg?t=1795632201",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271070/d484f0724316230e65b93aafef9ac52a866fb5c5/header.jpg?t=1795632201",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271070/95378cad4065d7ef8ac45f10a41194b282bab9dd/ss_95378cad4065d7ef8ac45f10a41194b282bab9dd.1920x1080.jpg?t=1795632201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271070/998630770057466924955a5ea094361f1fb2bf72/ss_998630770057466924955a5ea094361f1fb2bf72.1920x1080.jpg?t=1795632201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271070/a2961fd4b35e6f32f3109592037fa9be2b809802/ss_a2961fd4b35e6f32f3109592037fa9be2b809802.1920x1080.jpg?t=1795632201"
+      ],
+      "free": null
+    },
+    {
+      "slug": "pocket-dynasty",
+      "store": "steam",
+      "steamAppId": 5195560,
+      "title": "Pocket Dynasty",
+      "description": "Coach an American football team in modern-retro pixel art. Call every play, hand the headset to your coordinators, or take the snap yourself. Draft rookies, bring legends back as coaches, chase a title, and challenge a friend on one PC or online.",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Sports"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "Voxel Pulse Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/5195560/",
+      "priceLabel": "$11.99",
+      "originalPriceLabel": "$14.99",
+      "discountPercent": 20,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195560/9e29256c8434034dfb7961ead06e9d016e4ddbd9/header.jpg?t=1795632863",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195560/358765f96c2c5a1790c32da76a088006d370ac21/ss_358765f96c2c5a1790c32da76a088006d370ac21.1920x1080.jpg?t=1795632863",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195560/9e29256c8434034dfb7961ead06e9d016e4ddbd9/header.jpg?t=1795632863",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195560/358765f96c2c5a1790c32da76a088006d370ac21/ss_358765f96c2c5a1790c32da76a088006d370ac21.1920x1080.jpg?t=1795632863",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195560/c7c0c2dd0b5f37718a8245cc6f5156b275213a85/ss_c7c0c2dd0b5f37718a8245cc6f5156b275213a85.1920x1080.jpg?t=1795632863",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195560/f010406c7f3608f3f0e04f3945f76e951586a514/ss_f010406c7f3608f3f0e04f3945f76e951586a514.1920x1080.jpg?t=1795632863"
+      ],
+      "free": null
+    },
+    {
+      "slug": "business-simulator",
+      "store": "steam",
+      "steamAppId": 3098060,
+      "title": "Business Simulator",
+      "description": "In Business Simulator 2026, you start with a small capital and aim to build a business empire in the city by deciding which business to start in which shop and deciding the prices. Business Simulator 2026 is a business simulation that will test your business acumen and strategic planning skills.",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "releaseDate": "Nov 25, 2026",
+      "developers": [
+        "HOGO Games"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/3098060/",
+      "priceLabel": "$7.19",
+      "originalPriceLabel": "$11.99",
+      "discountPercent": 40,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/5d760359372cbeef8a44c631cb9809172d301821/header.jpg?t=1795630175",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/b5e833897b38d21627ba2541ca3bcd240b4408e5/ss_b5e833897b38d21627ba2541ca3bcd240b4408e5.1920x1080.jpg?t=1795630175",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/5d760359372cbeef8a44c631cb9809172d301821/header.jpg?t=1795630175",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/b5e833897b38d21627ba2541ca3bcd240b4408e5/ss_b5e833897b38d21627ba2541ca3bcd240b4408e5.1920x1080.jpg?t=1795630175",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/ba52177fe4f61422d11bfe068cb26b9a6fc18585/ss_ba52177fe4f61422d11bfe068cb26b9a6fc18585.1920x1080.jpg?t=1795630175",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/f3944027dc3f5e62271f96d369169c14615103e4/ss_f3944027dc3f5e62271f96d369169c14615103e4.1920x1080.jpg?t=1795630175"
       ],
       "free": null,
       "priceCompared": true
-    },
-    {
-      "slug": "grand-theft-auto-v-enhanced",
-      "store": "steam",
-      "steamAppId": 3240220,
-      "title": "Grand Theft Auto V Enhanced",
-      "description": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Racing"
-      ],
-      "releaseDate": "Mar 4, 2025",
-      "developers": [
-        "Rockstar North"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/3240220/",
-      "priceLabel": "$19.79",
-      "originalPriceLabel": "$44.99",
-      "discountPercent": 56,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1781187782",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1781187782",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/8340fd391012e12be7e4c02e65801a2648a6b60e/ss_8340fd391012e12be7e4c02e65801a2648a6b60e.1920x1080.jpg?t=1781187782",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f2e70b5823510daa062293ff0b03821e1dee2d37/ss_f2e70b5823510daa062293ff0b03821e1dee2d37.1920x1080.jpg?t=1781187782"
-      ],
-      "free": null,
-      "priceCompared": true,
-      "cheapest": {
-        "store": "GreenManGaming",
-        "priceLabel": "$12.00",
-        "retailLabel": "$29.99",
-        "savingsPercent": 60,
-        "url": "https://www.cheapshark.com/redirect?dealID=Ug9lX00BYejHM3ZjuMjVtB34Qc%2BL0Mv2X1DfLx7jUUQ%3D"
-      }
-    },
-    {
-      "slug": "baseballball",
-      "store": "steam",
-      "steamAppId": 5428150,
-      "title": "Baseballball",
-      "description": "A baseball-focused sports career and life simulation game. Start as a 16-year-old high school player, pitch, bat, run bases, and field while balancing school, daily life, part-time jobs, and investments. Go pro, try other sports, and compete against AI or friends.",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "habrian"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5428150/",
-      "priceLabel": "$6.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428150/0bf6afeea1a5cd3909d871f0e02ce107984dfacd/header.jpg?t=1795593146",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428150/f07b7056e5086e8e01138cf144c3a3186bbe77a3/ss_f07b7056e5086e8e01138cf144c3a3186bbe77a3.1920x1080.jpg?t=1795593146",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428150/0bf6afeea1a5cd3909d871f0e02ce107984dfacd/header.jpg?t=1795593146",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428150/f07b7056e5086e8e01138cf144c3a3186bbe77a3/ss_f07b7056e5086e8e01138cf144c3a3186bbe77a3.1920x1080.jpg?t=1795593146",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428150/22bb57fd0d36f3beaa4c33c03e5247a570d92a6b/ss_22bb57fd0d36f3beaa4c33c03e5247a570d92a6b.1920x1080.jpg?t=1795593146",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428150/cd2f3c3f2585f1f2b8e1c9024dc303b26efa3dd2/ss_cd2f3c3f2585f1f2b8e1c9024dc303b26efa3dd2.1920x1080.jpg?t=1795593146"
-      ],
-      "free": null
-    },
-    {
-      "slug": "difference-house-find-all-51",
-      "store": "steam",
-      "steamAppId": 5410740,
-      "title": "DIFFERENCE HOUSE: Find All 51",
-      "description": "Two rooms that look exactly the same. Somewhere inside, 51 differences are hidden: a TV facing the wrong way, an extra plate, a color that is slightly off. You cannot leave this house until you find them all. A first-person endurance spot-the-difference game of walking, comparing and memory.",
-      "genres": [
-        "Casual",
-        "Indie"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "Makoda"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5410740/",
-      "priceLabel": "$2.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/370b0b1f3f5ac23d071767cfb7f8bab197f661ce/header.jpg?t=1795590174",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/083ba6fc961223ac4013ac0f31411a6c3f71c74c/ss_083ba6fc961223ac4013ac0f31411a6c3f71c74c.1920x1080.jpg?t=1795590174",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/370b0b1f3f5ac23d071767cfb7f8bab197f661ce/header.jpg?t=1795590174",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/083ba6fc961223ac4013ac0f31411a6c3f71c74c/ss_083ba6fc961223ac4013ac0f31411a6c3f71c74c.1920x1080.jpg?t=1795590174",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/522581c7f2aa110498799c96d96cb9aab4c1d98b/ss_522581c7f2aa110498799c96d96cb9aab4c1d98b.1920x1080.jpg?t=1795590174",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/cc3a89729cc553697bbe8e2c47a7b7a209555992/ss_cc3a89729cc553697bbe8e2c47a7b7a209555992.1920x1080.jpg?t=1795590174"
-      ],
-      "free": null
-    },
-    {
-      "slug": "snackrifice",
-      "store": "steam",
-      "steamAppId": 4382960,
-      "title": "Snackrifice",
-      "description": "Feed your hungry demon overlord in this 1-4 player roguelike dungeon crawler. You decide which chaotic curses afflict your run as you overcome the many levels of Purgatory.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "Karnage Studios"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/4382960/",
-      "priceLabel": "$5.94",
-      "originalPriceLabel": "$6.99",
-      "discountPercent": 15,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382960/498db00baa198da3d31f43fb10a4e61ae98147c6/header.jpg?t=1795590104",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382960/2be8ba90fa997bec00389fee19a6896c26072b59/ss_2be8ba90fa997bec00389fee19a6896c26072b59.1920x1080.jpg?t=1795590104",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382960/498db00baa198da3d31f43fb10a4e61ae98147c6/header.jpg?t=1795590104",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382960/2be8ba90fa997bec00389fee19a6896c26072b59/ss_2be8ba90fa997bec00389fee19a6896c26072b59.1920x1080.jpg?t=1795590104",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382960/ef47a4c1f107a394ec9fba0809f8ae0189ed9dc0/ss_ef47a4c1f107a394ec9fba0809f8ae0189ed9dc0.1920x1080.jpg?t=1795590104",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382960/957590c16953ef15d4b42d92102fa2bf821dc991/ss_957590c16953ef15d4b42d92102fa2bf821dc991.1920x1080.jpg?t=1795590104"
-      ],
-      "free": null
-    },
-    {
-      "slug": "inflight-atc",
-      "store": "steam",
-      "steamAppId": 5005030,
-      "title": "inFlight ATC",
-      "description": "Talk to air traffic control with your own voice. inFlight ATC adds AI controllers to Microsoft Flight Simulator 2020 and 2024: hold push-to-talk, make the call, hear the reply. Clearance to taxi-in, live traffic on frequency, SimBrief plans. One-time purchase, no subscription.",
-      "genres": [
-        "Education",
-        "Utilities"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "Double5Media"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5005030/",
-      "priceLabel": "$24.99",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005030/12ddd4110d1ad6d46bdba1e315c99e080461c911/header.jpg?t=1795588423",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005030/9312162385c34c2d423dc58258dd3d3c691510dd/ss_9312162385c34c2d423dc58258dd3d3c691510dd.1920x1080.jpg?t=1795588423",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005030/12ddd4110d1ad6d46bdba1e315c99e080461c911/header.jpg?t=1795588423",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005030/9312162385c34c2d423dc58258dd3d3c691510dd/ss_9312162385c34c2d423dc58258dd3d3c691510dd.1920x1080.jpg?t=1795588423",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005030/88ce511462840bafc2453795862108e7dc9e4323/ss_88ce511462840bafc2453795862108e7dc9e4323.1920x1080.jpg?t=1795588423",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005030/1c120ab0a725092e8e385376f795c181e0886c99/ss_1c120ab0a725092e8e385376f795c181e0886c99.1920x1080.jpg?t=1795588423"
-      ],
-      "free": null
-    },
-    {
-      "slug": "mellows-garden",
-      "store": "steam",
-      "steamAppId": 4654060,
-      "title": "Mellow's Garden",
-      "description": "Build your dream garden with up to 4 friends in Mellow's Garden, a cozy farming game. Plant crops, earn money, and make your garden your own.",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "Mingo Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/4654060/",
-      "priceLabel": "$3.59",
-      "originalPriceLabel": "$5.99",
-      "discountPercent": 40,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654060/28f2f9b777ef26f6f26b0a2f799bf5395cd3cb01/header.jpg?t=1795585510",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654060/93b234a38702d9578b56a73d11dc817041874fbf/ss_93b234a38702d9578b56a73d11dc817041874fbf.1920x1080.jpg?t=1795585510",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654060/28f2f9b777ef26f6f26b0a2f799bf5395cd3cb01/header.jpg?t=1795585510",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654060/93b234a38702d9578b56a73d11dc817041874fbf/ss_93b234a38702d9578b56a73d11dc817041874fbf.1920x1080.jpg?t=1795585510",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654060/d820b1a960207499be338239be4e7d484b636cb7/ss_d820b1a960207499be338239be4e7d484b636cb7.1920x1080.jpg?t=1795585510",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654060/945a3f48de435b0be1edc6bc5dd212d5f6306149/ss_945a3f48de435b0be1edc6bc5dd212d5f6306149.1920x1080.jpg?t=1795585510"
-      ],
-      "free": null
-    },
-    {
-      "slug": "matryoshka",
-      "store": "steam",
-      "steamAppId": 5058440,
-      "title": "Matryoshka",
-      "description": "Cursed entities that devour humans have gotten into the Matryoshka dolls. Inspect them with extreme caution. If you encounter a cursed doll, you must immediately burn and seal it away. A single mistake will be fatal.",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "flapper3 inc."
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5058440/",
-      "priceLabel": "$1.96",
-      "originalPriceLabel": "$3.28",
-      "discountPercent": 40,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058440/dad4f8643389950e584639ea417422875cd0f28b/header.jpg?t=1795585221",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058440/440ae410fa8d80709497a089cd5cf7d25314c595/ss_440ae410fa8d80709497a089cd5cf7d25314c595.1920x1080.jpg?t=1795585221",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058440/dad4f8643389950e584639ea417422875cd0f28b/header.jpg?t=1795585221",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058440/440ae410fa8d80709497a089cd5cf7d25314c595/ss_440ae410fa8d80709497a089cd5cf7d25314c595.1920x1080.jpg?t=1795585221",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058440/2f65cd4727429984f30af64788aabf5d39fcfdb1/ss_2f65cd4727429984f30af64788aabf5d39fcfdb1.1920x1080.jpg?t=1795585221",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058440/87677b792d5557a027ac681672cc89960a3d6095/ss_87677b792d5557a027ac681672cc89960a3d6095.1920x1080.jpg?t=1795585221"
-      ],
-      "free": null
-    },
-    {
-      "slug": "dough-not-waste",
-      "store": "steam",
-      "steamAppId": 5211000,
-      "title": "Dough Not Waste",
-      "description": "Roll out dough, cut cookies and decorate every batch in this cozy incremental baking game. Fit your cutters to waste less, complete festive orders, unlock better equipment and make a little bakery feel like home.",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "Pixeland"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5211000/",
-      "priceLabel": "$2.79",
-      "originalPriceLabel": "$3.99",
-      "discountPercent": 30,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5211000/826298c52e9af6b24c6a4722b0a0cdbc0f30c81a/header.jpg?t=1795589574",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5211000/15cdf37fce624eac69af9818ab82ff17ac7aa28b/ss_15cdf37fce624eac69af9818ab82ff17ac7aa28b.1920x1080.jpg?t=1795589574",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5211000/826298c52e9af6b24c6a4722b0a0cdbc0f30c81a/header.jpg?t=1795589574",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5211000/15cdf37fce624eac69af9818ab82ff17ac7aa28b/ss_15cdf37fce624eac69af9818ab82ff17ac7aa28b.1920x1080.jpg?t=1795589574",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5211000/7454e08abc504071bec10a399a9a1109196582c1/ss_7454e08abc504071bec10a399a9a1109196582c1.1920x1080.jpg?t=1795589574",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5211000/b7143e56babbe50ed9ce4a01f2d898182eddb818/ss_b7143e56babbe50ed9ce4a01f2d898182eddb818.1920x1080.jpg?t=1795589574"
-      ],
-      "free": null
-    },
-    {
-      "slug": "godparty",
-      "store": "steam",
-      "steamAppId": 4818210,
-      "title": "GodParty",
-      "description": "GodParty is a multiplayer social deduction game about hidden identities and faction conflict. Move freely, complete tasks, use role abilities, trigger or resolve sabotage, report bodies, debate and vote to expose enemies. Position-based voice chat makes every encounter, alliance and deception matter",
-      "genres": [
-        "Casual",
-        "Massively Multiplayer",
-        "RPG"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "GoGo"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/4818210/",
-      "priceLabel": "Free to play",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4818210/018d99104389d0c9f075ec5e16ea75144bc8ed67/header.jpg?t=1795582847",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4818210/6b0923a30cda2ccf7cb30100e0ce8a8797c5babd/ss_6b0923a30cda2ccf7cb30100e0ce8a8797c5babd.1920x1080.jpg?t=1795582847",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4818210/018d99104389d0c9f075ec5e16ea75144bc8ed67/header.jpg?t=1795582847",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4818210/6b0923a30cda2ccf7cb30100e0ce8a8797c5babd/ss_6b0923a30cda2ccf7cb30100e0ce8a8797c5babd.1920x1080.jpg?t=1795582847",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4818210/8aef7dd031e48d5bc63dfe69db0ab5642ed01598/ss_8aef7dd031e48d5bc63dfe69db0ab5642ed01598.1920x1080.jpg?t=1795582847",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4818210/7d8042eb515bac6d37c95b7e100b3fe0e00da97d/ss_7d8042eb515bac6d37c95b7e100b3fe0e00da97d.1920x1080.jpg?t=1795582847"
-      ],
-      "free": null
-    },
-    {
-      "slug": "incremental-pachinko-heaven",
-      "store": "steam",
-      "steamAppId": 5062970,
-      "title": "Incremental Pachinko Heaven",
-      "description": "Launch balls! Upgrade the board! Earn mountains of medals—and keep paying off your debt! A short pachinko incremental with a skill tree that keeps giving you new ways to earn!",
-      "genres": [
-        "Casual",
-        "Indie"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "Meitei Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5062970/",
-      "priceLabel": "$4.24",
-      "originalPriceLabel": "$4.99",
-      "discountPercent": 15,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/7cdfeb1c1b57e4fa125cdc4867d076bef3eb33ab/header.jpg?t=1795581932",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/1f0ba6ffae30c36a39542cdd3182b2f2a9846f1e/ss_1f0ba6ffae30c36a39542cdd3182b2f2a9846f1e.1920x1080.jpg?t=1795581932",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/7cdfeb1c1b57e4fa125cdc4867d076bef3eb33ab/header.jpg?t=1795581932",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/1f0ba6ffae30c36a39542cdd3182b2f2a9846f1e/ss_1f0ba6ffae30c36a39542cdd3182b2f2a9846f1e.1920x1080.jpg?t=1795581932",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/fb97290689fe53330c4a7039f9a74430dc5bd35d/ss_fb97290689fe53330c4a7039f9a74430dc5bd35d.1920x1080.jpg?t=1795581932",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/dc54d9b51f533356ce38e636fd612a4637888220/ss_dc54d9b51f533356ce38e636fd612a4637888220.1920x1080.jpg?t=1795581932"
-      ],
-      "free": null
-    },
-    {
-      "slug": "catchcatch",
-      "store": "steam",
-      "steamAppId": 5268650,
-      "title": "CatchCatch",
-      "description": "This is an online game of tag for 3–10 players. Runners must escape the Tagger and collect objects, while the Tagger can curse Runners or corrupt objects!",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Free To Play"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "Haram"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5268650/",
-      "priceLabel": "Free to play",
-      "discountPercent": 0,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268650/48a5329423f94124677f26dcff188aa9b2618fd3/header.jpg?t=1795574062",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268650/02afa054ec3261d2000753268387a4cb47b6672e/ss_02afa054ec3261d2000753268387a4cb47b6672e.1920x1080.jpg?t=1795574062",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268650/48a5329423f94124677f26dcff188aa9b2618fd3/header.jpg?t=1795574062",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268650/02afa054ec3261d2000753268387a4cb47b6672e/ss_02afa054ec3261d2000753268387a4cb47b6672e.1920x1080.jpg?t=1795574062",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268650/49591ee095f51c3d8b297c4e29381d0498f995c1/ss_49591ee095f51c3d8b297c4e29381d0498f995c1.1920x1080.jpg?t=1795574062",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268650/75916e988d70fc8eb86587b6767fe5da4d967cf2/ss_75916e988d70fc8eb86587b6767fe5da4d967cf2.1920x1080.jpg?t=1795574062"
-      ],
-      "free": null
     },
     {
       "slug": "red-dead-redemption-2",
@@ -517,6 +484,101 @@
         "savingsPercent": 75,
         "url": "https://www.cheapshark.com/redirect?dealID=HSOeP5tBDY0pqLD5iNdyKrR0pjko1oLC3oihJ%2FaJ438%3D"
       }
+    },
+    {
+      "slug": "grand-theft-auto-v-enhanced",
+      "store": "steam",
+      "steamAppId": 3240220,
+      "title": "Grand Theft Auto V Enhanced",
+      "description": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Racing"
+      ],
+      "releaseDate": "Mar 4, 2025",
+      "developers": [
+        "Rockstar North"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/3240220/",
+      "priceLabel": "$19.79",
+      "originalPriceLabel": "$44.99",
+      "discountPercent": 56,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1781187782",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1781187782",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/8340fd391012e12be7e4c02e65801a2648a6b60e/ss_8340fd391012e12be7e4c02e65801a2648a6b60e.1920x1080.jpg?t=1781187782",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f2e70b5823510daa062293ff0b03821e1dee2d37/ss_f2e70b5823510daa062293ff0b03821e1dee2d37.1920x1080.jpg?t=1781187782"
+      ],
+      "free": null,
+      "priceCompared": true,
+      "cheapest": {
+        "store": "GameBillet",
+        "priceLabel": "$13.95",
+        "retailLabel": "$29.98",
+        "savingsPercent": 53,
+        "url": "https://www.cheapshark.com/redirect?dealID=s6Hgn14UvvkSdjj8qu3VBiRslMvHFZ1uLqawPJ9rMqU%3D"
+      }
+    },
+    {
+      "slug": "007-first-light",
+      "store": "steam",
+      "steamAppId": 3768760,
+      "title": "007 First Light",
+      "description": "Earn the Number. 007 First Light is a thrilling espionage action-adventure game from IO Interactive. Follow James Bond as a young, resourceful and sometimes reckless recruit in MI6's training programme, and discover an origin story of the world’s most famous spy.",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "releaseDate": "May 26, 2026",
+      "developers": [
+        "IO Interactive A/S"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/3768760/",
+      "priceLabel": "$34.99",
+      "originalPriceLabel": "$69.99",
+      "discountPercent": 50,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795019577",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/ef374e5e4ede8c71f32d455652bc00f2fa7c035e/ss_ef374e5e4ede8c71f32d455652bc00f2fa7c035e.1920x1080.jpg?t=1795019577",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795019577",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/ef374e5e4ede8c71f32d455652bc00f2fa7c035e/ss_ef374e5e4ede8c71f32d455652bc00f2fa7c035e.1920x1080.jpg?t=1795019577",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/18787f52adabf0e5248548ed83562e6aac88f94d/ss_18787f52adabf0e5248548ed83562e6aac88f94d.1920x1080.jpg?t=1795019577",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/43c8cf3875cb6643ac7d8244e9fd39381609814a/ss_43c8cf3875cb6643ac7d8244e9fd39381609814a.1920x1080.jpg?t=1795019577"
+      ],
+      "free": null,
+      "priceCompared": true
+    },
+    {
+      "slug": "silent-hill-f",
+      "store": "steam",
+      "steamAppId": 2947440,
+      "title": "SILENT HILL f",
+      "description": "Hinako's hometown is engulfed in fog, driving her to fight grotesque monsters and solve eerie puzzles. Uncover the disturbing beauty hidden in terror.",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "releaseDate": "Sep 24, 2025",
+      "developers": [
+        "NeoBards Entertainment Ltd."
+      ],
+      "storeUrl": "https://store.steampowered.com/app/2947440/",
+      "priceLabel": "$19.59",
+      "originalPriceLabel": "$69.99",
+      "discountPercent": 72,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg?t=1770169624",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/93e420a6665b42229735a3495b86bd35b7cb8c53/ss_93e420a6665b42229735a3495b86bd35b7cb8c53.1920x1080.jpg?t=1770169624",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg?t=1770169624",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/93e420a6665b42229735a3495b86bd35b7cb8c53/ss_93e420a6665b42229735a3495b86bd35b7cb8c53.1920x1080.jpg?t=1770169624",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fdfc1171e15f271eb16750cd0e5575e5e312a6af/ss_fdfc1171e15f271eb16750cd0e5575e5e312a6af.1920x1080.jpg?t=1770169624",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/212938a6419ccb6f2d2b6bdfe9c09a2600b7d846/ss_212938a6419ccb6f2d2b6bdfe9c09a2600b7d846.1920x1080.jpg?t=1770169624"
+      ],
+      "free": null,
+      "priceCompared": true
     },
     {
       "slug": "baldurs-gate-3",
@@ -578,36 +640,6 @@
       "priceCompared": true
     },
     {
-      "slug": "no-asteroids",
-      "store": "steam",
-      "steamAppId": 5527800,
-      "title": "No Asteroids",
-      "description": "An asteroid will hit Earth in 90 days. The government held a tender, and one miner came with his own pickaxe. He asked for no money and said the asteroid would pay for itself. Dig 5,000,000 m³ in first person, solo or in online co-op for up to 8. Sell the ore and buy ship guns that fire as you dig.",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "releaseDate": "Nov 24, 2026",
-      "developers": [
-        "Unruled Games"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/5527800/",
-      "priceLabel": "$6.39",
-      "originalPriceLabel": "$7.99",
-      "discountPercent": 20,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/d62c870790fcce767edd856ce3e7e6df2a9b1395/header.jpg?t=1795542925",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/1557480638a245a74dcb7210220ca5a2eae66ecb/ss_1557480638a245a74dcb7210220ca5a2eae66ecb.1920x1080.jpg?t=1795542925",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/d62c870790fcce767edd856ce3e7e6df2a9b1395/header.jpg?t=1795542925",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/1557480638a245a74dcb7210220ca5a2eae66ecb/ss_1557480638a245a74dcb7210220ca5a2eae66ecb.1920x1080.jpg?t=1795542925",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/6d01f427dfeb37082da8d430b5d5b12b3b67636c/ss_6d01f427dfeb37082da8d430b5d5b12b3b67636c.1920x1080.jpg?t=1795542925",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/f4b361b1955b12e7b2dd3bc37eeb9fc03431ef1d/ss_f4b361b1955b12e7b2dd3bc37eeb9fc03431ef1d.1920x1080.jpg?t=1795542925"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
-    {
       "slug": "the-elder-scrolls-v-skyrim-special-edition",
       "store": "steam",
       "steamAppId": 489830,
@@ -643,30 +675,31 @@
       }
     },
     {
-      "slug": "bombanana",
+      "slug": "ultrakill",
       "store": "steam",
-      "steamAppId": 4656000,
-      "title": "BOMBANANA!",
-      "description": "Chaotic bomb disposal fun with friends &amp; monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?",
+      "steamAppId": 1229490,
+      "title": "ULTRAKILL",
+      "description": "ULTRAKILL is a fast-paced ultra-violent retro FPS that combines the skill-based style scoring of character action games with the unadulterated carnage inspired by the best shooters of the '90s. Rip apart your foes with varied destructive weaponry and shower in their blood to regain your health.",
       "genres": [
-        "Casual",
-        "Indie"
+        "Action",
+        "Indie",
+        "Early Access"
       ],
-      "releaseDate": "Sep 2, 2026",
+      "releaseDate": "Sep 3, 2020",
       "developers": [
-        "Lefto Studio"
+        "Arsi \"Hakita\" Patala"
       ],
-      "storeUrl": "https://store.steampowered.com/app/4656000/",
-      "priceLabel": "$4.79",
-      "originalPriceLabel": "$7.99",
-      "discountPercent": 40,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/429d033410531fc2ec6ba0cd24956868beaff095/ss_429d033410531fc2ec6ba0cd24956868beaff095.1920x1080.jpg?t=1794217137",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
+      "storeUrl": "https://store.steampowered.com/app/1229490/",
+      "priceLabel": "$22.49",
+      "originalPriceLabel": "$29.99",
+      "discountPercent": 25,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg?t=1792046802",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_8c743b6de2d6124bd583d8764f28cafe2b7ecb3f.1920x1080.jpg?t=1792046802",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg?t=1792046802",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/429d033410531fc2ec6ba0cd24956868beaff095/ss_429d033410531fc2ec6ba0cd24956868beaff095.1920x1080.jpg?t=1794217137",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/e476a3ed312794922d58c9553130922acc7f393d/ss_e476a3ed312794922d58c9553130922acc7f393d.1920x1080.jpg?t=1794217137",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/88b677bb5d6ec91c12ad8bfbdcc5faf3ff15a044/ss_88b677bb5d6ec91c12ad8bfbdcc5faf3ff15a044.1920x1080.jpg?t=1794217137"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_8c743b6de2d6124bd583d8764f28cafe2b7ecb3f.1920x1080.jpg?t=1792046802",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_7a5692d56ec4115252980fed4ad5536d1e401e04.1920x1080.jpg?t=1792046802",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_bc7a00fadbcde4a6c6dcb95d8e464ad5ffc06e3c.1920x1080.jpg?t=1792046802"
       ],
       "free": null,
       "priceCompared": true
@@ -743,6 +776,70 @@
       }
     },
     {
+      "slug": "doom-the-dark-ages",
+      "store": "steam",
+      "steamAppId": 3017860,
+      "title": "DOOM: The Dark Ages",
+      "description": "DOOM: The Dark Ages is the prequel to the critically acclaimed DOOM (2016) and DOOM Eternal that tells an epic cinematic story worthy of the DOOM Slayer’s legend. Players will step into the blood-stained boots of the DOOM Slayer, in this never-before-seen dark and sinister medieval war against Hell.",
+      "genres": [
+        "Action"
+      ],
+      "releaseDate": "May 14, 2025",
+      "developers": [
+        "id Software"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/3017860/",
+      "priceLabel": "$24.99",
+      "originalPriceLabel": "$49.99",
+      "discountPercent": 50,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg?t=1793834110",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/ss_ba66d42e3d1ea78e5b085682484210b390eb9ccc.1920x1080.jpg?t=1793834110",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg?t=1793834110",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/ss_ba66d42e3d1ea78e5b085682484210b390eb9ccc.1920x1080.jpg?t=1793834110",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/ss_bbb5ead71b9321c6ba9bfc8941917136f9961fdb.1920x1080.jpg?t=1793834110",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/ss_3c894cfd44c1c12a539d2dbcb93cbecfbdbbb383.1920x1080.jpg?t=1793834110"
+      ],
+      "free": null,
+      "priceCompared": true,
+      "cheapest": {
+        "store": "Fanatical",
+        "priceLabel": "$21.99",
+        "retailLabel": "$49.99",
+        "savingsPercent": 56,
+        "url": "https://www.cheapshark.com/redirect?dealID=U2Fu5Mh3YmKqsrJrd036esCpf1q937tH7plkDcMqnFQ%3D"
+      }
+    },
+    {
+      "slug": "bombanana",
+      "store": "steam",
+      "steamAppId": 4656000,
+      "title": "BOMBANANA!",
+      "description": "Chaotic bomb disposal fun with friends &amp; monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?",
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "releaseDate": "Sep 2, 2026",
+      "developers": [
+        "Lefto Studio"
+      ],
+      "storeUrl": "https://store.steampowered.com/app/4656000/",
+      "priceLabel": "$4.79",
+      "originalPriceLabel": "$7.99",
+      "discountPercent": 40,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/429d033410531fc2ec6ba0cd24956868beaff095/ss_429d033410531fc2ec6ba0cd24956868beaff095.1920x1080.jpg?t=1794217137",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/429d033410531fc2ec6ba0cd24956868beaff095/ss_429d033410531fc2ec6ba0cd24956868beaff095.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/e476a3ed312794922d58c9553130922acc7f393d/ss_e476a3ed312794922d58c9553130922acc7f393d.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/88b677bb5d6ec91c12ad8bfbdcc5faf3ff15a044/ss_88b677bb5d6ec91c12ad8bfbdcc5faf3ff15a044.1920x1080.jpg?t=1794217137"
+      ],
+      "free": null,
+      "priceCompared": true
+    },
+    {
       "slug": "fallout-4",
       "store": "steam",
       "steamAppId": 377160,
@@ -778,38 +875,39 @@
       }
     },
     {
-      "slug": "doom-the-dark-ages",
+      "slug": "indiana-jones-and-the-great-circle",
       "store": "steam",
-      "steamAppId": 3017860,
-      "title": "DOOM: The Dark Ages",
-      "description": "DOOM: The Dark Ages is the prequel to the critically acclaimed DOOM (2016) and DOOM Eternal that tells an epic cinematic story worthy of the DOOM Slayer’s legend. Players will step into the blood-stained boots of the DOOM Slayer, in this never-before-seen dark and sinister medieval war against Hell.",
+      "steamAppId": 2677660,
+      "title": "Indiana Jones and the Great Circle",
+      "description": "Uncover one of history’s greatest mysteries in a first-person, single-player adventure. The year is 1937, sinister forces are scouring the globe for the secret to an ancient power connected to the Great Circle, and only one person can stop them - Indiana Jones™.",
       "genres": [
-        "Action"
+        "Action",
+        "Adventure"
       ],
-      "releaseDate": "May 14, 2025",
+      "releaseDate": "Dec 8, 2024",
       "developers": [
-        "id Software"
+        "MachineGames"
       ],
-      "storeUrl": "https://store.steampowered.com/app/3017860/",
-      "priceLabel": "$24.99",
-      "originalPriceLabel": "$49.99",
-      "discountPercent": 50,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg?t=1793834110",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/ss_ba66d42e3d1ea78e5b085682484210b390eb9ccc.1920x1080.jpg?t=1793834110",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg?t=1793834110",
+      "storeUrl": "https://store.steampowered.com/app/2677660/",
+      "priceLabel": "$41.99",
+      "originalPriceLabel": "$69.99",
+      "discountPercent": 40,
+      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/151ae5a881f05ef630defef85d99b38146b7055c/header.jpg?t=1778168392",
+      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/ss_8221cf729bc6491919a8532679be64f1c67dcdaf.1920x1080.jpg?t=1778168392",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/151ae5a881f05ef630defef85d99b38146b7055c/header.jpg?t=1778168392",
       "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/ss_ba66d42e3d1ea78e5b085682484210b390eb9ccc.1920x1080.jpg?t=1793834110",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/ss_bbb5ead71b9321c6ba9bfc8941917136f9961fdb.1920x1080.jpg?t=1793834110",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/ss_3c894cfd44c1c12a539d2dbcb93cbecfbdbbb383.1920x1080.jpg?t=1793834110"
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/ss_8221cf729bc6491919a8532679be64f1c67dcdaf.1920x1080.jpg?t=1778168392",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/ss_ef822ff1dca1f8badda449656bc4c969b60a784f.1920x1080.jpg?t=1778168392",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/ss_993951f7591595daa6e121d8f5aa77d61080efbd.1920x1080.jpg?t=1778168392"
       ],
       "free": null,
       "priceCompared": true,
       "cheapest": {
         "store": "Fanatical",
-        "priceLabel": "$21.99",
-        "retailLabel": "$49.99",
-        "savingsPercent": 56,
-        "url": "https://www.cheapshark.com/redirect?dealID=U2Fu5Mh3YmKqsrJrd036esCpf1q937tH7plkDcMqnFQ%3D"
+        "priceLabel": "$37.09",
+        "retailLabel": "$69.99",
+        "savingsPercent": 47,
+        "url": "https://www.cheapshark.com/redirect?dealID=SBMWyW8D8R3eqygVjFaJhRB4L3zFMPu2Hs4g1dexw1c%3D"
       }
     },
     {
@@ -847,69 +945,6 @@
         "retailLabel": "$84.98",
         "savingsPercent": 87,
         "url": "https://store.steampowered.com/app/435150/"
-      }
-    },
-    {
-      "slug": "avatar-legends-the-fighting-game",
-      "store": "steam",
-      "steamAppId": 2424420,
-      "title": "Avatar Legends: The Fighting Game",
-      "description": "Avatar Legends: The Fighting Game is a fast-paced 1v1 fighter where you battle as your favorite characters from the Avatar franchise. Featuring hand-drawn 2D animation true to the series’ roots, proprietary rollback netcode, and full cross-play for smooth, competitive gameplay.",
-      "genres": [
-        "Action"
-      ],
-      "releaseDate": "Jul 23, 2026",
-      "developers": [
-        "Gameplay Group International"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/2424420/",
-      "priceLabel": "$20.09",
-      "originalPriceLabel": "$29.99",
-      "discountPercent": 33,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/4fe2506a0ac46334b71d0d99d88dce82c73ae369/header.jpg?t=1795456834",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/7c10cff878dbce71f1b7a1a7e369924949282c58/ss_7c10cff878dbce71f1b7a1a7e369924949282c58.1920x1080.jpg?t=1795456834",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/4fe2506a0ac46334b71d0d99d88dce82c73ae369/header.jpg?t=1795456834",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/7c10cff878dbce71f1b7a1a7e369924949282c58/ss_7c10cff878dbce71f1b7a1a7e369924949282c58.1920x1080.jpg?t=1795456834",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/aa9600594fa54fff554d4f44ca507847cea590f4/ss_aa9600594fa54fff554d4f44ca507847cea590f4.1920x1080.jpg?t=1795456834",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/17b3fc29ab3f812ea472f67f9b7ac1ab8d979aab/ss_17b3fc29ab3f812ea472f67f9b7ac1ab8d979aab.1920x1080.jpg?t=1795456834"
-      ],
-      "free": null,
-      "priceCompared": true
-    },
-    {
-      "slug": "fallout-76",
-      "store": "steam",
-      "steamAppId": 1151340,
-      "title": "Fallout 76",
-      "description": "Twenty-five years after the bombs fall, you and your fellow Vault Dwellers emerge into post-nuclear America. Join millions of players as you explore, build, quest, and triumph in a massive open-world multiplayer adventure.",
-      "genres": [
-        "RPG"
-      ],
-      "releaseDate": "Apr 14, 2020",
-      "developers": [
-        "Bethesda Game Studios"
-      ],
-      "storeUrl": "https://store.steampowered.com/app/1151340/",
-      "priceLabel": "$19.79",
-      "originalPriceLabel": "$59.99",
-      "discountPercent": 67,
-      "cardImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/f85dc32bab9fe57807cf588150579a8b2ab409f4/header.jpg?t=1791379859",
-      "heroImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/435f03784cc9a2781de9b47fb9b802bcb7023385/ss_435f03784cc9a2781de9b47fb9b802bcb7023385.1920x1080.jpg?t=1791379859",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/f85dc32bab9fe57807cf588150579a8b2ab409f4/header.jpg?t=1791379859",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/435f03784cc9a2781de9b47fb9b802bcb7023385/ss_435f03784cc9a2781de9b47fb9b802bcb7023385.1920x1080.jpg?t=1791379859",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/cc32c8ed15c943d8f13808caa3767713d0c59751/ss_cc32c8ed15c943d8f13808caa3767713d0c59751.1920x1080.jpg?t=1791379859",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/30f3e08ed0236370fd9a69239ee7be7a08c5488e/ss_30f3e08ed0236370fd9a69239ee7be7a08c5488e.1920x1080.jpg?t=1791379859"
-      ],
-      "free": null,
-      "priceCompared": true,
-      "cheapest": {
-        "store": "Fanatical",
-        "priceLabel": "$8.79",
-        "retailLabel": "$39.99",
-        "savingsPercent": 78,
-        "url": "https://www.cheapshark.com/redirect?dealID=YF8CUOMqpwoOtGMvNU0r6kgidk86MMDO8nTxxhYSHWg%3D"
       }
     },
     {
